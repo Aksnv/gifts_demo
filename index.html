@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="UTF-8" />
+            <title>Gifts</title>
+        </head>
+        <body>
+        <script type="text/javascript">
+    WParameters={
+        core:{
+            shopId:1,            //idмагазина
+            theme: 'gifts',      //тема магазина
+            lang: 'ru'           // язык виджета, en - английский, ru - русский (по умолчанию)
+        },
+        catalog: {
+            showRoot: true,
+            showAlways: true
+        },
+        content:{
+            block:{
+                container:{
+                    empty:{widget:'tileBlockId'}
+                }
+            }
+        },
+        cart:{
+            show:{title:"always",count:true,baseCost:true,finalCost:true,fullInfo:true}
+        },
+        favorites:{
+            show:["infoShop","addToCart","buy"]
+        },
+        goods:{
+            show:["selectionCount","addToCart","buy","gallery","shipping","opinion","favorites","blockShop","blockInfoSeller"]
+        },
+        infoSeller:{
+            show:["blockShop","blockInfoSeller"]
+        },
+        userInformation:{
+            show:["icon","raiting"]
+        },
+        standalonePayment:{
+            showButton:false
+        },
+        shopInfo: {
+            show: {
+                title: false, logo: true
+            }
+        }
+    };
+    (function (e) {
+        var o = e.getElementsByTagName("head")[0] || e.documentElement,
+                a = e.createElement("script");a.async = true;a.src = "//server.pokupo.ru/prod/server/js/widgets/JSCore-1.3.min.js?v=" + Math.random().toString(36).substr(2, 10);o.appendChild(a);
+        a.onload = function(){
+            PokupoWidgets.Init(["all"], WParameters)
+        }
+    })(document);
+</script>
+ <div class="main_theme main_pkp">
+        <!-- header -->
+        <header class="header_theme">
+            <div class="container_theme">
+                <!-- logo -->
+                <div class="logo_theme" id="shopInfoWidgetId"></div>
+                <!-- /logo -->
+                <!-- user menu and cart -->
+                <div class="menu-login">
+                    <input class="btn-menu-login-click hidden active" id="menu-login-click" type="checkbox">
+                    <label for="menu-login-click"></label>
+                    <div class="logged-in">
+                        <div class="user-mail">
+                            <span>user@mail.com</span>
+                        </div>
+                        <ul class="menu-login-cart">
+                            <li class="user-menu__item" id="cartInfoWidgetId"></li>
+                            <li class="user-menu__item">
+                                <div id="userInformationWidgetId"></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /user menu and cart -->
+                <div class="menu-main">
+                    <input class="btn-menu-click-mobile hidden" id="menu-click-mobile" type="checkbox">
+                    <label for="menu-click-mobile"></label>
+                    <!-- main-menu -->
+                    <div class="main-menu_theme">
+                        <!-- version 2.0-->
+                        <nav class="menu-click" id="catalogWidgetId"></nav>
+                        <div class="menu-main__list" id="menuPageWidgetId"></div>
+                    </div>
+                    <!-- /main-menu -->
+                </div>
+                <!-- search -->
+                <div class="search_theme" id="searchWidgetId"></div>
+                <!-- /search -->
+            </div>
+        </header>
+        <!-- /header -->
+        <!-- main-content -->
+        <section class="store_theme no-banner">
+            <div class="container_theme">
+                <!-- breadcrumbs -->
+                <div class="breadcrumbs_theme" id="breadCrumbsWidgetId_1"></div>
+                <!-- /breadcrumbs -->
+                <!-- profile -->
+                <div class="profile_theme">
+                    <div id="menuPersonalCabinetWidgetId"></div>
+                    <!-- slider 1 -->
+                    <div id="sliderBlockId"></div>
+
+                    <div id="advancedSearchFormWidgetId"></div>
+                    <!-- /slider 1 -->
+                    <!-- promo-block-catalog-main1 -->
+                    <div id="tileBlockId"></div>
+                    <!-- /promo-block-catalog-main1 -->
+                    <div id="content_pkp"></div>
+                </div>
+                <!-- profile -->
+            </div>
+        </section>
+        <!-- /main-content -->
+        <!-- footer -->
+        <footer class="footer_theme">
+            <div class="container_theme">
+            </div>
+        </footer>
+    </div>
+</body></html>
