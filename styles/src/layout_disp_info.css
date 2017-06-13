@@ -628,6 +628,10 @@
 		width: 163px;
 	}
 
+	.profile-info__adress-edit span {
+		display: none;
+	}
+
 /* Text */
 
 	.with-sidebar.content_theme {
@@ -1812,6 +1816,15 @@
 	.profile-info__buttons a {
 		width: 100%;
 	}	
+
+	.profile-info__adress-edit span,
+	.profile-info__adress-delete {
+		display: none;
+	}
+
+	.profile-info__adress-edit {
+		margin-right: 0;
+	}
 
 /* Text */
 	.menu-text{
