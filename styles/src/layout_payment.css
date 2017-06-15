@@ -474,8 +474,29 @@
 
 	.pkp-payment-method__item.current{
 		float: none;
-		margin: 30px auto;
+		margin: 14px auto;
 	}
+
+  .b-title {
+    margin-bottom: 14px;
+  }
+
+  .pkp-payment-method__image {
+    vertical-align: top;
+  }
+
+  .pkp-payment-method__info {
+    top: 166px;
+  }
+
+  .pmt-message__print {
+    display: block;
+    padding-top: 30px;
+  }
+
+  .pmt-wrapper {
+    margin-bottom: 34px;
+  }
 
 	.pmt-message{
 		width: 100%;
@@ -489,7 +510,7 @@
 
 	.pkp-btns-holder{
 		width: 100%;
-		margin-top: 45px;		
+		margin-top: 50px;		
 	}
 
 	.pkp-btns-holder a{
@@ -497,6 +518,15 @@
 		margin-left: auto;
 		margin-right: auto;		
 	}
+
+  .pkp-btns-holder a.btn:first-child {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .pkp-btns-holder a.btn:last-child {
+    margin-bottom: 30px;
+  }
 
 	.pkp-btn_pay{
 		float: none;

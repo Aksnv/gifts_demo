@@ -251,6 +251,10 @@ a.pmt-message__text {
 	.pkp-payment-method{
 		text-align: justify;
 	}
+
+  .pmt-message__description {
+    padding-right: 45px;
+  }
 }
 
 
@@ -285,5 +289,13 @@ a.pmt-message__text {
 	.pkp-payment-method__list-item a:hover{
 		background: #efece7;
 	}			
+
+  .pkp-payment-method__info span {
+    text-align: center;
+  }
+
+  .pmt-message__description {
+    padding-right: 10px;
+  }
 }
 
