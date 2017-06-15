@@ -861,6 +861,7 @@ p.user-menu__name{
 /* ------------- Title ------------------- */
 .title_page_theme{
 	margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 
@@ -2065,10 +2066,56 @@ div.profile-info-edit__form-select{
 
 /* --------  Cart Header ------- */
 
+.cart-header {
+  clear: both;
+}
+
+.cart-seller {
+  position: relative;
+  font-size: 13px;
+  font-weight: 400;
+  color: #333;
+  padding-left: 35px;
+}
+
+.cart-seller::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 34px;
+  background-image: url("../../themes/default/src/images/sprites.png");
+  background-position: -1001px -29px;
+}
+
+.seller-status--online {
+  color: #4f8b27;
+}
+
+.seller-status--offline {
+  color: #cf453c;
+}
+
+.cart-seller a {
+  display: inline-block;
+  color: #09c;
+  font-size: 18px;
+  font-weight: 300;
+  padding-top: 4px;
+  border-bottom: 1px solid #b2e0f0;
+}
+
 .cart-head{
     position: absolute;
-    top: 4px;
-    right: 30px;
+    top: 17px;
+    right: 33px;
+}
+
+.cart-head a {
+  font-size: 14px;
+  border-bottom: none;
 }
 
 .cart-head__drop .i-drop:after{
@@ -2221,7 +2268,10 @@ div.profile-info-edit__form-select{
 
 /* --------  Cart footer ------- */
 .cart-footer{
-	margin-top: 110px;
+  position: relative;
+	margin-top: 37px;
+  padding-right: 230px;
+  margin-bottom: 44px;
 }
 
 .cart-footer div{
@@ -2242,15 +2292,18 @@ div.cart-footer__weight span{
 }
 
 .cart-footer__bay-button{
-	margin-left: 40px;	
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+	/* margin-left: 40px; */	
 	display: block;
-	width: 240px;
+	width: 200px;
 	height: 40px;
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
  box-sizing: border-box;
-    float: right;
-    margin-top: 20px; 
+    /* float: right; */
+    /* margin-top: 20px;  */
 	
 }
 
