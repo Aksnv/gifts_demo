@@ -2313,10 +2313,6 @@ div.cart-footer__weight span{
 
 /* ---------------  Bookmarks  --------------- */
 
-.catalog-head {
-  overflow: hidden;
-}
-
 .bookmarks_theme{
 	margin-top: 40px;
 	margin-left: -23px;
@@ -2333,7 +2329,7 @@ div.cart-footer__weight span{
 
 .bookmarks_theme .catalog-header {
     min-height: 40px;
-    margin-bottom: 30px; 
+    margin-bottom: 40px; 
     margin-left: 23px;
     margin-right: 23px;
 }

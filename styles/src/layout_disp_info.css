@@ -544,12 +544,13 @@
 	}
 	
 	.b-filter-catalog{
-		width: 220px;
-		margin-left: 0;		
+		/* width: 220px; */
+		margin-left: 0;
+		padding-top: 0;		
 	}
 	
 	.b-filter-catalog .select-gifts {
-		width: 220px;
+		/* width: 220px; */
 	}
 	
 	.b-filter-catalog label {
@@ -1196,8 +1197,8 @@
 	}
 
 	.select-gifts {
-		width: 100%;
-		margin-bottom: 30px;		
+		/* width: 100%;
+				margin-bottom: 30px; */		
 	}
 
 	div.cs-select {
@@ -1259,22 +1260,26 @@
 	}
 
 	.b-filter-catalog {
-		max-width: 100%;
+		/* max-width: 100%; */
 		margin-left: 0;
-		float: none;
-		margin-top: 30px;
+		/* float: none; */
+		/* margin-top: 30px; */
 	}
 
 	.b-filter-catalog .select-gifts {
-		width: 100%;
+		/* width: 100%; */
+		width: 220px;
 	}
 	
 	.b-filter-catalog label {
-		width: 50%;
+		/* width: 50%; */
+		width: 220px;
+    padding-bottom: 5px;
 	}
 	
 	.b-filter-catalog div.cs-select {
-		width: 44%;
+		/* width: 44%; */
+		width: 220px;
 		margin-right: 0;
 	}	
 
@@ -2224,6 +2229,15 @@
 
 	
 /* Catalog */	
+
+	.b-filter-catalog {
+		padding-top: 0;
+	}
+
+	.catalog-item {
+		margin-left: 23px;
+	}
+
 	.catalog-item:last-child,
 	.catalog-item:nth-child(2n+2) {
 		margin-right: 0;
@@ -2422,6 +2436,23 @@
 	
 
 /* Catalog */
+
+	.bookmarks_theme .cart-seller {
+		float: none;
+		margin-bottom: 15px;
+	}
+
+	.bookmarks_theme .cart-seller p {
+		width: 100%;
+	}
+
+	.b-filter-catalog {
+		float: none;
+	}
+
+	.b-filter-catalog div.cs-select {
+		width: 300px;
+	}
 
 	.catalog_theme.with-sidebar, .catalog_theme {
 		margin-left: auto;

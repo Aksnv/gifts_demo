@@ -421,20 +421,21 @@
 	
 /* Catalog */
 
-	.catalog-item {
+	/* .catalog-item {
 		border-bottom: 1px solid #ccc;
-	}
+	} */
 
 	.catalog-item:last-child, .catalog-item:nth-last-child(2){
 		border-bottom: 0px;
 	}	
 
 	.catalog-item__hover{
-		border: 0px;
+		/* border: 0px; */
 	}
 
 	.b-filter-catalog label {
 		text-transform: uppercase;
+		font-size: 12px;
 	}
 
 /* Catalog search */
@@ -566,6 +567,11 @@
 
 
 /* Catalog */
+
+	.catalog-item {
+		border-bottom: 1px solid #ccc;
+	}
+
 	.catalog-item:nth-last-child(2){
 		border-bottom: 1px solid #ccc;
 	}
