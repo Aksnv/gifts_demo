@@ -62,3 +62,10 @@ $(window).load(function (){
 	$( "#amount2" ).val($( "#slider-gifts__ui" ).slider( "values", 1 ));
 		
 });
+
+
+//Инструкция для плательщика
+$(".pmt-message__text").click(function() {
+  $(".pmt-message__description").toggleClass("pmt-message__description--open");
+  $(".pmt-message__text").toggleClass("pmt-message__text--open");
+});

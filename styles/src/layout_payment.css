@@ -12,14 +12,22 @@
 	display: none!important;
 }
 
+.pmt-wrapper {
+  float: left;
+  margin-bottom: 52px;
+}
 
 .pmt-sum,
-.pmt-osn{
+.pmt-osn,
+.pmt-num,
+.pmt-method{
 	margin-top: 30px;
 }
 
 .pmt-sum span,
-.pmt-osn span{
+.pmt-osn span,
+.pmt-num span,
+.pmt-method span{
 	display: block;
     margin-bottom: 6px;	
 }
@@ -75,7 +83,6 @@
 .pkp-payment-method__item:nth-child(3n+1){
 	margin-right: 0;
 }
-
 
 .pkp-tooltip-payment-method {
   position: absolute;
@@ -198,8 +205,12 @@
 	float: right;
 	display: block;
 	margin-right: 0;
-	margin-top: -30px;
-	height: 210px;	
+	margin-top: 5px;
+	height: 230px;	
+}
+
+.pkp-payment-method__item.current:hover {
+  border: 1px solid #ccc;
 }
 
 .pkp-payment-method__item.current .pkp-tooltip__content {
@@ -227,8 +238,29 @@
 }
 
 .pmt-message__text{
-	margin: 8px 0 40px 10px;
-	padding: 11px 0 0 19px;
+	margin: 8px 0 40px 0;
+	padding: 11px 0 0 0;
+}
+
+.pmt-message__text span {
+  position: relative;
+  display: inline-block;
+}
+
+.pmt-message__text span:after{
+  position: absolute;
+      top: 8px;
+    right: -20px;
+  content: "";
+  display: block;
+  width: 10px;
+  height: 6px;
+  background-image: url(../../themes/default/src/images/sprites.png);
+  background-position: -622px -27px;
+}
+
+.pmt-message__text--open span:after{
+  transform: rotate(180deg);
 }
 
 .pmt-message__btn:checked + label + div{
@@ -237,8 +269,9 @@
 
 .pmt-message__print{
 	position: absolute;
-	top: 0;
-	left: 225px;
+	top: 3px;
+	left: 259px;
+  cursor: pointer;
 }
 
 .pmt-message__print:before{
@@ -246,14 +279,25 @@
 	width: 16px;
 	height: 14px;
 	display: inline-block;
+  margin-top: -2px;
 	margin-right: 5px;
     vertical-align: middle;	
 }
 
+.pkp-payment-instruction {
+  clear: both;
+  position: relative;
+  margin-bottom: 45px;
+}
+
 .pkp-btns-holder{
-	width: 460px;
+  clear: both;
+	width: 480px;
 	margin: 0 auto;
-	
+}
+
+.pkp-btns-holder a.btn:first-child {
+  margin-right: 26px;
 }
 
 .pkp-btn_pay{

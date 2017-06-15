@@ -1,11 +1,15 @@
 .pmt-sum span:first-child,
-.pmt-osn span:first-child{
+.pmt-osn span:first-child,
+.pmt-num span:first-child,
+.pmt-method span:first-child{
 	color: #000;
 	font-size: 14px;
 }
 
 .pmt-sum span:last-child,
-.pmt-osn span:last-child{
+.pmt-osn span:last-child,
+.pmt-num span:last-child,
+.pmt-method span:last-child{
 	color: #000;
 	font-size: 18px;
 	font-weight: 600;
@@ -169,13 +173,16 @@ word-break: break-all;
 }
 
 .pmt-message__text{
-	border-left: 1px solid #0099cc;
-	color: #666;
+	/* border-left: 1px solid #0099cc; */
+	/* color: #0099cc; */
 	line-height: 1.5em;
+  font-size: 15px;
+  border-bottom: 1px dotted #0099cc;
 }
 
-.pmt-message__text a{
+a.pmt-message__text {
 	color: #0099cc;
+  cursor: pointer;
 }
 
 .pmt-message__print{
@@ -188,7 +195,39 @@ word-break: break-all;
 }
 
 .pmt-message__print span{
-	border-bottom: 1px solid #666;		
+	border-bottom: 1px solid #ccc;
+}
+
+.pmt-message__description {
+  display: none;
+  position: relative;
+  color: #666;
+  font-size: 13px;
+  font-weight: 400;
+  padding-top: 10px;
+    padding-left: 30px;
+    line-height: 20px;
+    padding-right: 20px;
+}
+
+.pmt-message__description::before {
+  position: absolute;
+  top: 5px;
+    left: 10px;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 119px;
+  background-color: #09c;
+}
+
+.pmt-message__description--open {
+  display: block;
+}
+
+.pmt-message__description a {
+  color: #0099cc;
+  cursor: pointer;
 }
 
 .pkp-btn_pay{

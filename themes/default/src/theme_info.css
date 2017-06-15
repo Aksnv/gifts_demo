@@ -117,7 +117,8 @@ a.btn_grey:hover, a.btn_grey:focus,
 	text-align: center;
 	font-weight: 200;
 	background: #ffb800;
-	text-transform: none;		
+	text-transform: none;	
+	cursor: pointer;	
 }
 
 .btn_yellow:hover{
