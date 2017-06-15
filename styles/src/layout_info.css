@@ -1211,6 +1211,7 @@ div.cs-select.cs-active .cs-options {
     display: block;
     margin-left: 25px;
     float: right;
+    padding-top: 8px;
 }
 
 .b-filter-catalog .select-gifts{
@@ -2068,9 +2069,11 @@ div.profile-info-edit__form-select{
 
 .cart-header {
   clear: both;
+  overflow: hidden;
 }
 
 .cart-seller {
+  float: left;
   position: relative;
   font-size: 13px;
   font-weight: 400;
@@ -2108,9 +2111,10 @@ div.profile-info-edit__form-select{
 }
 
 .cart-head{
-    position: absolute;
+  float: right;
+    /* position: absolute;
     top: 17px;
-    right: 33px;
+    right: 33px; */
 }
 
 .cart-head a {
@@ -2309,17 +2313,33 @@ div.cart-footer__weight span{
 
 /* ---------------  Bookmarks  --------------- */
 
+.catalog-head {
+  overflow: hidden;
+}
+
 .bookmarks_theme{
 	margin-top: 40px;
 	margin-left: -23px;
 	margin-right: -23px;
 }
 
+.bookmarks_theme .seller-wrapper {
+  margin-bottom: 50px;
+}
+
+.bookmarks_theme .seller-wrapper:last-child {
+  margin-bottom: 0;
+}
+
 .bookmarks_theme .catalog-header {
     min-height: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
     margin-left: 23px;
     margin-right: 23px;
+}
+
+.bookmarks_theme > .catalog-header {
+  margin-bottom: 0;
 }
 
 .bookmarks_theme .title_page_theme{
