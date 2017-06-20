@@ -1779,6 +1779,10 @@ div.cs-select.cs-active .cs-options {
 
 }
 
+.profile-header-reload {
+  float: right;
+}
+
 .profile-header-menu{
 	margin-top: 30px;
 }
