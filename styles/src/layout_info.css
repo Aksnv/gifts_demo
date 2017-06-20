@@ -833,6 +833,7 @@ p.user-menu__name{
 
 .no-banner .container_theme{
 	padding: 40px;
+  min-height: 480px;
 }
 
 
@@ -1776,11 +1777,33 @@ div.cs-select.cs-active .cs-options {
 /* --------  Profile Header ------- */
 
 .profile-header{
-
+  position: relative;
 }
 
 .profile-header-reload {
-  float: right;
+  position: absolute;
+  top: 2px;
+  right: 0;
+}
+
+.profile-header-reload a {
+  position: relative;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+
+.profile-header-reload a::before {
+  position: absolute;
+  top: 0;
+  left: -29px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 22px;
+  background-image: url("../../themes/default/src/images/sprites.png");
+  background-position: -851px -35px;
 }
 
 .profile-header-menu{
@@ -1794,7 +1817,6 @@ div.cs-select.cs-active .cs-options {
 
 .profile-header-menu li a{
 	display: inline-block;
-
 }
 
 .profile-header-menu li a:after{
@@ -1804,6 +1826,26 @@ div.cs-select.cs-active .cs-options {
 	height: 2px;
 	position: relative;
 	margin-top: 10px;
+}
+
+.profile-header__item-order {
+  width: 203px;
+}
+
+.profile-header__item-seller {
+  width: 120px;
+}
+
+.profile-header__item-for-payment {
+  width: 213px;
+}
+
+.profile-header__item-status {
+  width: 117px;
+}
+
+.profile-header__item-payment {
+  width: 162px;  
 }
 
 
@@ -2016,6 +2058,89 @@ div.profile-info-edit__form-select{
 
 .profile-info-edit__form-wr:nth-child(6){
 	margin-right: 0;
+}
+
+/* ---------------  Profile orders --------------- */
+
+.profile-info__orders{
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.profile-info__orders-wrapper {
+  border-bottom: 1px solid #ccc;
+}
+
+.profile-info__orders .profile-info__orders-wrapper {
+  display: block;
+}
+
+.profile-info__orders div,
+.profile-info__orders span {
+  display: inline-block;
+}
+
+.profile-info__orders-click + label:before,
+.checkbox + label:before{
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  cursor: pointer;
+  vertical-align: top;
+  content: "";
+}
+
+.profile-info__orders-number a {
+
+}
+
+.profile-info__orders-edit,
+.profile-info__orders-delete {
+  float: right;
+  position: relative;
+  display: block;
+}
+
+.profile-info__orders-edit {
+  width: auto;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 90px;
+  padding-top: 13px;
+  color: #999;
+}
+
+.profile-info__orders-edit:hover {
+  color: #cf453c;
+}
+
+.profile-info__orders-edit::before,
+.profile-info__orders-delete::before {
+  position: absolute;
+  content: "";
+  display: block;
+  background-image: url("../../themes/default/src/images/sprites.png");
+}
+
+.profile-info__orders-edit::before {
+  width: 17px;
+  height: 14px;
+  top: 11px;
+  left: -24px;
+  background-position: -734px -10px;
+}
+
+.profile-info__orders-edit:hover::before {
+  background-position: -707px -10px;
+}
+
+.profile-info__orders-delete::before {
+  width: 12px;
+  height: 12px;
+  top: 12px;
+  left: -45px;
+  background-position: -1031px -10px;
 }
 
 /* ---------------  Profile info password --------------- */
