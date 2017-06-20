@@ -134,6 +134,27 @@
 		left: -175px;
 	}	
 
+
+	.profile-header-menu li,
+	.profile-info__orders li {
+		margin-right: 10px;
+	}
+
+	.profile-header__item-order,
+	.profile-info__orders-number {
+		width: 195px;
+	}
+
+	.profile-header__item-for-payment,
+	.profile-info__orders-price {
+		width: 87px;
+	}
+
+	.profile-header__item-payment,
+	.profile-info__orders-payment-status {
+		width: 100px;
+	}
+
 		
    
 }
