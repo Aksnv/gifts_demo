@@ -2083,6 +2083,7 @@ div.profile-info-edit__form-select{
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
+  word-wrap: break-word;
 }
 
 .profile-info__orders li {
@@ -2113,7 +2114,8 @@ div.profile-info-edit__form-select{
   width: 203px;
 }
 
-.profile-info__orders-seller {
+.profile-info__orders-seller,
+.profile-info__orders-seller a {
   width: 120px;
 }
 
@@ -2133,7 +2135,7 @@ div.profile-info-edit__form-select{
 
 .profile-info__orders-number a {
   padding-left: 35px;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .profile-info__orders-price {
@@ -2146,7 +2148,8 @@ div.profile-info-edit__form-select{
   color: black;
 }
 
-.profile-info__orders-status {
+.profile-info__orders-status,
+.profile-info__orders-status span {
   position: relative;
   width: 117px;
 }
