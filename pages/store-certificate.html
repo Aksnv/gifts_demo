@@ -474,36 +474,17 @@
           </div>
 
           <div class="content_pkp b-catalog-item__actions">
-            <div class="increase">
-              <!-- ko ifnot: blocks.main.isEgoods -->
-              <p class="b-catalog-item__limits">
-                <span data-bind="i18n: 'goods.mess15'">На складе</span>: <span data-bind="i18n: blocks.main.inStock" class="value">Да</span>
-              </p>
-              <!-- /ko -->
-              <!-- ko if: blocks.main.showSelectionCount -->
-              <!-- ko if: blocks.main.is_universal != 'yes' -->
-              <!-- ko if: blocks.main.count() > 0 -->
-              <div style="margin-bottom:20px" class="b-increment-input">
-                <span data-bind="click: blocks.main.ClickMinus" class="b-increment-input__darr"></span>
-                <span class="b-increment-input__input-wrapper">
-                  <input type="text" value="1" maxlength="3" autocomplete="off" data-bind="value: blocks.main.ordered, attr: {id: blocks.main.cssGoodsOrdered}" class="inline-input b-increment-input__input" id="ordered_144761">
-                </span>
-                <span data-bind="click: blocks.main.ClickPlus" class="b-increment-input__uarr"></span>
-              </div>
-              <!-- /ko -->
-              <!-- /ko -->
-              <!-- /ko -->
-            </div><!-- ko if: blocks.main.showAddToCart -->
-            <button id="btn_to_cart" type="button" data-bind="click: blocks.main.AddToCart" class="btn"><i class="icon icon-cart"></i><span data-bind="i18n: 'goods.mess16'">В корзину</span></button><!-- /ko --><!-- ko if: blocks.main.showBuy -->
-            <button type="button" data-bind="click: blocks.main.Buy, i18n: 'goods.mess17'" class="btn">Купить сразу</button><!-- /ko -->
-              <!-- ko if: blocks.main.showFavorites -->
-                  <!-- ko if: blocks.main.IsFavorite --><!-- /ko -->
-                  <!-- ko ifnot: blocks.main.IsFavorite -->
-                  <div class="like_button">
-                      <a href="javascript:void(0);" data-bind="click:blocks.main.AddFavoritesWithoutComment, i18n: 'goods.mess19'" class="pseudo-link">В избранное</a>
-                  </div>
-                  <!-- /ko -->
-              <!-- /ko -->
+            <div class="cart-item__qty">
+              <a href="javascript:void(0);" class="minus-qty"></a>
+              
+              <input class="cart-item__qty-num" value="1">
+              <a href="javascript:void(0);" class="plus-qty"></a>
+            </div>
+            <div class="product-sell__buttons">           
+              <a href="javascript:void(0);" class="btn btn_red product-sell__bay-button">В корзину</a>
+              <a href="store-bookmarks.html" class="btn btn_grey product-sell__cart-button">В избранное</a>
+            </div>
+            <div class="product-sell__nal">Осталось <span>3</span> шт. в наличии</div>
           </div>
 
           <div class="certificate__text">
@@ -517,64 +498,7 @@
 
       <!-- product-store -->      
       <div class="product-store"  id="content_pkp">
-      <!-- version 1.0-->
-        <!-- product info: image, title, seller info and other -->
-        <div class="product-img">
-          <a href="javascript:void(0);">
-            <span class="product-img-fon"><img src="../images/pages/product/tov.jpg" title="Блокнот 'Marbling' / Aquamarine"></span>
-          </a>
-          <div class="product-img-mob">         
-            <a href="javascript:void(0);" class="active">
-              <span class="img-fon"><img src="../images/pages/product/tov1.jpg" title="Блокнот 'Marbling' / Aquamarine"></span>
-            </a>
-            <a href="javascript:void(0);">
-              <span class="img-fon"><img src="../images/pages/product/tov2.jpg" title="Блокнот 'Marbling' / Aquamarine"></span>
-            </a>
-            <a href="javascript:void(0);">
-              <span class="img-fon"><img src="../images/pages/product/tov3.jpg" title="Блокнот 'Marbling' / Aquamarine"></span>
-            </a>
-            <a href="javascript:void(0);">
-              <span class="img-fon"><img src="../images/pages/product/tov4.jpg" title="Блокнот 'Marbling' / Aquamarine"></span>
-            </a>            
-          </div>
-        </div>            
-        <div class="product-info">
-          <div class="product-info__title"><h1><span>Блокнот 'Marbling' / Aquamarine</span></h1></div>
-          <div class="product-info__param">
-            <div class="product-info__size">Размер (ВхШхГ): <span>14,8 х 21 см.</span></div>
-            <div class="product-info__mat">Материал: <span>бумага.</span></div>           
-            <div class="product-info__diz">Дизайн: <span>Россия</span></div>
-            <div class="product-info__country">Страна: <span>Россия</span></div>
-          </div>          
-        </div>
-        <!-- /product info -->
-        <!-- product cost, nalichie, bay button -->         
-        <div class="product-sell">
-          <div class="product-sell__nal">Осталось <span>3</span> шт. в наличии</div>            
-          <div class="product-sell__sell">
-            <div class="product-sell__cost price_item"><span class="price__number">2400</span><span class="price__thinsp">&nbsp;</span><span class="price__rubl">руб.</span></div>
-            <div class="product-sell__buttons">           
-              <a href="javascript:void(0);" class="btn btn_red product-sell__bay-button">В корзину</a>
-              <a href="store-bookmarks.html" class="btn btn_grey product-sell__cart-button">В избранное</a>
-            </div>
-          </div>
-        </div>
-        <!-- /product cost -->
-        <!-- product-description -->        
-        <div class="product-desc">
-          <div class="product-desc__title"><span>Описание товара</span></div>       
-          <div class="product-desc__desc"><p><b>В чём плюсы:</b></p>
-            <ul>
-              <li>В блокноте 60 листов цвета слоновой кости.</li>
-              <li>Формат блокнота - А5 (14,8 х 21 см).</li>
-              <li>Все страницы без линовки, поэтому в блокноте можно всё: рисовать, писать заметки, строить схемы и диаграммы.</li>
-              <li>Удобная резиночка не позволит выпасть ни одному листочку, а благодаря контрастной закладке ты всегда сможешь найти то место, где остановился.</li>
-              <li>Яркая плотная обложка скрасит серые будни и поднимет настроение.</li>
-              <li>Блокнот с особой заботой собран вручную.</li>
-            </ul>
-            </div>
-        </div>
-        <!-- /product-description -->       
+      <!-- version 1.0-->      
         <!-- product-recommendations -->        
         <div class="product-rec">
           <h3>Вам может понравиться</h3>

@@ -906,9 +906,8 @@ p.user-menu__name{
 }
 
 .certificate-gifts .certificate__top b {
-  font-family: 'Georgia Italic', sans-serif;
+  font-family: 'Georgia Bold', sans-serif;
   font-size: 60px;
-  font-weight: 700;
 }
 
 .certificate-gifts .certificate-inner h1 {
@@ -1056,7 +1055,11 @@ p.user-menu__name{
 }
 
 .certificate-gifts .certificate-outer .increase .b-increment-input__input[type=text] {
-  width: 100px;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ccc;
 }
 
 .certificate-gifts .certificate-outer .b-catalog-item__actions button {
@@ -1074,17 +1077,82 @@ p.user-menu__name{
   padding-left: 27px;
 }
 
+.certificate-gifts .b-catalog-item__actions {
+  text-align: center;
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+.certificate-gifts .cart-item__qty {
+  position: static;
+  width: 140px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 37px;
+  padding-right: 20px;
+}
+
+.certificate-gifts .cart-item__qty input {
+  height: 38px;
+}
+
+.certificate-gifts .plus-qty {
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
+  transform: rotate(90deg);
+}
+
+.certificate-gifts .minus-qty {
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 10px;
+  transform: rotate(90deg);
+}
+
+.certificate-gifts .product-sell__buttons {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  margin-right: 36px;
+}
+
+.certificate-gifts .product-sell__bay-button {
+  width: 139px;
+}
+
+.certificate-gifts .product-sell__cart-button {
+  width: 139px;
+}
+
+.certificate-gifts .product-sell__nal {
+  float: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 0;
+  padding-top: 14px;
+}
+
 .certificate-gifts .certificate__text {
-  background-image: url("../../images/pages/certificate/certificate_line.png");
+  background-image: url("../../images/pages/certificate/gifts_certificate_line.png");
   background-repeat: no-repeat;
 }
 
 .certificate-gifts .certificate__text p {
-  width: 873px;
+  width: 1002px;
   margin: 0 auto;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
   padding-top: 32px;
-  padding-right: 136px;
-  padding-bottom: 6px;
+  padding-right: 24px;
+  padding-bottom: 0;
+  color: #666;
+}
+
+.certificate-gifts .certificate__text a {
+  color: #ffb800;
+  text-decoration: underline;
 }
 
 

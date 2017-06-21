@@ -8,6 +8,11 @@
     src: url(../fonts/georgia-italic.woff);
 }
 
+@font-face {
+    font-family: "Georgia Bold";
+    src: url(../fonts/georgia-bold-italic.woff);
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -639,7 +644,7 @@ a.purchases-menu__purchases-button:focus{
     font-size: 21px;
     line-height: 0;
     color: #ccc;
-    vertical-align: bottom;
+    vertical-align: middle;
 }
 
 

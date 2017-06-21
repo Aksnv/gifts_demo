@@ -30,17 +30,17 @@ $(document).click(function (e){ // событие клика по веб-док�
 
 $(window).load(function (){
 	$('a.plus-qty').click(function() {
-        var $qty = $(this).next("input.cart-item__qty-num").val();
+        var $qty = $(this).prev("input.cart-item__qty-num").val();
         var $qty_num = parseFloat($qty);
         $qty_num = $qty_num + 1;
-        if($qty_num >= 1){ $(this).next("input.cart-item__qty-num").val($qty_num.toString()); }
+        if($qty_num >= 1){ $(this).prev("input.cart-item__qty-num").val($qty_num.toString()); }
     });
     
 	$('a.minus-qty').click(function() {
-        var $qty = $(this).prev("input.cart-item__qty-num").val();
+        var $qty = $(this).next("input.cart-item__qty-num").val();
         var $qty_num = parseFloat($qty);
         $qty_num = $qty_num - 1;        
-        if($qty_num >= 1){ $(this).prev("input.cart-item__qty-num").val($qty_num.toString()); }
+        if($qty_num >= 1){ $(this).next("input.cart-item__qty-num").val($qty_num.toString()); }
     });    
 		
 });
