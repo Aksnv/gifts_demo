@@ -859,6 +859,234 @@ p.user-menu__name{
 	display: none;
 }
 
+/* ------------- Certificate ------------- */
+
+/* Certificate default styles */
+
+.certificate {
+  position: relative;
+  width: 100%;
+  min-height: 718px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../images/pages/certificate/certificate_coral_bg.jpg");
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.certificate::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #e3e3e3;
+  opacity: 0.5;
+}
+
+.certificate-inner {
+  overflow: hidden;
+  width: 920px;
+  min-height: 656px;
+  margin: 0 auto;
+  background-color: #334142;
+  color: #fff;
+}
+
+.certificate__top {
+  text-align: center;
+  padding-top: 38px;
+  padding-bottom: 62px;
+}
+
+.certificate__top b {
+  font-family: 'Open Sans',sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.certificate-inner h1 {
+  line-height: 55px;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+  color: #fff!important;
+}
+
+.certificate-inner h2 {
+  margin-bottom: 28px;
+  padding-left: 5px;
+  color: #848e8f!important;
+}
+
+.certificate-inner p {
+  padding-left: 3px;
+  margin-bottom: 0;
+}
+
+p.certificate__seller,
+p.certificate__number {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+p.certificate__number {
+  margin-top: 18px;
+  margin-bottom: 2px;
+}
+
+.certificate__image,
+.certificate__content {
+  float: left;
+}
+
+.certificate__image {
+  width: 290px;
+  min-height: 1px;
+  margin-left: 41px;
+  margin-right: 61px;
+}
+
+.certificate__content {
+  width: 500px;
+  padding-top: 3px;
+}
+
+.certificate__content a {
+  color: #fff!important;
+}
+
+.certificate__content a:hover {
+  color: #ffa800!important;
+}
+
+.certificate-inner .b-item__price {
+  padding-top: 39px;
+  padding-left: 3px;
+  padding-bottom: 66px;
+  color: #fff;
+}
+
+.certificate__content #ya_share {
+  padding-left: 3px;
+  padding-bottom: 45px;
+}
+
+.certificate-preview {
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 49px;
+  padding-bottom: 23px;
+}
+
+.certificate-preview__item {
+  display: inline-block;
+  vertical-align: top;
+  width: 63px;
+  height: 60px;
+  margin-right: 3px;
+  padding-top: 1px;
+  border: 1px solid #ccc;
+}
+
+.certificate-preview__item:hover {
+  opacity: 0.5;
+}
+
+.certificate-preview__item:last-child {
+  margin-right: 0;
+}
+
+.certificate-preview__item img {
+  max-width: 100%;
+  max-height: 56px;
+}
+
+.certificate-outer .increase,
+.certificate-outer button {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.certificate-outer .increase {
+  margin-right: 28px;
+}
+
+.certificate-outer .increase .b-increment-input__input[type=text] {
+  width: 100px;
+}
+
+.certificate-outer .b-catalog-item__actions button {
+  margin-top: 17px;
+}
+
+.certificate-outer #btn_to_cart {
+  margin-right: 28px;
+  margin-bottom: 36px;
+}
+
+.certificate-outer .like_button {
+  display: block;
+  margin-bottom: 43px;
+  padding-left: 27px;
+}
+
+.certificate__text {
+  background-image: url("../../images/pages/certificate/certificate_line.png");
+  background-repeat: no-repeat;
+}
+
+.certificate__text p {
+  width: 873px;
+  margin: 0 auto;
+  padding-top: 32px;
+  padding-right: 136px;
+  padding-bottom: 6px;
+}
+
+/* Certificate light orange styles */
+
+/* .certificate-inner {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.certificate-inner h1 {
+  color: #000!important;
+}
+
+.certificate__content a {
+  color: #177a93!important;
+}
+
+.certificate-inner .b-item__price {
+  color: #02903d;
+} */
+
+/* Certificate light grey styles */
+
+/* .certificate {
+  background-image: url("../../images/pages/certificate/certificate_grey_bg.jpg");
+}
+
+.certificate-inner {
+  background-color: #f8f8f8;
+  color: #000;
+}
+
+.certificate-inner h1 {
+  color: #000!important;
+}
+
+.certificate__content a {
+  color: #177a93!important;
+}
+
+.certificate-inner .b-item__price {
+  color: #02903d;
+} */
+
+
 /* ------------- Title ------------------- */
 .title_page_theme{
 	margin-top: 50px;
