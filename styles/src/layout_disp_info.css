@@ -2764,96 +2764,95 @@
 		margin: 0 auto;
 	}	
 
-	
 }
 
-/* ------------- Certificate ------------- */
+/* ------------- Certificate Gifts ------------- */
 
-/* Certificate 750px styles */
+/* Certificate Gifts 750px styles */
 
 @media screen and (max-width: 1023px) {
 
-  .search,
+  /* .search,
   .advanced-search,
   .b-thermometer,
   .b-sidebar,
   .b-catalog-item__aux {
     display: none;
-  }
+  } */
 
-  .certificate {
+  .certificate-gifts .certificate {
     width: 710px;
     margin: 0 auto;
     padding-bottom: 33px;
   }
 
-  .certificate-outer {
+  .certificate-gifts .certificate-outer {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .certificate-inner {
+  .certificate-gifts .certificate-inner {
     width: 92%;
   }
 
-  .certificate__top {
+  .certificate-gifts .certificate__top {
     padding-top: 35px;
     padding-bottom: 45px;
   }
 
-  .certificate__top b {
+  .certificate-gifts .certificate__top b {
     font-size: 40px;
   }
 
-  .certificate__image, 
-  .certificate__content {
+  .certificate-gifts .certificate__image, 
+  .certificate-gifts .certificate__content {
     float: none;
   }
 
-  .certificate__image {
+  .certificate-gifts .certificate__image {
     width: 100%;
     text-align: center;
     margin-left: 11px;
     margin-bottom: 33px;
   }
 
-  .certificate__content {
+  .certificate-gifts .certificate__content {
     width: auto;
     margin-left: 100px;
     margin-left: 100px;
   }
 
-  .certificate__bottom {
+  .certificate-gifts .certificate__bottom {
     padding-bottom: 38px;
   }
 
-  .certificate-inner .b-item__price {
+  .certificate-gifts .certificate-inner .b-item__price {
     width: auto;
     padding-bottom: 36px;
   }
 
-  .certificate-preview {
+  .certificate-gifts .certificate-preview {
     padding-top: 40px;
   }
 
-  .b-catalog-item__actions {
+  .certificate-gifts .b-catalog-item__actions {
     text-align: center!important;
   }
 
-  .certificate-outer .like_button {
+  .certificate-gifts .certificate-outer .like_button {
     margin-bottom: 45px;
   }
 
-  .b-catalog-item__actions .like_button {
+  .certificate-gifts .b-catalog-item__actions .like_button {
     margin-left: 0!important;
   }
 
-  .certificate__text {
+  .certificate-gifts .certificate__text {
     width: 710px;
     margin: 0 auto;
   }
 
-  .certificate__text p {
+  .certificate-gifts .certificate__text p {
     width: 710px;
     margin: 0 auto;
     padding-left: 20px;
@@ -2863,95 +2862,95 @@
 
 }
 
-/* Certificate 360px styles */
+/* Certificate Gifts 360px styles */
 
 @media screen and (max-width: 749px) {
 
-  .certificate {
+  .certificate-gifts .certificate {
     width: 360px;
   }
 
-  .certificate-inner {
+  .certificate-gifts .certificate-inner {
     width: 84%;
   }
 
-  .certificate__top {
+  .certificate-gifts .certificate__top {
     padding-top: 24px;
     padding-bottom: 42px;
   }
 
-  .certificate__top b {
+  .certificate-gifts .certificate__top b {
     font-size: 30px;
   }
 
-  .certificate__image {
+  .certificate-gifts .certificate__image {
     width: 260px;
     margin: 0 auto;
     padding-left: 10px;
   }
 
-  .certificate__image img {
+  .certificate-gifts .certificate__image img {
     max-width: 100%;
   }
 
-  .certificate__content {
+  .certificate-gifts .certificate__content {
     margin-left: 27px;
     padding-top: 17px;
   }
 
-  .certificate__content a {
+  .certificate-gifts .certificate__content a {
     display: block;
     font-size: 14px;
   }
 
-  .certificate-inner h1 {
+  .certificate-gifts .certificate-inner h1 {
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 10px;
   }
 
-  .certificate-inner h2 {
+  .certificate-gifts .certificate-inner h2 {
     margin-bottom: 17px;
   }
 
-  .certificate-inner .b-item__price {
+  .certificate-gifts .certificate-inner .b-item__price {
     padding-top: 19px;
     padding-bottom: 28px;
   }
 
-  .certificate__bottom {
+  .certificate-gifts .certificate__bottom {
     padding-bottom: 31px;
   }
 
-  .certificate-outer .increase, 
-  .certificate-outer button {
+  .certificate-gifts .certificate-outer .increase, 
+  .certificate-gifts .certificate-outer button {
     display: block;
     margin: 0 auto;
   }
 
-  .certificate-outer .increase {
+  .certificate-gifts .certificate-outer .increase {
     margin-bottom: 5px;
   }
 
-  .b-catalog-item__limits {
+  .certificate-gifts .b-catalog-item__limits {
     margin-left: 0!important;
   }
 
-  .certificate-outer #btn_to_cart,
-  .b-catalog-item__actions .btn {
+  .certificate-gifts .certificate-outer #btn_to_cart,
+  .certificate-gifts .b-catalog-item__actions .btn {
     margin: 0 auto!important;
     margin-bottom: 20px!important;
   }
 
-  .certificate-preview {
+  .certificate-gifts .certificate-preview {
     padding-bottom: 25px;
   }
 
-  .certificate__text {
+  .certificate-gifts .certificate__text {
     width: 360px;
   }
 
-  .certificate__text p {
+  .certificate-gifts .certificate__text p {
     width: 300px;
     padding-top: 19px;
     padding-left: 0;
