@@ -227,6 +227,10 @@
 		float: none;
 	}	
 
+	.product-rec {
+		width: auto;
+	}
+
 	.product-reviews__review{
 		width: 100%;		
 	}
@@ -379,7 +383,7 @@
 	}
 
 	.product-rec .catalog-item:last-child,
-	.product-rec .catalog-item:nth-child(2n+4) {
+	.product-rec .catalog-item:nth-child(2n+3) {
 		    margin: 0 0 35px 0;
 	}
 	
@@ -607,7 +611,7 @@
 	}	
 
 	.product-rec .catalog-item:last-child,
-	.product-rec .catalog-item:nth-child(2n+3) {
+	.product-rec .catalog-item:nth-child(2n+2) {
 		margin-right: 0;
 	}
 
@@ -2768,20 +2772,38 @@
 
 /* ------------- Certificate Gifts ------------- */
 
-/* Certificate Gifts 750px styles */
+@media screen and (max-width: 1239px) {
 
-@media screen and (max-width: 1023px) {
+	.certificate-gifts .certificate-inner {
+		width: 790px;
+	}
 
-  /* .search,
-  .advanced-search,
-  .b-thermometer,
-  .b-sidebar,
-  .b-catalog-item__aux {
-    display: none;
-  } */
+	.certificate-gifts .product-img-mob {
+		width: 300px;
+		height: auto;
+	}
+
+	.certificate-gifts .product-img-mob a {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.certificate-gifts .certificate__content {
+		width: 300px;
+		margin-left: 40px;
+	}
+
+	.certificate-gifts .certificate__text p {
+		width: 780px;
+	}
+
+}
+
+
+@media screen and (max-width: 1000px) {
 
   .certificate-gifts .certificate {
-    width: 710px;
+    width: 590px;
     margin: 0 auto;
     padding-bottom: 33px;
   }
@@ -2810,9 +2832,10 @@
   }
 
   .certificate-gifts .certificate__image {
-    width: 100%;
+    width: 300px;
     text-align: center;
-    margin-left: 11px;
+    margin-left: 0;
+    margin: auto;
     margin-bottom: 33px;
   }
 
@@ -2820,6 +2843,10 @@
     width: auto;
     margin-left: 100px;
     margin-left: 100px;
+  }
+
+  .certificate-gifts .certificate-inner h1 {
+  	font-size: 24px;
   }
 
   .certificate-gifts .certificate__bottom {
@@ -2848,26 +2875,25 @@
   }
 
   .certificate-gifts .certificate__text {
-    width: 710px;
+    width: 620px;
     margin: 0 auto;
   }
 
   .certificate-gifts .certificate__text p {
-    width: 710px;
+    width: 590px;
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 70px;
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 12px;
   }
 
 }
 
-/* Certificate Gifts 360px styles */
 
-@media screen and (max-width: 749px) {
+@media screen and (max-width: 759px) {
 
   .certificate-gifts .certificate {
-    width: 360px;
+    width: 480px;
   }
 
   .certificate-gifts .certificate-inner {
@@ -2876,7 +2902,7 @@
 
   .certificate-gifts .certificate__top {
     padding-top: 24px;
-    padding-bottom: 42px;
+    padding-bottom: 26px;
   }
 
   .certificate-gifts .certificate__top b {
@@ -2884,18 +2910,31 @@
   }
 
   .certificate-gifts .certificate__image {
-    width: 260px;
+    width: 300px;
     margin: 0 auto;
-    padding-left: 10px;
+    padding-left: 0;
   }
 
   .certificate-gifts .certificate__image img {
     max-width: 100%;
   }
 
+  .certificate-gifts .certificate__image .product-img-mob {
+  	position: absolute;
+  	bottom: -120px;
+  }
+
+  .certificate-gifts .certificate__image .product-img-mob a {
+  	margin-right: 0;
+  }
+
+  .certificate-gifts .certificate__image .product-img-mob img {
+  	height: auto;
+  }
+
   .certificate-gifts .certificate__content {
     margin-left: 27px;
-    padding-top: 17px;
+    padding-top: 20px;
   }
 
   .certificate-gifts .certificate__content a {
@@ -2906,16 +2945,24 @@
   .certificate-gifts .certificate-inner h1 {
     font-size: 24px;
     line-height: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 43px;
   }
 
   .certificate-gifts .certificate-inner h2 {
-    margin-bottom: 17px;
+    margin-bottom: 22px;
+  }
+
+  .certificate-gifts .certificate-inner p {
+  	line-height: 19px;
   }
 
   .certificate-gifts .certificate-inner .b-item__price {
     padding-top: 19px;
-    padding-bottom: 28px;
+    padding-bottom: 21px;
+  }
+
+  .certificate-gifts .ya-share2__item a {
+  	font-size: 0;
   }
 
   .certificate-gifts .certificate__bottom {
@@ -2946,12 +2993,64 @@
     padding-bottom: 25px;
   }
 
+  .certificate-gifts .b-catalog-item__actions {
+  	position: relative;
+  	margin-top: 152px;
+  	margin-bottom: 24px;
+  }
+
+  .certificate-gifts .cart-item__qty {
+  	display: block;
+  	width: 144px;
+  	margin-bottom: 20px;
+  	margin-left: 88px;
+  }
+
+  .certificate-gifts .cart-item__qty input {
+  	border: 1px solid #ccc;
+  }
+
+  .certificate-gifts .minus-qty,
+  .certificate-gifts .plus-qty {
+  	background-color: transparent;
+  	transform: none;
+  }
+
+  .certificate-gifts .minus-qty {
+  	margin-right: 0;
+  }
+
+  .certificate-gifts .plus-qty {
+  	margin-left: 0;
+  }
+
+  .certificate-gifts .minus-qty:hover,
+  .certificate-gifts .plus-qty:hover {
+  	background-color: transparent;
+  }
+
+  .certificate-gifts .product-sell__nal {
+  	position: absolute;
+  	top: 0;
+  	right: 79px;
+  	display: block;
+  }
+
+  .certificate-gifts .product-sell__buttons {
+  	margin-right: 0;
+  	margin-left: 29px;
+  }
+
+  .certificate-gifts .product-sell__buttons .btn_red {
+		margin-right: 17px!important;
+  }
+
   .certificate-gifts .certificate__text {
-    width: 360px;
+    width: 480px;
   }
 
   .certificate-gifts .certificate__text p {
-    width: 300px;
+    width: 440px;
     padding-top: 19px;
     padding-left: 0;
     padding-right: 0;
