@@ -2797,6 +2797,12 @@ div.profile-info-edit__form-select{
 	display: inline-block;
 }
 
+.cart-item__qty input:focus {
+  outline-width: 2px;
+  outline-color: #cf453c;
+  outline-style: solid;
+}
+
 .plus-qty{
 	display: inline-block;
 	width:12px;

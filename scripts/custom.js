@@ -27,16 +27,34 @@ $(document).click(function (e){ // событие клика по веб-док�
 		
 });
 
-
+// изменение количества товаров в корзине
 $(window).load(function (){
-	$('a.plus-qty').click(function() {
+  $('a.plus-qty').click(function() {
+        var $qty = $(this).next("input.cart-item__qty-num").val();
+        var $qty_num = parseFloat($qty);
+        $qty_num = $qty_num + 1;
+        if($qty_num >= 1){ $(this).next("input.cart-item__qty-num").val($qty_num.toString()); }
+    });
+    
+  $('a.minus-qty').click(function() {
+        var $qty = $(this).prev("input.cart-item__qty-num").val();
+        var $qty_num = parseFloat($qty);
+        $qty_num = $qty_num - 1;        
+        if($qty_num >= 1){ $(this).prev("input.cart-item__qty-num").val($qty_num.toString()); }
+    });    
+    
+});
+
+// изменение количества сертификатов
+$(window).load(function (){
+	$('.certificate-gifts a.plus-qty').click(function() {
         var $qty = $(this).prev("input.cart-item__qty-num").val();
         var $qty_num = parseFloat($qty);
         $qty_num = $qty_num + 1;
         if($qty_num >= 1){ $(this).prev("input.cart-item__qty-num").val($qty_num.toString()); }
     });
     
-	$('a.minus-qty').click(function() {
+	$('.certificate-gifts a.minus-qty').click(function() {
         var $qty = $(this).next("input.cart-item__qty-num").val();
         var $qty_num = parseFloat($qty);
         $qty_num = $qty_num - 1;        
