@@ -1005,13 +1005,51 @@ p.user-menu__name{
   line-height: 48px;
   padding-top: 39px;
   padding-left: 3px;
-  padding-bottom: 66px;
+  padding-bottom: 69px;
   color: #000;
 }
 
 .certificate-gifts .certificate__content #ya_share {
-  padding-left: 3px;
+  padding-left: 5px;
   padding-bottom: 45px;
+}
+
+.certificate-gifts .ya-share2__item {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+}
+
+.certificate-gifts .ya-share2__item a {
+  display: inline-block;
+  vertical-align: top;
+  width: 18px;
+  height: 18px;
+  font-size: 0;
+}
+
+.certificate-gifts .ya-share2__item_service_vkontakte {
+  background-image: url("../../images/pages/certificate/vk.png");
+}
+
+.certificate-gifts .ya-share2__item_service_odnoklassniki {
+  background-image: url("../../images/pages/certificate/ok.png");
+}
+
+.certificate-gifts .ya-share2__item_service_twitter {
+  background-image: url("../../images/pages/certificate/tw.png");
+}
+
+.certificate-gifts .ya-share2__item_service_facebook {
+  background-image: url("../../images/pages/certificate/fb.png");
+}
+
+.certificate-gifts .ya-share2__item_service_moimir {
+  background-image: url("../../images/pages/certificate/mm.png");
+}
+
+.certificate-gifts .ya-share2__item_service_lj {
+  background-image: url("../../images/pages/certificate/lj.png");
 }
 
 .certificate-gifts .certificate-preview {
