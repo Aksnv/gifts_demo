@@ -2770,6 +2770,53 @@
 
 }
 
+
+/* ------ Add product review ------ */
+
+@media screen and (max-width: 759px) {
+
+	.add-review-form {
+		width: 100%;
+	}
+
+	.add-review-form__rating p {
+		display: none;
+	}
+
+	.add-review-form__comment {
+		width: 380px;
+	}
+
+}
+
+@media screen and (max-width: 519px) {
+
+	.add-review-button,
+	.add-review-form__submit {
+		width: 100%;
+	}
+
+	.add-review-form {
+		height: 421px;
+	}
+
+	.add-review-form__comment {
+		width: 220px;
+		height: 148px;
+		margin-top: 18px;
+	}
+
+	.add-review-form__submit {
+		margin-bottom: 24px;
+	}
+
+	.add-review-form__reset {
+		display: block;
+		margin: 0 auto;
+	}
+
+}
+
 /* ------------- Certificate Gifts ------------- */
 
 @media screen and (max-width: 1239px) {

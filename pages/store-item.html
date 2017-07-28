@@ -648,6 +648,26 @@
 							<p>Книгу прочла за выходные. Специально распечатала текст, чтобы можно было оставить комменты на полях для себя же. Планирую использовать некоторые приемы, описанные в книге. Хочу проверить, как это будет работать в сфере СМИ.</p>
 						</div>
 					</article>
+
+          <!-- add review -->
+          <section class="product-reviews__add-review">
+            <a href="#" class="btn add-review-button">Оставить отзыв</a>
+            <form name="add-review-form" class="add-review-form" method="post" action="#">
+              <h3>Отзыв о товаре:</h3>
+              <div class="add-review-form__rating">
+                <p>Ваша оценка:</p>
+                <input type="radio" name="add-review-form__rating-option" id="add-review-form__rating-option--positive" value="Положительно" checked="checked">
+                <label for="add-review-form__rating-option--positive" class="add-review-form__rating-option add-review-form__rating-option--positive">Положительно</label>
+                <input type="radio" name="add-review-form__rating-option" id="add-review-form__rating-option--negative" value="Отрицательно">
+                <label for="add-review-form__rating-option--negative" class="add-review-form__rating-option add-review-form__rating-option--negative">Отрицательно</label>
+              </div>
+              <textarea name="add-review-form__comment" class="add-review-form__comment"></textarea>
+              <input type="submit" name="add-review-form__submit" class="btn add-review-form__submit" value="Опубликовать">
+              <input type="reset" name="add-review-form__reset" class="add-review-form__reset" value="Отмена">
+            </form>
+          </section>
+          <!-- /add review -->
+          
 				</div>
 				<!-- /product-reviews -->
 			</div>

@@ -87,3 +87,17 @@ $(".pmt-message__text").click(function() {
   $(".pmt-message__description").toggleClass("pmt-message__description--open");
   $(".pmt-message__text").toggleClass("pmt-message__text--open");
 });
+
+
+// Add review form
+
+$(".add-review-button").click(function(e) {
+  e.preventDefault();
+  $(".add-review-form").toggleClass("add-review-form--open");
+  $(this).hide();
+});
+
+$(".add-review-form__reset").click(function() {
+  $(".add-review-form").toggleClass("add-review-form--open");
+  $(".add-review-button").show();
+});
