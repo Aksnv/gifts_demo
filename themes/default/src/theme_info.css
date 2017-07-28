@@ -63,6 +63,11 @@ input[type="text"]:focus{
 	font-size: 10px;
 }
 
+.add-review-button,
+.add-review-form__submit {
+	font-size: 13px;
+}
+
 .btn_red,
 a.btn_red,
 .btn.btn_red{

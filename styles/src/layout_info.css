@@ -1968,7 +1968,8 @@ div.cs-select.cs-active .cs-options {
 .product-reviews{
     /*width: 63.5%;*/
 	padding-top: 50px;
-	margin-bottom: 70px;
+	/* margin-bottom: 70px; */
+  margin-bottom: 0;
 }
 
 .product-reviews__head h3{
@@ -2031,18 +2032,22 @@ div.cs-select.cs-active .cs-options {
 
 .add-review-button {
   display: block;
-  width: 220px;
+  width: 180px;
   height: 42px;
   font-size: 13px;
   font-weight: 700;
-  line-height: 42px;
+  /* line-height: 42px; */
   text-transform: uppercase;
-  border: 2px solid #00c4e0;
-  color: #00c4e0;
+  background-color: #cf453c;
+  border: 2px solid #cf453c;
+  color: #fff;
 }
 
 .add-review-button:hover {
-  line-height: 46px;
+  /* line-height: 46px; */
+  background-color: transparent;
+  border: 2px solid #999;
+  color: #999;
 }
 
 .add-review-form {
@@ -2123,7 +2128,8 @@ div.cs-select.cs-active .cs-options {
 }
 
 .add-review-form input[type="radio"]:checked + .add-review-form__rating-option--negative {
-  background-color: #de4848;
+  /* background-color: #de4848; */
+  background-color: #cf453c;
   color: #fff;
 }
 
@@ -2154,11 +2160,16 @@ div.cs-select.cs-active .cs-options {
   height: 42px;
   font-size: 13px;
   font-weight: 700;
-  line-height: 38px;
+  /* line-height: 38px; */
   text-transform: uppercase;
   margin-right: 20px;
-  background-color: #00c4e0;
-  border: 2px solid #00c4e0;
+  padding-top: 0;
+  /* background-color: #00c4e0;
+  border: 2px solid #00c4e0; */
+
+  background-color: #cf453c;
+  border: 2px solid #cf453c;
+  color: #fff;
 }
 
 .add-review-form__reset {
@@ -2171,7 +2182,7 @@ div.cs-select.cs-active .cs-options {
 }
 
 .add-review-form__reset:hover {
-  color: #0099cc;
+  color: #cf453c;
 }
 
 /* ---------------  Profile  --------------- */
