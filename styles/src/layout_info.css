@@ -2032,22 +2032,23 @@ div.cs-select.cs-active .cs-options {
 
 .add-review-button {
   display: block;
-  width: 180px;
+  /* width: 180px; */
+  width: 220px;
   height: 42px;
   font-size: 13px;
   font-weight: 700;
   /* line-height: 42px; */
   text-transform: uppercase;
-  background-color: #cf453c;
-  border: 2px solid #cf453c;
-  color: #fff;
+  background-color: transparent;
+  border: 2px solid #999;
+  color: #999;
 }
 
 .add-review-button:hover {
   /* line-height: 46px; */
-  background-color: transparent;
-  border: 2px solid #999;
-  color: #999;
+  background-color: #cf453c;
+  border: 2px solid #cf453c;
+  color: #fff;
 }
 
 .add-review-form {
@@ -2056,7 +2057,7 @@ div.cs-select.cs-active .cs-options {
   height: 268px;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #efece7;
+  /* background-color: #efece7; */
 }
 
 .add-review-form--open {
@@ -2158,32 +2159,40 @@ div.cs-select.cs-active .cs-options {
 .add-review-form__submit {
   width: 220px;
   height: 42px;
-  font-size: 13px;
-  font-weight: 700;
+  /* font-size: 13px;
+  font-weight: 700; */
   /* line-height: 38px; */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-right: 20px;
   padding-top: 0;
   /* background-color: #00c4e0;
   border: 2px solid #00c4e0; */
 
-  background-color: #cf453c;
-  border: 2px solid #cf453c;
+  /* background-color: #cf453c;
+  border: 2px solid #cf453c; */
+  background-color: #ffb800;
+  border-radius: 3px;
   color: #fff;
 }
 
 .add-review-form__reset {
-  font-size: 15px;
+  width: 220px;
+  height: 42px;
+
+  /* font-size: 15px;
   line-height: 20px;
   text-decoration: underline;
-  background-color: transparent;
-  color: #666;
-  border: none;
+  background-color: transparent; */
+  /* color: #666; */
+  /* border: none; */
+  background-color: #ebebed;
+  border-radius: 3px;
+  color: #000;
 }
 
-.add-review-form__reset:hover {
+/* .add-review-form__reset:hover {
   color: #cf453c;
-}
+} */
 
 /* ---------------  Profile  --------------- */
 

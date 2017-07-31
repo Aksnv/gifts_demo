@@ -2779,6 +2779,12 @@
 		width: 100%;
 	}
 
+	.add-review-form__submit,
+	.add-review-form__reset {
+		width: 200px;
+	}
+
+
 	.add-review-form__rating p {
 		display: none;
 	}
@@ -2792,7 +2798,8 @@
 @media screen and (max-width: 519px) {
 
 	.add-review-button,
-	.add-review-form__submit {
+	.add-review-form__submit,
+	.add-review-form__reset {
 		width: 100%;
 	}
 
@@ -2807,7 +2814,8 @@
 	}
 
 	.add-review-form__submit {
-		margin-bottom: 24px;
+		/* margin-bottom: 24px; */
+		margin-bottom: 10px;
 	}
 
 	.add-review-form__reset {
