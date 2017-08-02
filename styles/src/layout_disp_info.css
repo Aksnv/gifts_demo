@@ -3212,3 +3212,21 @@
 	}
 
 }
+
+/* ------------ Content page ----------------- */
+
+@media screen and (max-width: 519px) {
+
+	.content-menu_theme {
+		display: none;
+	}
+
+	.main-content_theme {
+		margin-top: 50px;
+	}
+
+	.main-content_contacts-map {
+		margin-bottom: 30px;
+	}
+
+}

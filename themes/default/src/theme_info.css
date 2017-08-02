@@ -1877,6 +1877,10 @@ a.catalog-item__del-button.i-buck:focus:before{
 	text-decoration: underline;	
 }
 
+.content_theme--contacts.text_theme a{
+	color: #09c;
+}
+
 .content_theme.text_theme a:hover{
 	color: #cf453c;	
 }
