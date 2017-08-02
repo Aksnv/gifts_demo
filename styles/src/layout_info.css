@@ -203,13 +203,19 @@ img:focus {
 
 .menu-main__list li{
 	margin-right: 0;
-    height: 64px;
+    height: 72px;
     display: inline-block;
     padding: 25px 40px;
 }
 
 .menu-main__list li:last-child{
 	margin-right: 0;
+}
+
+.menu-main__list-item--active {
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .main-menu_theme{
@@ -3398,7 +3404,7 @@ a.catalog-item__del-button.i-buck:before{
 	position: relative;
 	display:inline-block;
 	vertical-align: top;
-	width: 947px;
+	width: 760px;
     min-height: 336px;
 }
 
@@ -3422,12 +3428,20 @@ a.catalog-item__del-button.i-buck:before{
 	line-height: 1.5em;	
 }
 
-.content_theme.text_theme p + ul{
+.content_theme.text_theme p + ul {
 	margin-top: -1em;
+}
+
+.content_theme.text_theme strong {
+  line-height: 1.5em;
 }
 
 .content_theme.text_theme ul li:before{
 	margin-right: 5px;
+}
+
+.content_theme.text_theme img {
+  margin-bottom: 40px;
 }
 
 

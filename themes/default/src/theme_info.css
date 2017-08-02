@@ -290,6 +290,10 @@ a.btn_grey:hover, a.btn_grey:focus,
 	font-size: 18px;
 }
 
+.menu-main__list-item--active a {
+  color: #000;
+}
+
 
 /* --------------- Menu click styles --------------- */
 .btn-menu-click + label{
