@@ -834,7 +834,7 @@ p.user-menu__name{
 /* -------------  ------------- Main content -------------  ------------- */
 
 .store_theme{
-
+  clear: both;
 }
 
 .no-banner .container_theme{
@@ -3424,7 +3424,11 @@ a.catalog-item__del-button.i-buck:before{
 .with-sidebar.content_theme h3,
 .with-sidebar.content_theme p,
 .with-sidebar.content_theme ul {
-  width: 760px;
+  max-width: 760px;
+}
+
+.with-sidebar.content_theme p {
+  padding-right: 40px;
 }
 
 .content_theme.text_theme h1.title_page_theme{
