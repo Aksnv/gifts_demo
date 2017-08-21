@@ -2712,11 +2712,21 @@ div.profile-info-edit__form-select{
   width: 162px;
 }
 
-.profile-info__orders-payment-status--waiting span {
+.profile-info__orders-payment-status--waiting-check span,
+.profile-info__orders-payment-status--waiting-payment span {
   padding-left: 22px;
 }
 
-.profile-info__orders-payment-status--waiting::before {
+.profile-info__orders-payment-status--paid-for span {
+  padding-left: 30px;
+}
+
+.profile-info__orders-payment-status--canceled span,
+.profile-info__orders-payment-status--payment-return span {
+  padding-left: 25px;
+}
+
+.profile-info__orders-payment-status--waiting-check::before {
   position: absolute;
   top: 3px;
   left: 0;
@@ -2726,6 +2736,54 @@ div.profile-info-edit__form-select{
   height: 16px;
   background-image: url("../../themes/default/src/images/sprites.png");
   background-position: -737px -40px;
+}
+
+.profile-info__orders-payment-status--waiting-payment::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 18px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1372px -39px;
+}
+
+.profile-info__orders-payment-status--paid-for::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 22px;
+  height: 18px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1366px -10px;
+}
+
+.profile-info__orders-payment-status--canceled::before {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../images/sprites.png");
+  background-position: -930px -48px;
+}
+
+.profile-info__orders-payment-status--payment-return::before {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 16px;
+  height: 13px;
+  background-image: url("../../images/sprites.png");
+  background-position: -927px -28px;
 }
 
 .profile-info__orders-edit,
