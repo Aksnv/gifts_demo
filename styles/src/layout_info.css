@@ -2670,41 +2670,80 @@ div.profile-info-edit__form-select{
   width: 117px;
 }
 
-.profile-info__orders-status--is-formed span {
+.profile-info__orders-status--is-formed span,
+.profile-info__orders-status--in-processing span {
   padding-left: 29px;
 }
 
-.profile-info__orders-status--is-formed::before,
-.profile-info__orders-status--is-formed::after,
-.profile-info__orders-status--is-formed span::before {
-  position: absolute;
-  content: "";
-  display: block;
-  background-image: url("../../themes/default/src/images/sprites.png");
+.profile-info__orders-status--new span,
+.profile-info__orders-status--sent span,
+.profile-info__orders-status--received span {
+  padding-left: 31px;
+}
+
+.profile-info__orders-status--canceled span {
+  padding-left: 25px;
 }
 
 .profile-info__orders-status--is-formed::before {
+  position: absolute;
   top: 0;
-  left: 2px;
+  left: 2px;  
+  content: "";
+  display: block;
   width: 20px;
   height: 20px;
+  background-image: url("../../themes/default/src/images/sprites.png");
   background-position: -763px -40px;
 }
 
-.profile-info__orders-status--is-formed::after {
-  top: 25px;
-  left: 2px;
+.profile-info__orders-status--new::before,
+.profile-info__orders-status--received:before {
+  position: absolute;
+  top: 0;
+  left: 2px;  
+  content: "";
+  display: block;
+  width: 22px;
+  height: 18px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1366px -10px;
+}
+
+.profile-info__orders-status--in-processing::before {
+  position: absolute;
+  top: 0;
+  left: 2px;  
+  content: "";
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1345px -40px;
+}
+
+.profile-info__orders-status--sent::before {
+  position: absolute;
+  top: 2px;
+  left: 2px;  
+  content: "";
+  display: block;
   width: 22px;
   height: 15px;
+  background-image: url("../../images/sprites.png");
   background-position: -817px -40px;
 }
 
-.profile-info__orders-status--is-formed span::before {
-  bottom: -17px;
-  left: 35px;
-  width: 15px;
-  height: 13px;
-  background-position: -791px -40px;
+.profile-info__orders-status--canceled::before {
+  position: absolute;
+  top: 2px;
+  left: 2px;  
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../images/sprites.png");
+  background-position: -930px -48px;
 }
 
 .profile-info__orders-payment-status {
@@ -2764,7 +2803,7 @@ div.profile-info-edit__form-select{
 
 .profile-info__orders-payment-status--canceled::before {
   position: absolute;
-  top: 3px;
+  top: 2px;
   left: 0;
   content: "";
   display: block;
