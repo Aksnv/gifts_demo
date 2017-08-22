@@ -451,6 +451,25 @@
 		height: 500px;
 	}
 
+	.profile-header-menu {
+		display: none;
+	}
+
+	.profile-info__orders-number {
+		width: 165px;
+	}
+
+	.profile-info__orders-seller, 
+	.profile-info__orders-seller a {
+		width: 80px;
+	}
+
+	.profile-info__orders li:nth-child(6) {
+  	position: absolute;
+  	left: calc(50% - 78px);
+		bottom: 20px;
+	}
+
 }
 
 

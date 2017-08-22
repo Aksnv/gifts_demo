@@ -2584,6 +2584,7 @@ div.profile-info-edit__form-select{
 }
 
 .profile-info__orders-wrapper {
+  position: relative;
   padding-bottom: 30px;
   border-bottom: 1px solid #ccc;
 }
