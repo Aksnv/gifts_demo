@@ -1727,6 +1727,10 @@ div.cs-select.cs-active .cs-options {
   background-color: transparent;
 }
 
+.pagination_theme__show-more {
+  display: none;
+}
+
 /* --------------- Promoblocks ----------------- */
 
 .promoBlocks{
