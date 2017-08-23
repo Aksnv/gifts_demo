@@ -1684,7 +1684,48 @@ div.cs-select.cs-active .cs-options {
 	float: right;
 }
 
+/* ------------ Catalog pagination ----------------- */
 
+.pagination_theme li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.pagination_theme__item {
+  display: block;
+  width: 53px;
+  height: 53px;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 51px;
+  text-align: center;
+  margin-right: 15px;
+  color: #010101;
+  border: 1px solid #ebebed;
+  border-radius: 50%;
+}
+
+.pagination_theme__item:hover {
+  background-color: #ebebed;
+  border: 1px solid #ebebed;
+}
+
+.pagination_theme__item--active {
+  border: 1px solid #ffb800;
+  background-color: #ffb800;
+  color: #fefefe;
+}
+
+.pagination_theme__item--disabled {
+  color: #ebebed;
+  opacity: 0.5;
+  cursor: default;
+}
+
+.pagination_theme__item--disabled:hover {
+  background-color: transparent;
+}
 
 /* --------------- Promoblocks ----------------- */
 
