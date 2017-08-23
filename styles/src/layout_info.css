@@ -2886,7 +2886,7 @@ div.profile-info-edit__form-select{
   background-image: url("../../images/sprites.png");
 }
 
-.profile-info__orders-action--payment::before {
+.profile-info__orders-action--cart::before {
   top: 5px;
   left: 0px;
   width: 18px;
@@ -2894,7 +2894,7 @@ div.profile-info-edit__form-select{
   background-position: -1520px -32px;
 }
 
-.profile-info__orders-action--payment:hover::before {
+.profile-info__orders-action--cart:hover::before {
   background-position: -1520px -52px;
 }
 
