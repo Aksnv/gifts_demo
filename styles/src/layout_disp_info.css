@@ -466,8 +466,47 @@
 
 	.profile-info__orders li:nth-child(6) {
   	position: absolute;
-  	left: calc(50% - 78px);
-		bottom: 20px;
+  	left: 0;
+		bottom: 10px;
+	}
+
+	.profile-info__orders-wrapper {
+		padding-bottom: 60px;
+	}
+
+	.profile-info__orders-action {
+		width: 84px;
+		height: 40px;
+		background-color: #ebebed;
+	}
+
+	.profile-info__orders-action:hover span {
+		display: none;
+	}
+
+	.profile-info__orders-action--payment::before,
+	.profile-info__orders-action--edit::before {
+		left: 34px;
+		top: 13px;
+	}
+
+	.profile-info__orders-action--repeat::before {
+		left: 37px;
+		top: 13px;
+	}
+
+	.profile-info__orders-action--canceled::before {
+		left: 35px;
+		top: 12px;
+	}
+
+	.profile-info__orders-action--delete::before {
+		left: 37px;
+		top: 14px;
+	}
+
+	.profile-footer__orders {
+		display: none;
 	}
 
 }
@@ -2138,6 +2177,27 @@
 		margin-left: 0;
 	}
 
+	.profile-info__orders-number {
+		width: 210px;
+		margin-bottom: 15px;
+	}
+
+	.profile-info__orders-payment-status {
+		width: auto;
+	}
+
+	.profile-info__orders-wrapper {
+		padding-bottom: 80px;
+	}
+
+	.profile-info__orders li:nth-child(6) {
+		bottom: 20px;
+	}
+
+	.profile-info__orders-status {
+		margin-left: 33px;
+	}
+
 /* Payment */
 
 	#pkp-container{
@@ -2775,6 +2835,53 @@
 
 	.profile-info-edit__form-wr {
 		margin-right: 3.7%;
+	}
+
+	.profile-header-reload,
+	.profile-footer-reload {
+		position: relative;
+		left: 40px;
+	}
+
+	li.profile-info__orders-seller, 
+	.profile-info__orders-seller a {
+		display: none;
+	}
+
+	.profile-info__orders-number {
+		width: 195px;
+	}
+
+	li.profile-info__orders-price {
+		width: 90px;
+		margin-right: 0;
+	}
+
+	.profile-info__orders-status {
+		margin-left: 10px;
+	}
+
+	li.profile-info__orders-payment-status {
+		width: 145px;
+		margin-right: 0;
+	}
+
+	.profile-info__orders-action {
+		width: 48px;
+	}
+
+	.profile-info__orders-action--payment::before, 
+	.profile-info__orders-action--edit::before {
+		left: 15px;
+	}
+
+	.profile-info__orders-action--repeat::before,
+	.profile-info__orders-action--delete::before {
+		left: 18px;
+	}
+
+	.profile-info__orders-action--canceled::before {
+		left: 16px;
 	}
 	
 /* Checkout */
