@@ -3437,3 +3437,41 @@
 	}
 
 }
+
+/* Read fragment popup */
+
+@media screen and (max-width: 1279px) {
+
+	.popup--read-fragment {
+		width: auto;
+		max-width: 1180px;
+		min-width: 300px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.read-fragment__article {
+	  -moz-column-count: 1;
+	  -webkit-column-count: 1;
+	  column-count: 1;
+	}
+
+}
+
+@media screen and (max-width: 519px) {
+
+	.read-fragment__paginator {
+	  padding-right: 100px;
+	}
+
+	.popup--read-fragment__left-arrow {
+	  right: 45px;
+	}
+
+	.popup--read-fragment__right-arrow {
+	  right: 5px;
+	}
+
+}
+
+/* END - Read fragment popup */
