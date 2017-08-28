@@ -950,7 +950,7 @@ p.user-menu__name{
 }
 
 .certificate-gifts p.certificate__number {
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 14px;
 }
 
@@ -1007,6 +1007,31 @@ p.user-menu__name{
 .certificate-gifts .certificate__content a {
   color: #ffa800!important;
   text-decoration: underline!important;
+}
+
+.certificate-gifts .certificate__content a.read-fragment {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 12px;
+  margin-left: 22px;
+  text-decoration: none!important;
+  border-bottom: 1px dotted #ffa800;
+}
+
+.certificate-gifts .certificate__content a.read-fragment::before {
+  position: absolute;
+  top: 4px;
+  left: -16px;
+  content: "";
+  display: block;
+  width: 11px;
+  height: 14px;
+  background-image: url(../../images/sprites.png);
+  background-position: -952px -33px;
 }
 
 .certificate-gifts .certificate-inner .b-item__price {
