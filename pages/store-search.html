@@ -34,8 +34,10 @@
 	<script src="../scripts/libs/nwmatcher.js"></script>
 	<script src="../scripts/libs/ie8canvas.js"></script>
 	<![endif]-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../scripts/libs/jquery-3.2.1.min.js"></script>
+  <script src="../scripts/libs/jquery-ui.js"></script>
 	<link href="../styles/src/reset.css" rel="stylesheet">
+  <link href="../styles/libs/jquery-ui.css" rel="stylesheet">
 	<link href="../styles/src/layout_info.css" rel="stylesheet">
 	<link href="../styles/src/layout_disp_info.css" rel="stylesheet">	
 	<link id="theme" href="../themes/default/src/theme_info.css" rel="stylesheet">
@@ -428,6 +430,61 @@
 							<button type="reset" class="catalog-search__reset"></button>
 							<button type="submit" class="btn btn_yellow catalog-search__btn">Поиск</button>						
 						</form>
+
+            <div class="advanced-search__top-button advanced-search__top-button--open">
+              <a href="#">Расширенный поиск</a>
+            </div>
+            <form name="advanced-search__form" method="" action="" class="advanced-search__form">
+              <ul>
+                <li>
+                  <label>
+                    <select style="display: inline-block;">
+                      <option>Все категории</option>
+                      <option>Книги</option>
+                      <option>Сертификаты</option>
+                    </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%; display: none;" title=""><a class="chosen-single" tabindex="-1"><span>Все категории</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <select style="display: inline-block;">
+                      <option>Любой тип товара</option>
+                    </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%; display: none;" title=""><a class="chosen-single" tabindex="-1"><span>Любой тип товара</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <select style="display: inline-block;">
+                      <option>Любой продавец</option>
+                    </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%; display: none;" title=""><a class="chosen-single" tabindex="-1"><span>Любой продавец</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <select style="display: inline-block;">
+                      <option>Любое из слов</option>
+                    </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%; display: none;" title=""><a class="chosen-single" tabindex="-1"><span>Любое из слов</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off" readonly=""></div><ul class="chosen-results"></ul></div></div>
+                  </label>
+                </li>
+                <li>
+                  <div class="floatlabel-wrapper" style="position:relative"><input type="text" name="advanced-search__key-words" placeholder="Ключевые слова" id="i-77" style="padding-top: 1px; transition: all 0.1s ease-in-out;"><label for="77" class="label-floatlabel  " style="position: absolute; bottom: 0px; left: 20px; display: none; opacity: 0; font-size: 12px; line-height: 16px; height: 16px; font-weight: normal; color: rgba(0, 0, 0, 0.4); transition: all 0.1s ease-in-out;">Ключевые слова</label></div>
+                </li>
+                <li>
+                  <div class="floatlabel-wrapper" style="position:relative"><input type="text" name="advanced-search__exclude-words" placeholder="Исключить слова" id="i-1" style="padding-top: 1px; transition: all 0.1s ease-in-out;"><label for="1" class="label-floatlabel  " style="position: absolute; bottom: 0px; left: 20px; display: none; opacity: 0; font-size: 12px; line-height: 16px; height: 16px; font-weight: normal; color: rgba(0, 0, 0, 0.4); transition: all 0.1s ease-in-out;">Исключить слова</label></div>
+                </li>
+                <li class="advanced-search__range">
+                  <p>Цена 
+                    <div class="floatlabel-wrapper" style="position:relative"><input type="text" name="advanced-search__min-price" id="advanced-search__min-price" readonly="" style="padding-top: 1px; transition: all 0.1s ease-in-out;"><label for="advanced-search__min-price" class="label-floatlabel  " style="position: absolute; bottom: 0px; left: 20px; display: none; opacity: 0; font-size: 12px; line-height: 16px; height: 16px; font-weight: normal; color: rgba(0, 0, 0, 0.4); transition: all 0.1s ease-in-out;">Нет плейсхолдера!</label></div> — 
+                    <div class="floatlabel-wrapper" style="position:relative"><input type="number" name="advanced-search__max-price" id="advanced-search__max-price" readonly="" style="padding-top: 1px; transition: all 0.1s ease-in-out;"><label for="advanced-search__max-price" class="label-floatlabel  " style="position: absolute; bottom: 0px; left: 20px; display: none; opacity: 0; font-size: 12px; line-height: 16px; height: 16px; font-weight: normal; color: rgba(0, 0, 0, 0.4); transition: all 0.1s ease-in-out;">Нет плейсхолдера!</label></div>
+                  </p>
+                  <div class="advanced-search__price-range ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content"><div class="ui-slider-range ui-corner-all ui-widget-header" style="left: 0%; width: 49.4999%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 0%;"></span><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 49.4999%;"></span></div>
+                </li>
+                <li>
+                  <input type="submit" name="advanced-search__submit" value="Искать">
+                </li>
+              </ul>
+            </form>
+
 						<div class="catalog-search-res">Найдено <span>12</span> совпадений</div>
 					</div>					
 				</div>
