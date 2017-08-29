@@ -28,7 +28,7 @@ $(document).click(function (e){ // событие клика по веб-док�
 });
 
 // изменение количества товаров в корзине
-$(window).load(function (){
+/*$(window).load(function (){
   $('a.plus-qty').click(function() {
         var $qty = $(this).next("input.cart-item__qty-num").val();
         var $qty_num = parseFloat($qty);
@@ -43,10 +43,10 @@ $(window).load(function (){
         if($qty_num >= 1){ $(this).prev("input.cart-item__qty-num").val($qty_num.toString()); }
     });    
     
-});
+});*/
 
 // изменение количества сертификатов
-$(window).load(function (){
+/*$(window).load(function (){
 	$('.certificate-gifts a.plus-qty').click(function() {
         var $qty = $(this).prev("input.cart-item__qty-num").val();
         var $qty_num = parseFloat($qty);
@@ -61,11 +61,11 @@ $(window).load(function (){
         if($qty_num >= 1){ $(this).next("input.cart-item__qty-num").val($qty_num.toString()); }
     });    
 		
-});
+});*/
 
 
 //Slider
-$(window).load(function (){
+/*$(window).load(function (){
 	$("#slider-gifts__ui").slider({
 	  range: true,
 	  min: 0,
@@ -79,7 +79,7 @@ $(window).load(function (){
 	$( "#amount1" ).val($( "#slider-gifts__ui" ).slider( "values", 0 ));
 	$( "#amount2" ).val($( "#slider-gifts__ui" ).slider( "values", 1 ));
 		
-});
+});*/
 
 
 //Инструкция для плательщика
@@ -105,18 +105,19 @@ $(".add-review-form__reset").click(function() {
 
 // Advanced search
 
-$(".advanced-search__top-button").click(function() {
-  if ($(this).hasClass("advanced-search__top-button--close")) {
-    $(this).addClass("advanced-search__top-button--open");
-    $(this).removeClass("advanced-search__top-button--close");
-    $(".advanced-search__bottom").slideDown();
+$(".advanced-search__button").click(function(e) {
+  e.preventDefault();
+  if ($(this).hasClass("advanced-search__button--close")) {
+    $(this).addClass("advanced-search__button--open");
+    $(this).removeClass("advanced-search__button--close");
+    $(".advanced-search__form").slideDown();
     $(".advanced-search__form select").css("display", "inline-block");
     $(".advanced-search__form select + div").css("display", "none");
     $(".advanced-search__form input + label").css("display", "none");
   } else {
-    $(this).addClass("advanced-search__top-button--close");
-    $(this).removeClass("advanced-search__top-button--open");
-    $(".advanced-search__bottom").slideUp();
+    $(this).addClass("advanced-search__button--close");
+    $(this).removeClass("advanced-search__button--open");
+    $(".advanced-search__form").slideUp();
   }
 });
 

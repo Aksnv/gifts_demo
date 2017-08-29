@@ -499,44 +499,30 @@ img:focus {
 
 /* ------------- Advanced search ------------- */
 
-.advanced-search {
-  margin-top: 15px;
-  margin-bottom: 30px;
-}
-
-.advanced-search__top {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-.advanced-search__top-results {
-  float: left;
-  font-size: 13px;
-  padding-top: 5px;
-  color: #666;
-}
-
-.advanced-search__top-results span {
-  font-weight: 700;
-}
-
-.advanced-search__top-button {
+.advanced-search__button {
   float: right;
 }
 
-.advanced-search__top-button a {
+.advanced-search__button a {
   position: relative;
   display: block;
-  font-size: 15px;
-  font-weight: 700;
-  color: #09c;
-  border-bottom: 1px dotted #09c;
+  width: 250px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 50px;
+  text-align: center;
+  padding-left: 20px;
+  color: #000;
+  background-color: #ebebed;
+  border-radius: 3px;
+  box-sizing: border-box;
 }
 
-.advanced-search__top-button a::before {
+.advanced-search__button a::before {
   position: absolute;
-  top: 4px;
-  left: -24px;
+  top: 22px;
+  left: 26px;
   content: "";
   display: block;
   width: 14px;
@@ -544,43 +530,59 @@ img:focus {
   background-image: url("../../images/sprites.png");
 }
 
-.advanced-search__top-button--open a::before {
-  background-position: -175px -31px;
+.advanced-search__button--open a::before {
+  background-position: -976px -48px;
 }
 
-.advanced-search__top-button--close a::before {
-  background-position: -152px -31px;
-}
-
-.advanced-search__bottom {
-  display: none;
-  clear: both;
-}
-
-.advanced-search__form {
-  height: 257px;
-  padding-top: 39px;
-  padding-bottom: 30px;
-  background-color: #efece7;
-}
-
-.advanced-search__form::before {
+.advanced-search__button--open a::after {
   position: absolute;
-  top: 341px;
+  bottom: -20px;
   left: 0;
   content: "";
   display: block;
-  width: 100%;
-  height: 257px;
-  background-color: #efece7;
-  z-index: -1;
+  width: 250px;
+  height: 20px;
+  background-color: #ebebed;
+}
+
+.advanced-search__button--close a::before {
+  background-position: -976px -32px;
+}
+
+.advanced-search__form {
+  position: relative;
+  display: none;
+  height: 254px;
+  margin-top: 20px;
+  padding-top: 39px;
+  padding-bottom: 30px;
+  background-color: #ebebed;
+}
+
+.advanced-search__form::before,
+.advanced-search__form::after {
+  position: absolute;
+  top: 0;  
+  content: "";
+  display: block;
+  width: 40px;
+  height: 254px;
+  background-color: #ebebed;
+}
+
+.advanced-search__form::before {
+  left: -40px;
+}
+
+.advanced-search__form::after {
+  right: -40px;
 }
 
 .advanced-search__form li {
   display: inline-block;
   vertical-align: top;
-  margin-right: 16px;
-  margin-bottom: 20px;
+  margin-right: 15px;
+  margin-bottom: 11px;
 }
 
 .advanced-search__form li:nth-child(3n + 3),
@@ -590,10 +592,14 @@ img:focus {
 
 .advanced-search__form select,
 .advanced-search__form input {
-  width: 380px;
-  height: 42px;
+  width: 367px;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 50px;
   background-color: white;
-  border: 1px solid #d0d4d8;
+  color: #28282c;
+  border: 1px solid #ccc;
 }
 
 .advanced-search__form li > label {
@@ -604,14 +610,14 @@ img:focus {
 
 .advanced-search__form li > label::before {
   position: absolute;
-  top: 18px;
+  top: 21px;
   right: 14px;
   content: "";
   display: block;
   width: 14px;
   height: 8px;
   background-image: url("../../images/sprites.png");
-  background-position: -152px -31px;
+  background-position: -976px -32px;
   pointer-events: none;
 }
 
@@ -622,7 +628,7 @@ img:focus {
   content: "";
   display: block;
   width: 12px;
-  height: 38px;
+  height: 46px;
   background-color: #fff;
   pointer-events: none;
 }
@@ -635,7 +641,7 @@ img:focus {
 .advanced-search__form select:focus,
 .advanced-search__form input:focus {
   outline-width: 2px;
-  outline-color: #00c4e0;
+  outline-color: #cf453c;
   outline-style: solid;
 }
 
@@ -655,17 +661,17 @@ img:focus {
   display: inline-block;
   vertical-align: top;
   width: 128px;
-  height: 42px;
+  height: 50px;
 }
 
 .advanced-search__form input[name="advanced-search__min-price"] {
-  margin-left: 20px;
-  margin-right: 23px;
+  margin-left: 17px;
+  margin-right: 17px;
 }
 
 .advanced-search__form input[name="advanced-search__max-price"] {
-  margin-left: 25px;
-  margin-right: 2px;
+  margin-left: 17px;
+  margin-right: 0;
 }
 
 .advanced-search__range {
@@ -673,7 +679,7 @@ img:focus {
 }
 
 .advanced-search__range p {
-  line-height: 42px;
+  line-height: 50px;
 }
 
 .advanced-search__form input[type="range"] {
@@ -684,22 +690,28 @@ img:focus {
 }
 
 .advanced-search__form input[type="submit"] {
-  width: 780px;
-  height: 42px;
-  font-size: 13px;
-  font-weight: 700;
-  line-height: 42px;
-  text-transform: uppercase;
-  background-color: #00c4e0;
-  color: black;
+  width: 753px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 50px;
+  background-color: #ffb800;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
   cursor: pointer;
 }
 
+.advanced-search__form input[type="submit"]:hover {
+  background: #e5a500;
+}
+
 .advanced-search__price-range {
-  width: 323px;
+  width: 307px;
   height: 2px;
-  margin-left: 56px;
-  margin-top: 6px;
+  margin-left: 60px;
+  margin-top: 11px;
   background-color: white;
 }
 
@@ -714,14 +726,14 @@ img:focus {
 
 .ui-slider .ui-slider-handle {
   width: 14px;
-  height: 15px;
+  height: 17px;
 }
 
 .ui-state-default, 
 .ui-widget-content .ui-state-default {
   background-color: transparent;
   background-image: url("../../images/sprites.png");
-  background-position: -128px -25px;
+  background-position: -1032px -32px;
   border: none;
 }
 
@@ -1700,7 +1712,7 @@ div.cs-select.cs-active .cs-options {
 
 .ui-slider-horizontal {
     height: 4px;
-    margin-top: 17px;    
+    margin-top: 20px;    
 }
 .ui-slider {
     position: relative;
@@ -3844,7 +3856,7 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .catalog-search__input{
-    width: 60%;
+    width: 65%;
     height: 48px;
     padding: 0 15px;	
 }
@@ -3866,7 +3878,22 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .catalog-search__btn{
+  position: relative;
+  width: 190px;
 	padding-top: 0;
+  padding-left: 35px;
+}
+
+.catalog-search__btn::before {
+  position: absolute;
+  top: 16px;
+  left: 55px;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1304px -10px;
 }
 
 .catalog-search-res{
