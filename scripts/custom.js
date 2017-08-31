@@ -131,6 +131,14 @@ $(".advanced-search__form input").keyup(function() {
   setTimeout(hideLabel, 10);
 });
 
+$(window).resize(function() {
+  if ($("body").css("width") <= "1239px") {
+    $(".catalog-search-res").removeClass("catalog-search-res--open");
+  } else if ($(".advanced-search__button").hasClass("advanced-search__button--open")) {
+    $(".catalog-search-res").addClass("catalog-search-res--open");
+  }
+});
+
 // Advanced search slider range (jQuery UI)
 
 $( function() {

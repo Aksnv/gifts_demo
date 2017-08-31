@@ -3480,9 +3480,13 @@
 
 @media screen and (max-width: 1239px) {
 
-	.advanced-search__button, 
-	.advanced-search__form {
-		display: none;
-	}
+	/* .advanced-search__button, 
+  .advanced-search__form {
+    display: none;
+  } */
+
+  .advanced-search {
+    display: none;
+  }
 
 }
