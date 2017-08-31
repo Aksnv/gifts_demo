@@ -155,3 +155,45 @@ $( function() {
     $( "#advanced-search__min-price" ).val( $( ".advanced-search__price-range" ).slider( "values", 0 ) );
     $( "#advanced-search__max-price" ).val( $( ".advanced-search__price-range" ).slider( "values", 1 ) );
   } );
+
+
+// Main slider
+
+// Main slider pagination
+
+$(".slider-pagination__item").click(function(e) {
+  e.preventDefault();
+  for (var i = 0; i < $(".slider-pagination__item").length; i++) {
+    $($(".slider-pagination__item")[i]).removeClass("slider-pagination__item--active");
+    $(".slider-image--" + (i + 1)).removeClass("slider-image--active");
+  }
+  $(this).addClass("slider-pagination__item--active");
+  var num = $(this).attr("class").substr(49, 1);
+  $(".slider-image--" + num).addClass("slider-image--active");
+});
+
+// Main slider switch
+
+function sliderSwitch() {
+  for (var i = 0; i < $(".slider-image").length; i++) {
+    if ($($(".slider-image")[i]).hasClass("slider-image--active")) {
+
+      $($(".slider-image")[i]).removeClass("slider-image--active");
+      if (i < 2) {
+        $($(".slider-image")[i]).next().addClass("slider-image--active");
+        $(".slider-pagination__item--" + (i + 2)).addClass("slider-pagination__item--active");
+        $(".slider-pagination__item--" + (i + 1)).removeClass("slider-pagination__item--active");
+        break;
+      } else {
+        $(".slider-image--" + (i - 1)).addClass("slider-image--active");
+        for (var j = 0; j < $(".slider-pagination__item").length; j++) {
+          $($(".slider-pagination__item")[j]).removeClass("slider-pagination__item--active");
+        }
+        $(".slider-pagination__item--" + (i - 1)).addClass("slider-pagination__item--active");
+        break;
+      }
+    }
+  }
+};
+
+setInterval(sliderSwitch, 4000);
