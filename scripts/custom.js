@@ -111,6 +111,7 @@ $(".advanced-search__button").click(function(e) {
     $(this).addClass("advanced-search__button--open");
     $(this).removeClass("advanced-search__button--close");
     $(".advanced-search__form").slideDown();
+    $(".catalog-search-res").addClass("catalog-search-res--open");
     $(".advanced-search__form select").css("display", "inline-block");
     $(".advanced-search__form select + div").css("display", "none");
     $(".advanced-search__form input + label").css("display", "none");
@@ -118,6 +119,7 @@ $(".advanced-search__button").click(function(e) {
     $(this).addClass("advanced-search__button--close");
     $(this).removeClass("advanced-search__button--open");
     $(".advanced-search__form").slideUp();
+    $(".catalog-search-res").removeClass("catalog-search-res--open");
   }
 });
 

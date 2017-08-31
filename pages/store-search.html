@@ -425,9 +425,9 @@
 				<div class="catalog-header">
 					<h1 class="catalog-title">Результаты поиска</h1>
 					<div class="catalog-search__header">
-            <div class="advanced-search__button advanced-search__button--close">
+            <!-- <div class="advanced-search__button advanced-search__button--close">
               <a href="#">Расширенный поиск</a>
-            </div>
+            </div> -->
 
 						<form class="catalog-search__form">
 							<input class="catalog-search__input">
@@ -435,6 +435,65 @@
 							<button type="submit" class="btn btn_yellow catalog-search__btn">Поиск</button>						
 						</form>
             
+            <!-- <form name="advanced-search__form" method="" action="" class="advanced-search__form">
+              <ul>
+                <li>
+                  <label>
+                    <select>
+                      <option>Все категории</option>
+                      <option>Книги</option>
+                      <option>Сертификаты</option>
+                    </select>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <select>
+                      <option>Любой тип товара</option>
+                    </select>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <select>
+                      <option>Любой продавец</option>
+                    </select>
+                  </label>
+                </li>
+                <li>
+                  <label>
+                    <select>
+                      <option>Любое из слов</option>
+                    </select>
+                  </label>
+                </li>
+                <li>
+                  <input type="text" name="advanced-search__key-words" placeholder="Ключевые слова">
+                </li>
+                <li>
+                  <input type="text" name="advanced-search__exclude-words" placeholder="Исключить слова">
+                </li>
+                <li class="advanced-search__range">
+                  <p>Цена 
+                    <input type="text" name="advanced-search__min-price" id="advanced-search__min-price" readonly> &mdash; 
+                    <input type="number" name="advanced-search__max-price" id="advanced-search__max-price" readonly>
+                  </p>
+                  <div class="advanced-search__price-range"></div>
+                </li>
+                <li>
+                  <input type="submit" name="advanced-search__submit" value="Начать расширенный поиск">
+                </li>
+              </ul>
+            </form> -->
+
+						<div class="catalog-search-res">Найдено <span>12</span> совпадений</div>
+					</div>
+
+
+					<div class="advanced-search">
+						<div class="advanced-search__button advanced-search__button--close">
+              <a href="#">Расширенный поиск</a>
+            </div>
             <form name="advanced-search__form" method="" action="" class="advanced-search__form">
               <ul>
                 <li>
@@ -485,9 +544,9 @@
                 </li>
               </ul>
             </form>
+					</div>
 
-						<div class="catalog-search-res">Найдено <span>12</span> совпадений</div>
-					</div>					
+									
 				</div>
 				<div class="catalog-search__cat">
 					<div class="catalog-search__cat-name">

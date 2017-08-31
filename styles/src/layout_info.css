@@ -500,7 +500,10 @@ img:focus {
 /* ------------- Advanced search ------------- */
 
 .advanced-search__button {
-  float: right;
+  /* float: right; */
+  position: absolute;
+  top: 54px;
+  right: 0;
 }
 
 .advanced-search__button a {
@@ -536,12 +539,12 @@ img:focus {
 
 .advanced-search__button--open a::after {
   position: absolute;
-  bottom: -20px;
+  bottom: -21px;
   left: 0;
   content: "";
   display: block;
   width: 250px;
-  height: 20px;
+  height: 22px;
   background-color: #ebebed;
 }
 
@@ -552,8 +555,9 @@ img:focus {
 .advanced-search__form {
   position: relative;
   display: none;
-  height: 254px;
+  height: 253px;
   margin-top: 20px;
+  margin-bottom: 75px;
   padding-top: 39px;
   padding-bottom: 30px;
   background-color: #ebebed;
@@ -566,7 +570,7 @@ img:focus {
   content: "";
   display: block;
   width: 40px;
-  height: 254px;
+  height: 253px;
   background-color: #ebebed;
 }
 
@@ -3898,6 +3902,11 @@ a.catalog-item__del-button.i-buck:before{
 
 .catalog-search-res{
     margin-top: 20px;	
+}
+
+.catalog-search-res--open {
+  position: absolute;
+  top: 377px;
 }
 
 .catalog-search__cat{
