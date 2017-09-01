@@ -172,6 +172,74 @@ $(".slider-pagination__item").click(function(e) {
   $(".slider-image--" + num).addClass("slider-image--active");
 });
 
+// Main slider arrows
+
+$(".slider-arrow--back").click(function() {
+  $(".slider-arrow--forward").removeAttr("disabled");
+  for (var i = 0; i < $(".slider-image").length; i++) {
+    if ($($(".slider-image")[i]).hasClass("slider-image--active")) {
+      $($(".slider-image")[i]).removeClass("slider-image--active");
+      if (i == 2) {
+        $(".slider-image--" + i).addClass("slider-image--active");
+        break;
+      } else if (i == 1) {
+        $(".slider-image--" + i).addClass("slider-image--active");
+        $(".slider-arrow--back").attr("disabled", "disabled");
+        break;
+      } else {
+        break;
+      }
+    }
+  }
+  for (var j = 0; j < $(".slider-pagination__item").length; j++) {
+    if ($($(".slider-pagination__item")[j]).hasClass("slider-pagination__item--active")) {
+      $($(".slider-pagination__item")[j]).removeClass("slider-pagination__item--active");
+      if (j == 2) {
+        $(".slider-pagination__item--" + j).addClass("slider-pagination__item--active");
+        break;
+      } else if (j == 1) {
+        $(".slider-pagination__item--" + j).addClass("slider-pagination__item--active");
+        break;
+      } else {
+        break;
+      }
+    }
+  }
+});
+
+$(".slider-arrow--forward").click(function() {
+  $(".slider-arrow--back").removeAttr("disabled");
+  for (var i = 0; i < $(".slider-image").length; i++) {
+    if ($($(".slider-image")[i]).hasClass("slider-image--active")) {
+      $($(".slider-image")[i]).removeClass("slider-image--active");
+      if (i == 0) {
+        $(".slider-image--" + (i + 2)).addClass("slider-image--active");
+        break;
+      } else if (i == 1) {
+        $(".slider-image--" + (i + 2)).addClass("slider-image--active");
+        $(".slider-arrow--forward").attr("disabled", "disabled");
+        break;
+      } else {
+        break;
+      }
+    }
+  }
+  for (var j = 0; j < $(".slider-pagination__item").length; j++) {
+    if ($($(".slider-pagination__item")[j]).hasClass("slider-pagination__item--active")) {
+      $($(".slider-pagination__item")[j]).removeClass("slider-pagination__item--active");
+      if (j == 0) {
+        $(".slider-pagination__item--" + (j + 2)).addClass("slider-pagination__item--active");
+        break;
+      } else if (j == 1) {
+        $(".slider-pagination__item--" + (j + 2)).addClass("slider-pagination__item--active");
+        break;
+      } else {
+        break;
+      }
+    }
+  }
+});
+
 // Main slider switch
 
 function sliderSwitch() {
