@@ -163,6 +163,12 @@
 		width: 860px;
 		height: 500px;
 	}
+
+	/* --------------- Slider ----------------- */
+
+	.slider--gifts {
+		width: 900px;
+	}
    
 }
 
@@ -529,6 +535,12 @@
 	.b-filter-catalog {
 		float: none;
 		margin-top: 30px;
+	}
+
+	/* --------------- Slider ----------------- */
+
+	.slider--gifts {
+		width: 660px;
 	}
 
 }
@@ -2350,6 +2362,17 @@
 		position: absolute;
 		top: 13px;
 	}	
+
+	/* --------------- Slider ----------------- */
+
+	.slider--gifts {
+		width: 440px;
+		height: 499px;
+	}
+
+	.slider-image a {
+		max-height: 499px;
+	}
 	
 }
 
@@ -2974,6 +2997,23 @@
 		width: 240px;
 		margin: 0 auto;
 	}	
+
+	/* --------------- Slider ----------------- */
+
+	.slider_theme {
+		width: 320px;
+		/* min-height: 600px; */
+		margin: 0 auto;
+	}
+
+	.slider--gifts {
+		width: 280px;
+		height: 580px;
+	}
+
+	.slider-image a {
+		max-height: 580px;
+	}
 
 }
 

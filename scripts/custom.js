@@ -281,4 +281,6 @@ function sliderArrows(i) {
   }
 };
 
-setInterval(sliderSwitch, 6000);
+/*setInterval(sliderSwitch, 6000);*/
+
+// END - Main slider
