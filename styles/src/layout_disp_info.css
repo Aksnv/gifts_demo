@@ -3015,6 +3015,14 @@
 		max-height: 580px;
 	}
 
+	.slider-image img {
+		transform: none;
+	}
+
+	.slider-arrows {
+		top: 70%;
+	}
+
 }
 
 

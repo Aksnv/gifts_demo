@@ -2040,6 +2040,7 @@ div.cs-select.cs-active .cs-options {
   height: 460px;
   margin: 0 auto;
   background-color: #fff;
+  box-shadow: 0 3px 3px #ccc, 0 -1px 3px #ccc;
 }
 
 .slider-arrows {
@@ -2088,11 +2089,13 @@ div.cs-select.cs-active .cs-options {
   width: auto;
   height: 100%;
   max-height: 460px;
-  background-position: 50% 50%;
-  background-size: cover;
+  background-color: #ffb800;
+  text-align: center;
+  /* background-position: 50% 50%;
+  background-size: cover; */
 }
 
-.slider-image--1 a {
+/* .slider-image--1 a {
   background-image: url(../../images/pages/sliders/image1.png);
 }
 
@@ -2102,6 +2105,15 @@ div.cs-select.cs-active .cs-options {
 
 .slider-image--3 a {
   background-image: url(../../images/pages/sliders/image3.jpg);
+} */
+
+.slider-image img {
+  width: auto;
+  max-width: 100%;
+  max-height: 460px;
+  margin-top: 100px;
+  transform: scale(1.5);
+  box-shadow: 2px 2px 5px #aaa;
 }
 
 .slider-pagination {
