@@ -38,8 +38,21 @@
 
 @media screen and (max-width: 1239px) {
 
+	.main_theme {
+		background-size: auto 600px;
+	}
+
 	.profile-header-menu li {
 		margin-right: 10px;
+	}
+
+}
+
+@media screen and (max-width: 999px) {
+
+	.main_theme {
+		background-size: auto 510px; 
+		/* background-size: auto 330px; */
 	}
 
 }
@@ -71,6 +84,10 @@
 
 
 @media screen and (max-width: 759px) {
+
+	.main_theme {
+		background-size: auto 420px;
+	}
 
 	.main_theme > section{
 		background: #fff;
@@ -568,6 +585,11 @@
 }
 
 @media screen and (max-width: 519px) {
+
+	.main_theme {
+		background-size: auto 277px;
+	}
+
 /* Promo */
 
 	.promo-item .promo-item__title a span:last-child {

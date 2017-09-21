@@ -166,10 +166,15 @@
 
 	/* --------------- Slider ----------------- */
 
+	.slider_theme {
+		min-height: auto;
+	}
+
 	.slider--gifts {
 		width: 900px;
+		height: 412px;
 	}
-   
+
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1479px) {
@@ -541,6 +546,7 @@
 
 	.slider--gifts {
 		width: 660px;
+		height: 303px;
 	}
 
 }
@@ -1299,7 +1305,9 @@
 
 	.btn-filter + label{
 		display: block;
-		width: 100%;
+		/* width: 100%; */
+		width: 455px;
+		margin: auto;
 		padding-top: 18px;
 		cursor: pointer;		
 	}
@@ -2365,13 +2373,33 @@
 
 	/* --------------- Slider ----------------- */
 
+	.slider_theme {
+		padding-top: 12px;
+	}
+
 	.slider--gifts {
-		width: 440px;
-		height: 499px;
+		width: 455px;
+		height: 586px;
 	}
 
 	.slider-image a {
-		max-height: 499px;
+		max-height: 586px;
+	} 
+
+	.slider-image--1 a {
+		background-image: url(../../images/pages/sliders/banner_mobile_1.jpg);
+	}
+	
+	.slider-image--2 a {
+		background-image: url(../../images/pages/sliders/banner_mobile_2.jpg);
+	}
+	
+	.slider-image--3 a {
+		background-image: url(../../images/pages/sliders/banner_mobile_3.jpg);
+	}
+
+	.slider-arrows {
+		display: none;
 	}
 	
 }
@@ -2393,7 +2421,7 @@
 
 	.main_theme > section.with-banner {
 		margin-top: 0;
-		padding: 40px 0;
+		padding: 20px 0;
 	}
 
 
@@ -2431,12 +2459,21 @@
 	
 /* Catalog */	
 
+	.filter_theme {
+		margin-top: 25px;
+	}
+
 	.b-filter-catalog {
 		padding-top: 0;
 	}
 
+	.catalog_theme {
+		margin-top: 50px;
+	}
+
 	.catalog-item {
 		margin-left: 23px;
+		margin: auto;
 	}
 
 	.catalog-item:last-child,
@@ -2633,6 +2670,7 @@
 
 	.filter_theme {
 		margin: 45px auto 0 auto;
+		margin-top: 24px;
 	}
 	
 
@@ -2660,6 +2698,10 @@
 		margin-right: auto;
 		width: 300px;
 		display: block;
+	}
+
+	.catalog_theme {
+		margin-top: 50px;
 	}
 
 	.catalog-header {
@@ -3004,15 +3046,16 @@
 		width: 320px;
 		/* min-height: 600px; */
 		margin: 0 auto;
+		padding-top: 10px;
 	}
 
 	.slider--gifts {
-		width: 280px;
-		height: 580px;
+		width: 300px;
+		height: 386px;
 	}
 
 	.slider-image a {
-		max-height: 580px;
+		max-height: 386px;
 	}
 
 	.slider-image img {
@@ -3076,6 +3119,10 @@
 	.add-review-form__reset {
 		display: block;
 		margin: 0 auto;
+	}
+
+	.btn-filter + label {
+		width: auto;
 	}
 
 }
