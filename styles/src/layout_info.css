@@ -1497,6 +1497,139 @@ p.user-menu__name{
   text-decoration: underline;
 }
 
+/* ------ Product about ------ */
+
+.product-about {
+  clear: both;
+  padding-top: 25px;
+}
+
+.product-about--gifts {
+  margin-top: 34px;
+  padding-left: 71px;
+  border-top: 1px solid #ccc;
+}
+
+.product-about__menu li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 33px;
+}
+
+.product-about__menu-item {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffb800;
+  border-bottom: 1px dotted #ffb800;
+  cursor: pointer;
+}
+
+.product-about__menu-item--active {
+  color: #28282c;
+  border-bottom: none;
+  cursor: default;
+}
+
+.product-desc,
+.product-delivery {
+  display: none;
+}
+
+/* ------ Product characteristics ------ */
+
+.product-characteristics {
+  margin-top: 27px;
+}
+
+.product-characteristics table {
+  font-size: 13px;
+  color: #666;
+}
+
+.product-characteristics table tr > td:first-child {
+  width: 228px;
+  font-weight: 700;
+  color: #000;
+}
+
+.product-characteristics table td {
+  padding-bottom: 7px;
+}
+
+/* ------ Product description ------ */
+
+.product-desc{
+  clear: both;
+  margin-top: 45px;
+  width: 63.5%;
+}
+
+.product-about--gifts .product-desc {
+  float: none;
+  width: 100%;
+  margin-top: 27px;
+}
+
+.product-desc p {
+  font-size: 14px;
+}
+
+.product-about--gifts .product-desc p {
+  font-size: 13px;
+}
+
+.product-desc__img{
+  margin-top: 45px; 
+}
+
+.product-desc__img a{
+  width: 70px;
+  height: 100px;
+    position: relative;
+    display: inline-block;
+  margin-left: 55px;
+}
+
+.product-desc__img a:first-child{
+  margin-left: 0;
+}
+
+.product-desc__img img{
+  z-index: 10;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.product-desc__desc{
+  margin-top: 30px;
+}
+
+/* ------ Product delivery ------ */
+
+.product-delivery {
+  width: 59.5%;
+  margin-top: 45px;
+}
+
+.product-about--gifts .product-delivery {
+  width: 100%;
+  margin-top: 27px;
+}
+
+.product-delivery p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #666;
+}
+
+.product-about--gifts .product-delivery p {
+  font-size: 13px;
+}
+
 
 /* ------------- Title ------------------- */
 .title_page_theme{
@@ -2220,6 +2353,15 @@ div.cs-select.cs-active .cs-options {
 .product-store{
 	position: relative;
 	margin-top: 50px;
+}
+
+.product-about--gifts + .product-store {
+  margin-top: 39px;
+}
+
+.product-about--gifts + .product-store .product-rec {
+  margin-top: 39px;
+  padding-top: 40px;
 }
 
 /* ------ Product info ------ */

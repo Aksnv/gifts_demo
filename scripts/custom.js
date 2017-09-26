@@ -284,3 +284,31 @@ function sliderArrows(i) {
 setInterval(sliderSwitch, 6000);
 
 // END - Main slider
+
+// Product characteristics tab
+
+$(".product-about__menu-item").click(function() {
+  event.preventDefault();
+  for (var i = 0; i < $(".product-about__menu-item").length; i++) {
+    $(".product-about__menu-item").removeClass("product-about__menu-item--active");
+  }
+  $(this).addClass("product-about__menu-item--active");
+
+  if ($(this).hasClass("product-about__menu-item--characteristics")) {
+    $(".product-characteristics").show();
+    $(".product-desc").hide();
+    $(".product-delivery").hide();
+  }
+
+  if ($(this).hasClass("product-about__menu-item--description")) {
+    $(".product-characteristics").hide();
+    $(".product-desc").show();
+    $(".product-delivery").hide();
+  }
+
+  if ($(this).hasClass("product-about__menu-item--delivery")) {
+    $(".product-characteristics").hide();
+    $(".product-desc").hide();
+    $(".product-delivery").show();
+  }
+});
