@@ -175,6 +175,10 @@
 		height: 412px;
 	}
 
+	.product-about--gifts {
+		padding-left: 41px;
+	}
+
 }
 
 @media screen and (min-width: 1300px) and (max-width: 1479px) {
@@ -514,6 +518,10 @@
 	.profile-info__orders-action--delete::before {
 		left: 37px;
 		top: 14px;
+	}
+
+	.product-about--gifts {
+		padding-left: 28px;
 	}
 
 	.profile-footer__orders {
@@ -1604,6 +1612,11 @@
 		margin-left: 0;
 		margin-top: 20px;
 		display: block;
+	}
+
+	.product-about__menu li {
+		display: block;
+    margin-bottom: 15px;
 	}
 
 /* Recomendation */
@@ -2837,6 +2850,14 @@
 		height:42px;
 		margin: 0 auto;
 	}	
+
+	.product-characteristics table tr > td:first-child {
+		width: 150px;
+	}
+
+	.product-about--gifts {
+		padding-left: 20px;
+	}
 
 /* Recomendation */
 
