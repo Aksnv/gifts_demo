@@ -1530,7 +1530,7 @@ p.user-menu__name{
   cursor: default;
 }
 
-.product-desc,
+.product-desc--certificate-gifts,
 .product-delivery {
   display: none;
 }
@@ -1559,7 +1559,6 @@ p.user-menu__name{
 /* ------ Product description ------ */
 
 .product-desc{
-  clear: both;
   margin-top: 45px;
   width: 63.5%;
 }
