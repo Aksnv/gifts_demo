@@ -269,21 +269,21 @@ a.btn_grey:hover, a.btn_grey:focus,
 
 .btn-menu-click-mobile + label:before,
 .btn-menu-click-mobile:indeterminate + label:before{
-	background: transparent url("images/sprites.png") -1490px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -1490px -10px no-repeat;	
 }
 
 .btn-menu-click-mobile + label:hover:before, .btn-menu-click-mobile:indeterminate + label:hover:before,
 .btn-menu-click-mobile + label:focus:before, .btn-menu-click-mobile:indeterminate + label:focus:before{
-	background: transparent url("images/sprites.png") -1430px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1430px -10px no-repeat;
 }
 
 .btn-menu-click-mobile:checked + label:before{
-	background: transparent url("images/sprites.png") -1053px -10px no-repeat
+	background: transparent url("../../../images/sprites.png") -1053px -10px no-repeat
 }
 
 .btn-menu-click-mobile:checked + label:hover:before,
 .btn-menu-click-mobile:checked + label:focus:before{
-	background: transparent url("images/sprites.png") -1053px -9px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1053px -9px no-repeat;
 }
 
 .menu-main__list li{
@@ -302,12 +302,12 @@ a.btn_grey:hover, a.btn_grey:focus,
 }
 
 .btn-menu-click + label:before, .btn-menu-click:indeterminate + label:before{
-	background: transparent url("images/sprites.png") -1490px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1490px -10px no-repeat;
 }
 
 .btn-menu-click + label:hover:before, .btn-menu-click:indeterminate + label:hover:before,
 .btn-menu-click + label:focus:before, .btn-menu-click:indeterminate + label:focus:before{
-	background: transparent url("images/sprites.png") -1490px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1490px -10px no-repeat;
 }
 
 .btn-menu-click:checked + label{
@@ -317,12 +317,12 @@ a.btn_grey:hover, a.btn_grey:focus,
 
 
 .btn-menu-click:checked + label:before{
-	background: transparent url("images/sprites.png") -1053px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1053px -10px no-repeat;
 }
 
 .btn-menu-click:checked + label:hover:before,
 .btn-menu-click:checked + label:focus:before{
-	background: transparent url("images/sprites.png") -1053px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1053px -10px no-repeat;
 }
 
 .btn-menu-click:checked + label:after{
@@ -365,7 +365,7 @@ a.btn_grey:hover, a.btn_grey:focus,
 }
 
 .btn-search-click + label:before{
-	background: transparent url("images/sprites.png") -1305px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1305px -10px no-repeat;
 }
 
 .btn-search-click + label:hover,
@@ -376,7 +376,7 @@ a.btn_grey:hover, a.btn_grey:focus,
 
 .btn-search-click + label:hover:before,
 .btn-search-click + label:focus:before{
-	background: transparent url("images/sprites.png") -1247px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1247px -10px no-repeat;
 }
 
 .search-click-slide-holder{
@@ -401,13 +401,13 @@ a.btn_grey:hover, a.btn_grey:focus,
 }
 
 .search-click-slide-holder button.btn_search{
-	background: transparent url("images/sprites.png") -1276px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
 	border: 0px;
 }
 
 .search-click-slide-holder button.btn_search:hover,
 .search-click-slide-holder button.btn_search:focus{
-	background: transparent url("images/sprites.png") -1276px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
 }
 
 .btn_close-click + label{
@@ -423,12 +423,12 @@ a.btn_grey:hover, a.btn_grey:focus,
 }
 
 .btn_close-click + label:before{
-	background: transparent url("images/sprites.png") -929px -6px no-repeat;
+	background: transparent url("../../../images/sprites.png") -929px -6px no-repeat;
 }
 
 .btn_close-click + label:hover:before,
 .btn_close-click + label:focus:before{
-	background: transparent url("images/sprites.png") -929px -6px no-repeat;
+	background: transparent url("../../../images/sprites.png") -929px -6px no-repeat;
 }
 
 /* --------------- User menu --------------- */
@@ -453,16 +453,16 @@ li.user-menu__item > div > a.active{
 /* --------------- Dropdown cart --------------- */
 
 a#cart_dropdown__trigger:before{
-	background: transparent url("images/sprites.png") -1576px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1576px -10px no-repeat;
 }
 
 a#cart_dropdown__trigger:hover:before,
 a#cart_dropdown__trigger.active:before{
-	background: transparent url("images/sprites.png") -1520px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1520px -10px no-repeat;
 }
 
 .circles-menu__num{
-	background: transparent url("images/sprites.png") -675px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -675px -10px no-repeat;
 	color: #fff;
 	text-align: center;
 	font-size: 11px;
@@ -477,7 +477,7 @@ box-shadow:         0px 5px 18px 0px rgba(104, 104, 104, 0.75);
 }
 
 #cart_dropdown__content:before{
-	background: transparent url("images/sprites.png") -645px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -645px -10px no-repeat;
 }
 
 .cart-menu__goods-item{
@@ -504,7 +504,7 @@ box-shadow:         0px 5px 18px 0px rgba(104, 104, 104, 0.75);
 }
 
 .order-item__drop{
-	background: transparent url("images/sprites.png") -913px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -913px -10px no-repeat;
 }
 
 .cart-menu__results{
@@ -536,12 +536,12 @@ a.cart-menu__cart-button:focus{
 
 /* --------------- User menu if not login --------------- */
 .menu-login__login:before{
-	background: transparent url("images/sprites.png") -1131px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1131px -10px no-repeat;
 }
 
 .menu-login__login:hover:before,
 .menu-login__login:focus:before{
-	background: transparent url("images/sprites.png") -1079px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1079px -10px no-repeat;
 }
 
 /* --------------- User menu if login --------------- */
@@ -550,31 +550,31 @@ a.cart-menu__cart-button:focus{
 }
 
 .user-menu__profile:before{
-	background: transparent url("images/sprites.png") -242px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -242px -10px no-repeat;
 }
 
 .user-menu__profile:hover:before,
 .user-menu__profile:focus:before{
-	background: transparent url("images/sprites.png") -260px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -260px -10px no-repeat;
 }
 
 .user-menu__purchases:before{
-	background: transparent url("images/sprites.png") -1398px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1398px -10px no-repeat;
 }
 
 .user-menu__purchases:hover:before,
 .user-menu__purchases:focus:before{
-	background: transparent url("images/sprites.png") -1334px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1334px -10px no-repeat;
 }
 
 .user-menu__bookmarks:before{
-	background: transparent url("images/sprites.png") -1217px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1217px -10px no-repeat;
 }
 
 .user-menu__bookmarks:hover:before,
 .user-menu__bookmarks:focus:before,
 .user-menu__bookmarks.active:before{
-	background: transparent url("images/sprites.png") -1157px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1157px -10px no-repeat;
 }
 
 /* --------------- Purchases --------------- */
@@ -588,7 +588,7 @@ box-shadow:         0px 5px 18px 0px rgba(104, 104, 104, 0.75);
 }
 
 #purchases_dropdown__content:before{
-	background: transparent url("images/sprites.png") -904px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -904px -10px no-repeat;
 }
 
 .purchases-menu__goods-item{
@@ -612,7 +612,7 @@ a.purchases-menu__download-button{
 }
 
 .purchases-menu__download-button:before{
-	background: transparent url("images/sprites.png") -386px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -386px -10px no-repeat;
 }
 
 a.purchases-menu__purchases-button{
@@ -762,7 +762,7 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .cs-select > span:after {
-	background: #fff url("images/sprites.png") -978px 1px no-repeat;
+	background: #fff url("../../../images/sprites.png") -978px 1px no-repeat;
     border-left: 5px solid #fff;
     border-top: 5px solid #fff;
     border-bottom: 5px solid #fff;
@@ -770,7 +770,7 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .cs-select.cs-active > span:after{
-    background: #ffb800 url("images/sprites.png") -999px 0px no-repeat;
+    background: #ffb800 url("../../../images/sprites.png") -999px 0px no-repeat;
     border: 5px solid #ffb800;
 }
 
@@ -803,7 +803,7 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .ui-slider-handle{
-	background: transparent url("images/sprites.png") -675px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -675px -10px no-repeat;
 }
 
 .slider-gifts__price {
@@ -850,7 +850,7 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .b-filter-body__reset:after{
-	background: transparent url("images/sprites.png") -933px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -933px -10px no-repeat;
 }
 
 /* --------------- Catalog store --------------- */
@@ -1116,11 +1116,11 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .rating.plus{
-	background: transparent url("images/sprites.png") -620px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -620px -10px no-repeat;	
 }
 
 .rating.minus{
-	background: transparent url("images/sprites.png") -595px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -595px -10px no-repeat;	
 }
 
 .product-reviews__review-date{
@@ -1173,12 +1173,12 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .profile-head_name a:after{
-	background: transparent url("images/sprites.png") -854px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -854px -10px no-repeat;	
 }
 
 .profile-head_name a:hover:after,
 .profile-head_name a:focus:after{
-	background: transparent url("images/sprites.png") -831px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -831px -10px no-repeat;	
 }
 
 /* --------  Profile Menu ------- */
@@ -1214,43 +1214,43 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .profile-menu__item-purchases:before{
-	background: transparent url("images/sprites.png") -1366px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1366px -10px no-repeat;		
 }
 
 .profile-menu__item-purchases:hover:before,
 .profile-menu__item-purchases:focus:before,
 .profile-menu__item-purchases.active:before{
-	background: transparent url("images/sprites.png") -1334px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1334px -10px no-repeat;		
 }
 
 .profile-menu__item-cart:before{
-	background: transparent url("images/sprites.png") -1548px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1548px -10px no-repeat;		
 }
 
 .profile-menu__item-cart:hover:before,
 .profile-menu__item-cart:focus:before,
 .profile-menu__item-cart.active:before{
-	background: transparent url("images/sprites.png") -1520px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1520px -10px no-repeat;		
 }
 
 .profile-menu__item-bookmarks:before{
-	background: transparent url("images/sprites.png") -1187px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1187px -10px no-repeat;		
 }
 
 .profile-menu__item-bookmarks:hover:before,
 .profile-menu__item-bookmarks:focus:before,
 .profile-menu__item-bookmarks.active:before{
-	background: transparent url("images/sprites.png") -1157px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1157px -10px no-repeat;		
 }
 
 .profile-menu__item-info:before{
-	background: transparent url("images/sprites.png") -1105px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1105px -10px no-repeat;		
 }
 
 .profile-menu__item-info:hover:before,
 .profile-menu__item-info:focus:before,
 .profile-menu__item-info.active:before{
-	background: transparent url("images/sprites.png") -1079px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1079px -10px no-repeat;		
 }
 
 
@@ -1352,11 +1352,11 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .plus-qty{
-	background: url("images/sprites.png") -1009px -10px no-repeat;
+	background: url("../../../images/sprites.png") -1009px -10px no-repeat;
 }
 
 .minus-qty{
-	background: url("images/sprites.png") -987px -10px no-repeat;
+	background: url("../../../images/sprites.png") -987px -10px no-repeat;
 }
 
 .cart-item__price{
@@ -1383,12 +1383,12 @@ a.purchases-menu__purchases-button:focus{
 }
 
 .cart-item__bookmarks a.i-buck:before{
-	background: url("images/sprites.png") -811px -10px no-repeat;
+	background: url("../../../images/sprites.png") -811px -10px no-repeat;
 }
 
 .cart-item__bookmarks a.i-buck:hover:before,
 .cart-item__bookmarks a.i-buck:focus:before{
-	background: url("images/sprites.png") -1604px -10px no-repeat;
+	background: url("../../../images/sprites.png") -1604px -10px no-repeat;
 }
 
 .cart-item__bookmarks-button:hover,
@@ -1459,12 +1459,12 @@ a.purchases-menu__purchases-button:focus{
 /* ---------------  Bookmarks  --------------- */
 
 a.catalog-item__del-button.i-buck:before{
-	background: url("images/sprites.png") -811px -10px no-repeat;
+	background: url("../../../images/sprites.png") -811px -10px no-repeat;
 }
 
 a.catalog-item__del-button.i-buck:hover:before,
 a.catalog-item__del-button.i-buck:focus:before{
-	background: url("images/sprites.png") -1604px -10px no-repeat;
+	background: url("../../../images/sprites.png") -1604px -10px no-repeat;
 }
 
 /* ---------------  Purchases  --------------- */
@@ -1578,7 +1578,7 @@ a.catalog-item__del-button.i-buck:focus:before{
 .profile-info__adress-click:checked + label:before,
 .checkbox:checked + label:before{
 	border: 1px solid #cf453c;
-	background: #cf453c url("images/sprites.png") -1692px -7px no-repeat;
+	background: #cf453c url("../../../images/sprites.png") -1692px -7px no-repeat;
 	color: #fff;
 	content: "";
 }
@@ -1653,11 +1653,11 @@ a.catalog-item__del-button.i-buck:focus:before{
 }
 
 .checkout-edit-adress.i-change:before{
-	background: transparent url("images/sprites.png") -734px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -734px -10px no-repeat;	
 }
 
 .checkout-edit-adress.i-change:hover:before{
-	background: transparent url("images/sprites.png") -707px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -707px -10px no-repeat;	
 }
 
 
@@ -1776,7 +1776,7 @@ a.catalog-item__del-button.i-buck:focus:before{
 
 .catalog-search__reset:before{
     border-left: 1px solid #ccc;
-	background: #fff url("images/sprites.png") -923px -2px no-repeat;    
+	background: #fff url("../../../images/sprites.png") -923px -2px no-repeat;    
 }
 
 .catalog-search-res{
@@ -1937,7 +1937,7 @@ a.catalog-item__del-button.i-buck:focus:before{
 
 .footer_sm-form-holder button.btn_subscr{
 	border: 0px;
-	background: #fff url("images/sprites.png") -553px -1px no-repeat;
+	background: #fff url("../../../images/sprites.png") -553px -1px no-repeat;
 	border-left: 1px solid #d0d4d8;
 }
 
@@ -1954,85 +1954,85 @@ a.catalog-item__del-button.i-buck:focus:before{
 }
 
 .back-to-top:after{
-	background: transparent url("images/sprites.png") -168px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -168px -10px no-repeat;
 }
 
 /* ---------------  --------------- icons ---------------  --------------- */
 
 .i-proverka:before{
-	background: transparent url("images/sprites.png") -1435px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1435px -10px no-repeat;
 }
 
 .i-copyr:before{
-	background: transparent url("images/sprites.png") -522px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -522px -10px no-repeat;
 }
 
 .i-tel:before{
-	background: transparent url("images/sprites.png") -498px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -498px -10px no-repeat;
 }
 
 .i-mail:before{
-	background: transparent url("images/sprites.png") -473px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -473px -10px no-repeat;
 }
 
 .i-skype:before{
-	background: transparent url("images/sprites.png") -448px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -448px -10px no-repeat;	
 }
 
 .i-icq:before{
-	background: transparent url("images/sprites.png") -423px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -423px -10px no-repeat;
 }
 
 .i-support:before{
-	background: transparent url("images/sprites.png") -397px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -397px -10px no-repeat;	
 }
 
 .i-vk{
-	background: transparent url("images/sprites.png") -335px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -335px -10px no-repeat;	
 }
 
 .i-vk:hover, .i-vk:focus{
-	background: transparent url("images/sprites.png") -300px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -300px -10px no-repeat;	
 }
 
 .i-fb{
-	background: transparent url("images/sprites.png") -281px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -281px -10px no-repeat;	
 }
 
 .i-fb:hover, .i-fb:focus{
-	background: transparent url("images/sprites.png") -262px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -262px -10px no-repeat;	
 }
 
 .i-tw{
-	background: transparent url("images/sprites.png") -227px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -227px -10px no-repeat;	
 }
 
 .i-tw:hover, .i-tw:focus{
-	background: transparent url("images/sprites.png") -192px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -192px -10px no-repeat;	
 }
 
 .i-lj{
-	background: transparent url("images/sprites.png") -163px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -163px -10px no-repeat;	
 }
 
 .i-lj:hover, .i-lj:focus{
-	background: transparent url("images/sprites.png") -134px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -134px -10px no-repeat;	
 }
 
 .i-hb{
-	background: transparent url("images/sprites.png") -108px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -108px -10px no-repeat;	
 }
 
 .i-hb:hover, .i-hb:focus{
-	background: transparent url("images/sprites.png") -82px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -82px -10px no-repeat;	
 }
 
 .i-gp{
-	background: transparent url("images/sprites.png") -46px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -46px -10px no-repeat;	
 }
 
 .i-gp:hover, .i-gp:focus{
-	background: transparent url("images/sprites.png") -10px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -10px -10px no-repeat;	
 }
 
 .i-pokupo:before{
@@ -2042,68 +2042,68 @@ a.catalog-item__del-button.i-buck:focus:before{
 }
 
 .i-read:before{
-	background: transparent url("images/sprites.png") -1056px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -1056px -10px no-repeat;	
 }
 
 .i-book:before{
-	background: transparent url("images/sprites.png") -1037px -10px no-repeat;
+	background: transparent url("../../../images/sprites.png") -1037px -10px no-repeat;
 }
 
 .i-seller:before{
-	background: transparent url("images/sprites.png")  -984px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png")  -984px -10px no-repeat;		
 }
 
 .i-cart-bl:before{
-	background: transparent url("images/sprites.png")  -359px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png")  -359px -10px no-repeat;		
 }
 
 .i-cart-bl:hover:before,
 .i-cart-bl:focus:before{
-	background: transparent url("images/sprites.png")  -2395px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png")  -2395px -10px no-repeat;		
 }
 
 .i-drop:after{
-	background: transparent url("images/sprites.png") -1031px -10px no-repeat;	
+	background: transparent url("../../../images/sprites.png") -1031px -10px no-repeat;	
 }
 
 .i-del:before{
-	background: transparent url("images/sprites.png") -1806px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1806px -10px no-repeat;		
 }
 
 .i-open:before{
-	background: transparent url("images/sprites.png") -1826px -10px no-repeat;			
+	background: transparent url("../../../images/sprites.png") -1826px -10px no-repeat;			
 }
 
 .i-change:before{
-	background: transparent url("images/sprites.png") -1845px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1845px -10px no-repeat;		
 }
 
 .i-change.btn_grey:before{
-	background: transparent url("images/sprites.png") -734px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -734px -10px no-repeat;		
 }
 
 .i-change:hover:before{
-	background: transparent url("images/sprites.png") -2059px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -2059px -10px no-repeat;		
 }
 
 .i-change.btn_grey:hover:before{
-	background: transparent url("images/sprites.png") -1624px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1624px -10px no-repeat;		
 }
 
 .i-pass:before{
-	background: transparent url("images/sprites.png") -1872px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1872px -10px no-repeat;		
 }
 
 .i-pass.btn_grey:before{
-	background: transparent url("images/sprites.png") -1672px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1672px -10px no-repeat;		
 }
 
 .i-pass:hover:before{
-	background: transparent url("images/sprites.png") -2038px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -2038px -10px no-repeat;		
 }
 
 .i-pass.btn_grey:hover:before{
-	background: transparent url("images/sprites.png") -1651px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1651px -10px no-repeat;		
 }
 
 .i-checkbox + label:before{
@@ -2118,15 +2118,15 @@ a.catalog-item__del-button.i-buck:focus:before{
 }
 
 .i-mail-big{
-	background: transparent url("images/sprites.png") -1840px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1840px -10px no-repeat;		
 }
 
 .i-ok{
-	background: transparent url("images/sprites.png") -1777px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1777px -10px no-repeat;		
 }
 
 .i-error{
-	background: transparent url("images/sprites.png") -1713px -10px no-repeat;		
+	background: transparent url("../../../images/sprites.png") -1713px -10px no-repeat;		
 }
 
 /* ---------------  --------------- Popups ---------------  --------------- */
@@ -2184,7 +2184,7 @@ a.catalog-item__del-button.i-buck:focus:before{
 
 .popup-content__form__remember .i-checkbox:checked + label:before{
 	border: 1px solid #cf453c;
-    background: #cf453c url("images/sprites.png") -1692px -7px no-repeat;
+    background: #cf453c url("../../../images/sprites.png") -1692px -7px no-repeat;
     color: #fff;
     content: "";
 }

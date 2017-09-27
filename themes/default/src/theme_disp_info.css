@@ -115,7 +115,7 @@
 	
 	.menu-click-dropdown li.menu__item > a:after,
 	.menu-click-dropdown li.menu__item > span:after{
-		background: transparent url("images/sprites.png") -877px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -877px -10px no-repeat;
 	}	
 
 	.menu-click-dropdown li.menu__item > a.active,
@@ -157,7 +157,7 @@
 
 
 	.btn-menu-click-mobile:checked + label:before{
-		background: transparent url("images/sprites.png") -1053px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1053px -10px no-repeat;
 	}
 
 	.menu-main__list {
@@ -177,7 +177,7 @@
 	}	
 
 	.btn-search-click + label:before{
-		background: transparent url("images/sprites.png") -1305px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1305px -10px no-repeat;
 	}	
 
 	.btn-search-click.active + label{
@@ -186,7 +186,7 @@
 	}
 
 	.btn-search-click.active + label:before{
-		background: transparent url("images/sprites.png") -1247px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1247px -10px no-repeat;
 	}
 
 	.btn-search-click.active:checked + label{
@@ -195,7 +195,7 @@
 	}
 
 	.btn-search-click.active:checked + label:before{
-		background: transparent url("images/sprites.png") -1305px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1305px -10px no-repeat;
 	}
 
 	.search-click-slide-holder{
@@ -204,7 +204,7 @@
 	}
 	
 	.search-click-slide-holder button.btn_search {
-		background: transparent url("images/sprites.png") -1276px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
 	}	
 
 	.btn_close-click + label {
@@ -214,7 +214,7 @@
 	}
 	
 	.btn_close-click + label:before {
-		background: transparent url("images/sprites.png") -933px -10px  no-repeat;
+		background: transparent url("../../../images/sprites.png") -933px -10px  no-repeat;
 		border: 0px;
 	}	
 
@@ -225,11 +225,11 @@
 
 	.btn_close-click + label:hover:before,
 	.btn_close-click + label:focus:before{
-		background: transparent url("images/sprites.png") -1247px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1247px -10px no-repeat;
 	}
 
 	.search_click_slide > input.btn-search-click:checked + label + input + label:before{
-		background: transparent url("images/sprites.png") -933px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -933px -10px no-repeat;
 	}
 
 
@@ -256,11 +256,11 @@
 	}
 
 	.btn-menu-login-click + label:before{
-		background: transparent url("images/sprites.png") -1131px -10px no-repeat;	
+		background: transparent url("../../../images/sprites.png") -1131px -10px no-repeat;	
 	}
 
 	.btn-menu-login-click.active + label:before{
-		background: transparent url("images/sprites.png") -1079px -10px no-repeat;	
+		background: transparent url("../../../images/sprites.png") -1079px -10px no-repeat;	
 	}
 	
 	.btn-menu-login-click:checked + label + div{
@@ -268,7 +268,7 @@
 	}
 
 	.btn-menu-login-click:checked + label:before{
-		background: transparent url("images/sprites.png") -1053px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1053px -10px no-repeat;
 	}
 
 	.menu-login-cart .user-menu__item{
@@ -291,39 +291,39 @@
 	}
 
 	.user-menu__item >  a.menu-login__login:before{
-		background: transparent url("images/sprites.png")-1105px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png")-1105px -10px no-repeat;
 	}
 	
 	.user-menu__item >  a.menu-login__login:hover:before,
 	.user-menu__item >  a.menu-login__login.active:before  {
-		background: transparent url("images/sprites.png")-1079px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png")-1079px -10px no-repeat;
 	}
 
 	a#cart_dropdown__trigger:before{
-		background: transparent url("images/sprites.png") -1548px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1548px -10px no-repeat;
 	}
 	
 	a#cart_dropdown__trigger:hover:before,
 	a#cart_dropdown__trigger.active:before{
-		background: transparent url("images/sprites.png") -1520px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1520px -10px no-repeat;
 	}	
 
 	.user-menu__item > a.user-menu__bookmarks:before{
-		background: transparent url("images/sprites.png") -1187px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1187px -10px no-repeat;
 	}
 	
 	.user-menu__item >  a.user-menu__bookmarks:hover:before,
 	.user-menu__item >  a.user-menu__bookmarks.active:before {
-		background: transparent url("images/sprites.png") -1157px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1157px -10px no-repeat;
 	}	
 
 	.user-menu__purchases:before{
-		background: transparent url("images/sprites.png") -1366px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1366px -10px no-repeat;
 	}
 	
 	.user-menu__purchases:hover:before,
 	.user-menu__purchases.active:before{
-		background: transparent url("images/sprites.png") -1334px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1334px -10px no-repeat;
 	}	
 
 /* Cart */
@@ -336,7 +336,7 @@
 	}
 	
 	.i-drop:before {
-		background: transparent url("images/sprites.png") -832px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -832px -10px no-repeat;
 	}		
 
 	.plus-qty {
@@ -348,7 +348,7 @@
 	}	
 
 	.plus-qty:before {
-		background: url("images/sprites.png") -955px -10px no-repeat;
+		background: url("../../../images/sprites.png") -955px -10px no-repeat;
 	}
 
 	div.cart-item__qty a{
@@ -368,7 +368,7 @@
 	}	
 
 	.minus-qty:after {
-		background: url("images/sprites.png") -971px -10px no-repeat;
+		background: url("../../../images/sprites.png") -971px -10px no-repeat;
 	}
 
 	.cart-footer {
@@ -418,7 +418,7 @@
 	}
 	
 	.btn-filter + label:before{
-		background: transparent url("images/sprites.png") -761px -10px no-repeat;	
+		background: transparent url("../../../images/sprites.png") -761px -10px no-repeat;	
 	}	
 
 	.btn-filter:checked + label{
@@ -468,7 +468,7 @@
 	
 	.catalog-search__btn{
 	    border-radius: 0;
-		background: transparent url("images/sprites.png") -1276px -10px no-repeat;
+		background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
 	}
 
 /* Product */
@@ -496,7 +496,7 @@
 	#pkp_slide3:checked ~ .product-rec__ctrl-slides label:nth-child(4):after, 
 	#pkp_slide4:checked ~ .product-rec__ctrl-slides label:nth-child(5):after, 
 	#pkp_slide5:checked ~ .product-rec__ctrl-slides label:nth-child(1):after {
-		background: transparent url("images/sprites.png") -955px -10px no-repeat;	
+		background: transparent url("../../../images/sprites.png") -955px -10px no-repeat;	
 	}
 
 
@@ -505,7 +505,7 @@
 	#pkp_slide3:checked ~ .product-rec__ctrl-slides label:nth-child(2):before,
 	#pkp_slide4:checked ~ .product-rec__ctrl-slides label:nth-child(3):before,
 	#pkp_slide5:checked ~ .product-rec__ctrl-slides label:nth-child(4):before {
-		background: transparent url("images/sprites.png") -971px -10px no-repeat;	
+		background: transparent url("../../../images/sprites.png") -971px -10px no-repeat;	
 	}
 	
 	
@@ -570,12 +570,12 @@
 	
 	.footer_sm-form-click-mobile + label:before,
 	.footer_sm-form-click-mobile:indeterminate + label:before{
-		background: #d0d4d8 url("images/sprites.png") -360px 0px no-repeat;	
+		background: #d0d4d8 url("../../../images/sprites.png") -360px 0px no-repeat;	
 	}
 	
 	.footer_sm-form-click-mobile + label:hover:before,
 	.footer_sm-form-click-mobile:indeterminate + label:hover:before{
-		background: transparent url("images/sprites.png") -360px 0px no-repeat;	
+		background: transparent url("../../../images/sprites.png") -360px 0px no-repeat;	
 	}	
 	
 	.back-to-top{
@@ -609,11 +609,11 @@
 	
 /* Product */
 	.product-sell__discont-btn:before {
-		background: #d0d4d8 url("images/sprites.png") -1128px 5px no-repeat;
+		background: #d0d4d8 url("../../../images/sprites.png") -1128px 5px no-repeat;
 	}	 
 
 	.product-info__question-button:before {
-		background: #d0d4d8 url("images/sprites.png") -1769px 0 no-repeat;
+		background: #d0d4d8 url("../../../images/sprites.png") -1769px 0 no-repeat;
 	}
 
 	.product-rec .catalog-item:nth-last-child(2){
