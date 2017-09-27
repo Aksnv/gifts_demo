@@ -1299,7 +1299,7 @@ p.user-menu__name{
   display: block;
   width: 11px;
   height: 14px;
-  background-image: url(../../images/sprites.png);
+  background-image: url("../../images/sprites.png");
   background-position: -952px -33px;
 }
 
@@ -2190,7 +2190,7 @@ div.cs-select.cs-active .cs-options {
   display: block;
   width: 12px;
   height: 22px;
-  background-image: url(../../images/sprites.png);
+  background-image: url("../../images/sprites.png");
   /* background-position: -692px -40px; */
   background-position: -676px -40px; 
   /* background-position: -661px -40px; */
@@ -2925,7 +2925,8 @@ div.cs-select.cs-active .cs-options {
   display: block;
   width: 20px;
   height: 22px;
-  background-image: url("../../themes/default/src/images/sprites.png");
+  /* background-image: url("../../themes/default/src/images/sprites.png"); */
+  background-image: url("../../images/sprites.png");
   background-position: -851px -35px;
 }
 
@@ -3127,7 +3128,8 @@ div.profile-info__adress-adress > span:first-child{
   position: absolute;
   content: "";
   display: block;
-  background-image: url("../../themes/default/src/images/sprites.png");
+  /* background-image: url("../../themes/default/src/images/sprites.png"); */
+  background-image: url("../../images/sprites.png");
 }
 
 .profile-info__adress-edit::before {
@@ -3302,7 +3304,8 @@ div.profile-info-edit__form-select{
   display: block;
   width: 20px;
   height: 20px;
-  background-image: url("../../themes/default/src/images/sprites.png");
+  /* background-image: url("../../themes/default/src/images/sprites.png"); */
+  background-image: url("../../images/sprites.png");
   background-position: -763px -40px;
 }
 
@@ -3382,7 +3385,8 @@ div.profile-info-edit__form-select{
   display: block;
   width: 15px;
   height: 16px;
-  background-image: url("../../themes/default/src/images/sprites.png");
+  /* background-image: url("../../themes/default/src/images/sprites.png"); */
+  background-image: url("../../images/sprites.png");
   background-position: -737px -40px;
 }
 
@@ -3623,7 +3627,8 @@ div.profile-info-edit__form-select{
   display: block;
   width: 20px;
   height: 22px;
-  background-image: url("../../themes/default/src/images/sprites.png");
+  /* background-image: url("../../themes/default/src/images/sprites.png"); */
+  background-image: url("../../images/sprites.png");
   background-position: -851px -35px;
 }
 
@@ -3659,7 +3664,8 @@ div.profile-info-edit__form-select{
   display: block;
   width: 26px;
   height: 34px;
-  background-image: url("../../themes/default/src/images/sprites.png");
+  /* background-image: url("../../themes/default/src/images/sprites.png"); */
+  background-image: url("../../images/sprites.png");
   background-position: -1001px -29px;
 }
 

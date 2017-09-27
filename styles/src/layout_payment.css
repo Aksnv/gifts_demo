@@ -255,7 +255,8 @@
   display: block;
   width: 10px;
   height: 6px;
-  background-image: url(../../themes/default/src/images/sprites.png);
+  /* background-image: url(../../themes/default/src/images/sprites.png); */
+  background-image: url("../../images/sprites.png");
   background-position: -622px -27px;
 }
 
