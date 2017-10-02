@@ -175,6 +175,10 @@
 		height: 412px;
 	}
 
+	.slider--gifts img {
+		max-height: 412px;
+	}
+
 	.product-about--gifts {
 		padding-left: 41px;
 	}
@@ -555,6 +559,10 @@
 	.slider--gifts {
 		width: 660px;
 		height: 303px;
+	}
+
+	.slider--gifts img {
+		max-height: 303px;
 	}
 
 }
@@ -2395,21 +2403,41 @@
 		height: 586px;
 	}
 
+	.slider--gifts img {
+		max-height: 586px;
+	}
+
+	.slider-image {
+		display: none;
+	}
+
+	.slider-image--desktop {
+		display: none;
+	}
+
+	.slider-image--mobile {
+		display: block;
+	}
+
+	.slider-image--active {
+		display: block;
+	}
+
 	.slider-image a {
 		max-height: 586px;
 	} 
 
-	.slider-image--1 a {
-		background-image: url(../../images/pages/sliders/banner_mobile_1.jpg);
-	}
-	
-	.slider-image--2 a {
-		background-image: url(../../images/pages/sliders/banner_mobile_2.jpg);
-	}
-	
-	.slider-image--3 a {
-		background-image: url(../../images/pages/sliders/banner_mobile_3.jpg);
-	}
+/* 	.slider-image--1 a {
+	background-image: url(../../images/pages/sliders/banner_mobile_1.jpg);
+}
+
+.slider-image--2 a {
+	background-image: url(../../images/pages/sliders/banner_mobile_2.jpg);
+}
+
+.slider-image--3 a {
+	background-image: url(../../images/pages/sliders/banner_mobile_3.jpg);
+} */
 
 	.slider-arrows {
 		display: none;
@@ -3073,6 +3101,10 @@
 	.slider--gifts {
 		width: 300px;
 		height: 386px;
+	}
+
+	.slider--gifts img {
+		max-height: 386px;
 	}
 
 	.slider-image a {

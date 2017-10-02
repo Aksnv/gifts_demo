@@ -2175,6 +2175,11 @@ div.cs-select.cs-active .cs-options {
   /* box-shadow: 0 3px 3px #ccc, 0 -1px 3px #ccc; */
 }
 
+.slider--gifts img {
+  width: auto;
+  max-height: 540px; 
+}
+
 .slider-arrows {
   position: absolute;
   top: 48%;
@@ -2218,6 +2223,10 @@ div.cs-select.cs-active .cs-options {
   display: block;
 }
 
+.slider-image--mobile {
+  display: none;
+}
+
 .slider-image a {
   display: block;
   width: auto;
@@ -2232,17 +2241,17 @@ div.cs-select.cs-active .cs-options {
   background-position: 50% 0;
 }
 
-.slider-image--1 a {
-  background-image: url(../../images/pages/sliders/banner_1.jpg);
-}
-
-.slider-image--2 a {
-  background-image: url(../../images/pages/sliders/banner_2.jpg); 
-}
-
-.slider-image--3 a {
-  background-image: url(../../images/pages/sliders/banner_3.jpg);
-}   
+/* .slider-image--1 a {
+   background-image: url(../../images/pages/sliders/banner_1.jpg);
+ }
+ 
+ .slider-image--2 a {
+   background-image: url(../../images/pages/sliders/banner_2.jpg); 
+ }
+ 
+ .slider-image--3 a {
+   background-image: url(../../images/pages/sliders/banner_3.jpg);
+ }   */ 
 
 /* .slider-image img {
   width: auto;
