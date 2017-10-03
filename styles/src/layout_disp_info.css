@@ -2405,6 +2405,7 @@
 
 	.slider--gifts img {
 		max-height: 586px;
+    margin: auto;
 	}
 
 	.slider-image {
