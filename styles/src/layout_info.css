@@ -10,6 +10,11 @@ img{
   height: auto;
 }
 
+input[type="checkbox"],
+.user-mail {
+  visibility: visible;
+}
+
 /*
 img:hover,
 img:focus {
