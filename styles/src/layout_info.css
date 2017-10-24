@@ -2117,6 +2117,31 @@ div.cs-select.cs-active .cs-options {
 
 /* ------------ Catalog pagination ----------------- */
 
+.pagination_main {
+  margin-top: 30px;
+  text-align: center;
+} 
+
+.pagination_main a {
+  position: relative;
+  color: #000;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.pagination_main a::before {
+  position: absolute;
+  top: -5px;
+  left: -40px;
+  content: "";
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../../images/sprites.png");
+  background-position: -625px -37px;
+}
+
 .pagination_theme li {
   display: inline-block;
   vertical-align: top;
