@@ -1323,7 +1323,7 @@ p.user-menu__name{
   padding-bottom: 45px;
 }
 
-.certificate-gifts .ya-share2__item {
+/* .certificate-gifts .ya-share2__item {
   display: inline-block;
   vertical-align: top;
   margin-right: 4px;
@@ -1359,6 +1359,48 @@ p.user-menu__name{
 
 .certificate-gifts .ya-share2__item_service_lj {
   background-image: url("../../images/pages/certificate/lj.png");
+} */
+
+.gifts-certificate__social {
+  padding-left: 5px;
+  padding-bottom: 45px;
+}
+
+.gifts-certificate__social li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 1px;
+}
+
+.gifts-certificate__social-item {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url("../../images/sprites.png");
+}
+
+.gifts-certificate__social-item--vk {
+  background-position: -192px -40px;
+}
+
+.gifts-certificate__social-item--ok {
+  background-position: -239px -40px;
+}
+
+.gifts-certificate__social-item--tw {
+  background-position: -216px -40px;
+}
+
+.gifts-certificate__social-item--fb {
+  background-position: -311px -39px;
+}
+
+.gifts-certificate__social-item--mm {
+  background-position: -264px -40px;
+}
+
+.gifts-certificate__social-item--lj {
+  background-position: -287px -40px;
 }
 
 .certificate-gifts .certificate-preview {
