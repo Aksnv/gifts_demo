@@ -3377,6 +3377,10 @@ div.profile-info-edit__form-select{
   padding-left: 25px;
 }
 
+.profile-info__orders-status--received-by-buyer span {
+  padding-left: 25px;
+}
+
 .profile-info__orders-status--is-formed::before {
   position: absolute;
   top: 0;
@@ -3439,6 +3443,18 @@ div.profile-info-edit__form-select{
   background-position: -930px -48px;
 }
 
+.profile-info__orders-status--received-by-buyer::before {
+  position: absolute;
+  top: 3px;
+  left: 0;  
+  content: "";
+  display: block;
+  width: 16px;
+  height: 15px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1104px -40px;
+}
+
 .profile-info__orders-payment-status {
   position: relative;
   width: 162px;
@@ -3455,6 +3471,11 @@ div.profile-info-edit__form-select{
 
 .profile-info__orders-payment-status--canceled span,
 .profile-info__orders-payment-status--payment-return span {
+  padding-left: 25px;
+}
+
+.profile-info__orders-payment-status--expected-confirmation span,
+.profile-info__orders-payment-status--partially-paid span {
   padding-left: 25px;
 }
 
@@ -3517,6 +3538,30 @@ div.profile-info-edit__form-select{
   height: 13px;
   background-image: url("../../images/sprites.png");
   background-position: -927px -28px;
+}
+
+.profile-info__orders-payment-status--expected-confirmation::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1079px -39px;
+}
+
+.profile-info__orders-payment-status--partially-paid::before {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1056px -39px;
 }
 
 .profile-info__orders-action {
