@@ -157,7 +157,8 @@
     position: relative;
     top: 0;
 	width: auto;
-    height: auto;    
+    height: auto;  
+    max-height: 77px;  
 }
 
 .pkp-payment-method__info {
