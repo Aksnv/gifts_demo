@@ -313,3 +313,14 @@ $(".product-about__menu-item").click(function() {
     $(".product-delivery").show();
   }
 });
+
+
+/* jQuery Form Styler activation */
+
+(function($) {
+$(function() {
+
+  $('select').styler();
+    
+});
+})(jQuery);

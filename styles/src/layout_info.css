@@ -2984,6 +2984,98 @@ div.cs-select.cs-active .cs-options {
   position: relative;
 }
 
+.store-select--gifts {
+  position: absolute;
+  top: -8px;
+  right: 203px;
+}
+
+.store-select--gifts label {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-right: 5px;
+  color: #666;
+}
+
+.store-select--gifts .jq-selectbox {
+  width: 289px;
+  height: 42px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.store-select--gifts .jq-selectbox select {
+  width: 289px;
+}
+
+.store-select--gifts .jq-selectbox__select::before {
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  content: "";
+  display: block;
+  width: 1px;
+  height: 30px;
+  background-color: #d0d4d8;
+}
+
+.store-select--gifts .jq-selectbox__select::after {
+  position: absolute;
+  top: 17px;
+  right: 14px;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 6px;
+  background-image: url("../../images/sprites.png");
+  background-position: -987px -158px
+}
+
+.store-select--gifts .jq-selectbox.opened .jq-selectbox__select::after {
+  transform: rotate(180deg);
+}
+
+.store-select--gifts .jq-selectbox__select-text {
+  font-size: 14px;
+  line-height: 40px;
+  padding-left: 13px;
+  padding-right: 50px;
+  color: #28282c;
+}
+
+.store-select--gifts .jq-selectbox.opened .jq-selectbox__trigger {
+  position: absolute;
+  top: 0;
+  right: -1px;
+  display: block;
+  width: 42px;
+  height: 40px;
+  background-color: #d0d4d8;
+}
+
+.store-select--gifts .jq-selectbox__dropdown {
+  top: 36px!important;
+}
+
+.store-select--gifts .jq-selectbox__dropdown ul {
+  width: 289px;
+  max-height: 155px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.store-select--gifts .jq-selectbox__dropdown li {
+  font-size: 14px;
+  line-height: 48px;
+  padding-left: 10px;
+  padding-right: 50px;
+  color: #28282c;
+}
+
 .profile-header-reload {
   position: absolute;
   top: 2px;

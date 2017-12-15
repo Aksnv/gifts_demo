@@ -1220,7 +1220,7 @@ PKP.IE = {
 /* Инициализация галерей и слайдеров */
 PKP.Sliders = {
 	init: function() {
-		$('#cases').fotorama({
+		/*$('#cases').fotorama({
 				width: '100%',
 				height: 620,
 				allowfullscreen: false,
@@ -1231,7 +1231,7 @@ PKP.Sliders = {
 				arrows: false,
 				shadows: false,
 				transition: 'crossfade'
-			});
+			});*/
 
 		$('.chain-slider').owlCarousel({
 			items: 3,
