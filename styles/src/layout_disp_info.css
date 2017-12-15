@@ -554,6 +554,10 @@
 		margin-top: 30px;
 	}
 
+	.store-select--gifts {
+		position: static;
+	}
+
 	/* --------------- Slider ----------------- */
 
 	.slider--gifts {
@@ -3024,6 +3028,10 @@
 
 	.profile-info__orders-action--canceled::before {
 		left: 16px;
+	}
+
+	.store-select--gifts {
+		margin-bottom: 20px;
 	}
 	
 /* Checkout */
