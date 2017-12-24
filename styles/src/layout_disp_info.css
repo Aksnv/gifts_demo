@@ -1500,7 +1500,7 @@
 		margin-right: 0;
 	}
 
-	.catalog-search__btn{
+	/* .catalog-search__btn{
 		width: 19px;
 		height: 19px;
 		display: inline-block;
@@ -1509,7 +1509,7 @@
 		top: 15px;
 		right: 53px;
 		z-index: 10;		
-	}
+	} */
 
 	.pagination_theme__show-more {
 		width: 230px;
@@ -3642,8 +3642,239 @@
     display: none;
   } */
 
-  .advanced-search {
-    display: none;
+  /* .advanced-search {
+    display: none; 
+  }  */
+
+  .catalog-search__btn{
+		width: 19px;
+		height: 19px;
+		display: inline-block;
+		text-indent: -9999px;
+		position: absolute;
+		top: 72px;
+		right: auto;
+		left: 533px;
+		padding-left: 0;
+		z-index: 10;		
+	}
+
+	.catalog-search__btn::before {
+		display: none;
+	}
+
+  .catalog-search__input {
+  	width: 61%;
+  } 
+
+  /* .advanced-search__button {
+  	position: relative;
+  	top: 0; 
+  	margin-top: 20px;
+  	margin-bottom: 70px; 
   }
+  
+  .catalog-search-res {
+  	position: absolute;
+  	top: 180px;
+  } */
+
+  .advanced-search__form::before, 
+  .advanced-search__form::after {
+  	width: 36px;
+  }
+
+  .advanced-search__form::before {
+  	left: -36px;
+  }
+
+  .advanced-search__form::after {
+  	right: -36px;
+  }
+
+  .catalog-search-res--open {
+  	position: absolute;
+  	top: 625px;
+  }
+
+  .advanced-search__form li:nth-child(3n + 3), 
+  .advanced-search__form li:last-child {
+  	margin-right: 15px;
+  }
+
+  .advanced-search__form select, 
+  .advanced-search__form input,
+  .advanced-search__form li,
+  .advanced-search__form input[type="submit"] {
+  	width: 416px;
+  }
+
+  .advanced-search__form h3::after {
+  	width: 640px;
+  }
+
+}
+
+@media screen and (max-width: 999px) and (min-width: 760px) {
+
+	.catalog-title {
+		margin-top: 10px;
+	}
+
+	.catalog-search__input {
+		width: 47%;
+	}
+
+	.catalog-search__btn {
+		left: 300px;
+	}
+
+	.advanced-search__form::before, 
+  .advanced-search__form::after {
+  	width: 35px;
+  }
+
+  .advanced-search__form::before {
+  	left: -35px;
+  }
+
+  .advanced-search__form::after {
+  	right: -35px;
+  }
+
+  .advanced-search__form select, 
+  .advanced-search__form input, 
+  .advanced-search__form li, 
+  .advanced-search__form input[type="submit"] {
+  	width: 297px;
+  }
+
+  .advanced-search__form input[name="advanced-search__min-price"], 
+  .advanced-search__form input[name="advanced-search__max-price"] {
+  	width: 93px;
+  }
+
+  .advanced-search__form h3::after {
+  	width: 400px;
+  }
+
+  .advanced-search__price-range {
+  	width: 235px;
+  }
+
+}
+
+@media screen and (max-width: 759px) {
+
+	.advanced-search {
+		margin-top: 20px;
+		margin-bottom: 70px;
+	}
+
+	.advanced-search__button {
+		position: relative;
+		top: 0;
+		width: 100%;
+	}
+
+	.advanced-search__button a {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.advanced-search__button a::before {
+		left: auto;
+		right: 26px;
+	}
+
+	.advanced-search__button--open a::after {
+		display: none;
+	}
+
+	.advanced-search__form {
+		margin-top: 0;
+		padding-top: 20px;
+		padding-left: 30px;
+	}
+
+	.advanced-search__form::before, .advanced-search__form::after {
+		display: none;
+	}
+
+	.catalog-search__input {
+		width: 84%;
+	}
+
+	.catalog-search-res {
+		position: absolute;
+		top: 175px;
+	}
+
+	.catalog-search-res--open {
+		top: 1045px;
+	}
+
+	.catalog-search__btn {
+		top: 17px;
+    left: 407px;
+	}
+
+	.advanced-search__form h3::after {
+		width: 205px;
+	}
+
+	.advanced-search__form input[type="submit"] {
+		margin-top: 20px;
+	}
+
+}
+
+
+@media screen and (max-width: 519px) {
+
+	.catalog-search__input {
+		width: 75%;
+	}
+
+	.catalog-search__btn {
+		left: 225px;
+	}
+
+	.advanced-search__form {
+		padding-left: 20px;
+	}
+
+	.advanced-search__form select, 
+	.advanced-search__form input, 
+	.advanced-search__form li, 
+	.advanced-search__form input[type="submit"] {
+		width: 260px;
+	}
+
+	.advanced-search__form h3::after {
+		display: none;
+	}
+
+	.advanced-search__form input[name="advanced-search__min-price"], 
+	.advanced-search__form input[name="advanced-search__max-price"] {
+		width: 85px;
+	}
+
+	.advanced-search__form input[name="advanced-search__min-price"] {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.advanced-search__form input[name="advanced-search__max-price"] {
+		margin-left: 10px;
+	}
+
+	.advanced-search__price-range {
+		width: 200px;
+	}
+
+	.advanced-search__form input[type="submit"] {
+		padding: 0;
+	}
 
 }

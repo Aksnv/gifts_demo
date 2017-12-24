@@ -46,6 +46,17 @@
 		margin-right: 10px;
 	}
 
+	/* Catalog search */
+	
+	.catalog-search__btn{
+	    border-radius: 0;
+		background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
+	}
+
+	.catalog-search__btn.btn_yellow:hover {
+		background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
+	}
+
 }
 
 @media screen and (max-width: 999px) {
@@ -466,10 +477,10 @@
 
 /* Catalog search */
 	
-	.catalog-search__btn{
+	/* .catalog-search__btn{
 	    border-radius: 0;
 		background: transparent url("../../../images/sprites.png") -1276px -10px no-repeat;
-	}
+	} */
 
 /* Product */
 

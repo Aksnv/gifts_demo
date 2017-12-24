@@ -560,7 +560,8 @@ img:focus {
 .advanced-search__form {
   position: relative;
   display: none;
-  height: 253px;
+  /* height: 253px; */
+  min-height: 377px;
   margin-top: 20px;
   margin-bottom: 75px;
   padding-top: 39px;
@@ -575,7 +576,8 @@ img:focus {
   content: "";
   display: block;
   width: 40px;
-  height: 253px;
+  /* height: 253px; */
+  height: 100%;
   background-color: #ebebed;
 }
 
@@ -585,6 +587,26 @@ img:focus {
 
 .advanced-search__form::after {
   right: -40px;
+}
+
+.advanced-search__form h3 {
+  position: relative;
+  font-size: 13px;
+  text-align: left;
+  margin-bottom: 20px;
+  padding-top: 7px;
+  color: #000;
+}
+
+.advanced-search__form h3::after {
+  position: absolute;
+  top: 15px;
+  left: 209px;
+  content: "";
+  display: block;
+  width: 930px;
+  height: 1px;
+  background-color: #ccc;
 }
 
 .advanced-search__form li {
@@ -699,7 +721,8 @@ img:focus {
 }
 
 .advanced-search__form input[type="submit"] {
-  width: 753px;
+  /* width: 753px; */
+  width: 367px;
   height: 50px;
   font-size: 18px;
   font-weight: 300;
@@ -4367,7 +4390,7 @@ a.catalog-item__del-button.i-buck:before{
 .catalog-search__reset:before{
 	content: "";
     width: 27px;
-    height: 30px;
+    height: 26px;
     display: inline-block;
     margin-top: 5px;
     margin-right: 8px;
@@ -4398,7 +4421,7 @@ a.catalog-item__del-button.i-buck:before{
 
 .catalog-search-res--open {
   position: absolute;
-  top: 377px;
+  top: 500px;
 }
 
 .catalog-search__cat{
