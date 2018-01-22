@@ -2252,6 +2252,138 @@ div.cs-select.cs-active .cs-options {
   display: none;
 }
 
+/* --------------- News ----------------- */
+
+.news_theme {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.news_theme .catalog-main__title {
+  margin-bottom: 24px;
+}
+
+.gifts-news {
+  padding-left: 20px;
+} 
+
+.gifts-news__block {
+  display: inline-block;
+  vertical-align: top;
+  width: 222px;
+  text-align: left;
+  margin-right: 14px;
+  margin-bottom: 20px;
+}
+
+.gifts-news__block:nth-child(5n+5) {
+  margin-right: 0;
+}
+
+.gifts-news__block time {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  color: black;
+  opacity: 0.5;
+}
+
+.gifts-news__block a {
+  display: block;
+  height: 120px;
+  margin-bottom: 16px;
+}
+
+.gifts-news__block img {
+  width: auto;
+  max-width: 220px;
+  height: auto;
+  max-height: 120px;
+}
+
+.gifts-news__block p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 18px;
+  color: black;
+}
+
+.gifts-news__item {
+  overflow: hidden;
+  width: 100%;
+  min-height: 120px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.gifts-news__item-image {
+  float: left;
+  width: 220px;
+  margin-right: 60px;
+}
+
+.gifts-news__item-image {
+  display: table-cell;
+  vertical-align: middle;
+  width: 220px;
+  height: 120px;
+  text-align: center;
+}
+
+.gifts-news__item-image img {
+  display: block; 
+  width: auto;
+  max-width: 220px;
+  height: auto;
+  max-height: 120px;
+  margin: 0 auto;
+}
+
+.gifts-news__item-content {
+  float: left;
+  width: 880px;
+  padding-left: 20px;
+  padding-right: 40px;
+  padding-bottom: 16px;
+}
+
+.gifts-news__item-content h3 {
+  font-size: 15px;
+  margin-bottom: 3px;
+  padding-left: 0;
+  color: #000;
+}
+
+.gifts-news__item-content time {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  color: #000;
+  opacity: 0.5;
+}
+
+.gifts-news__item-content p {
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.gifts-news__item--page {
+  background-color: transparent;
+}
+
+.gifts-news__item--page .gifts-news__item-content {
+  padding-top: 0;
+  padding-right: 65px;
+  padding-bottom: 10px;
+}
+
+.gifts-news__item--page .gifts-news__item-image img {
+  margin-left: 0;
+}  
+
 
 /* --------------- Slider ----------------- */
 
