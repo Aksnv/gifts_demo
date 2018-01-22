@@ -362,6 +362,12 @@
 	.catalog-item {
 		margin: 0 79px 35px 0;    
 	}
+
+	/* News */
+
+	.gifts-news__block:nth-child(n) {
+	  margin-right: 14px;
+	}
 	
 	
 /* Product */
@@ -745,6 +751,11 @@
 		width: 49%;
     }
 	
+	/* News */
+
+	.gifts-news__block:nth-child(n) {
+	  margin-right: 14px;
+	}
 	
 /* Product */
 
@@ -1514,6 +1525,16 @@
 	.pagination_theme__show-more {
 		width: 230px;
 		margin-left: 30px;
+	}
+
+	/* News */
+
+	.gifts-news {
+		padding-left: 4px;
+	}
+
+	.gifts-news__block:nth-child(n) {
+	  margin-right: 14px;
 	}
 		
 /* Product */
@@ -2790,6 +2811,12 @@
 
 	.catalog-search__input {
 		width: 75.7%;
+	}
+
+	/* News */
+
+	.gifts-news {
+		text-align: center;
 	}
 
 /* Product */
