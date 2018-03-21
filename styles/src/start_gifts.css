@@ -70,6 +70,10 @@ a {
   margin: 0 auto;
 } 
 
+.menu-login, .menu-main, .footer_pokupo {
+  visibility: visible!important; 
+}
+
 input[type="checkbox"],
 .user-mail {
   visibility: hidden;
