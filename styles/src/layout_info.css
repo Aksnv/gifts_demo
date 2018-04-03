@@ -5475,6 +5475,210 @@ a.catalog-item__del-button.i-buck:before{
   color: #cf453c;
 }
 
+/* Получение бонусной карты */
+
+.openbonus-popup--2 {
+  position: absolute;
+  /* position: fixed; */
+  top: 5%;
+  left: calc(50% - 310px);
+  width: 620px;
+  background-color: white;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+  z-index: 101;
+}
+
+.openbonus-popup--2 .popup__top {
+  position: relative;
+  height: 187px;
+  padding-top: 100px;
+  background-image: url("../../images/pages/openbonus/bg--red.png");
+  background-color: #cf453c;
+}
+
+.openbonus-popup--2 .popup__top::after {
+  position: absolute;
+  left: calc(50% - 8px);
+  bottom: -7px;
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #cf453c;
+  transform: rotate(45deg);
+}
+
+.openbonus-popup--2 .popup__top--write-off {
+  background-color: #e0b10e;
+}
+
+.openbonus-popup--2 .popup__top h1 {
+  position: relative;
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  color: white;
+}
+
+.openbonus-popup--2 .popup__top h1::after {
+  position: absolute;
+  top: -70px;
+  left: calc(50% - 30px);
+  content: "";
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-image: url("../../images/sprites.png");
+  background-position: -1904px -8px;
+}
+
+.openbonus-popup--2 .popup__top h1 > strong {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.openbonus-popup--2 .popup__bottom {
+  padding-top: 57px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom: 41px;
+}
+
+.openbonus-popup--2 .popup__bottom label {
+  display: block;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+  padding-left: 20px;
+  color: #000;
+}
+
+.openbonus-popup--2 .popup__bottom label > span {
+  color: #ed1c24;
+}
+
+.openbonus-popup--2 .popup__bottom input[type="text"] {
+  box-sizing: border-box;
+  width: 480px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 40px;
+  margin-bottom: 37px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: transparent;
+  color: #28282c;
+  border: 1px solid #ccc;
+}
+
+.openbonus-popup--2 .popup__bottom input[type="text"]:focus {
+  border: 1px solid #ffb800;
+  outline: none;
+}
+
+.openbonus-popup--2 .choose-gender {
+  position: relative;
+  top: 6px;
+  padding-bottom: 22px;
+}
+
+.openbonus-popup--2 .choose-gender label,
+.openbonus-popup--2 .choose-gender input {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.openbonus-popup--2 .choose-gender label {
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 47px;
+  color: #000;
+  cursor: pointer;
+}
+
+.openbonus-popup--2 .choose-gender label.gender--female {
+  padding-left: 75px;
+}
+
+.openbonus-popup--2 .choose-gender label::before {
+  position: absolute;
+  top: 3px;
+  left: 15px;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.openbonus-popup--2 .choose-gender label.gender--female::before {
+  left: 41px;
+}
+
+.openbonus-popup--2 .choose-gender label::after {
+  position: absolute;
+  top: -4px;
+  left: 8px;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #e3e3e3;
+  border-radius: 50%;
+}
+
+.openbonus-popup--2 .choose-gender label.gender--female::after {
+  left: 34px;
+}
+
+.openbonus-popup--2 input[type="radio"] {
+  display: none;
+}
+
+.openbonus-popup--2 input[type="radio"]:checked + label {
+  color: #000;
+}
+
+.openbonus-popup--2 input[type="radio"]:checked + label::after {
+  background-color: #ffb800;
+  border: 1px solid #ffb800;
+}
+
+.openbonus-popup--2 .submit {
+  position: relative;
+  display: block;
+  height: 50px;
+  font-size: 17px;
+  line-height: 50px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 20px;
+  padding: 0;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.openbonus-popup--2 .submit:hover {
+  background-color: #e5a500;
+}
+
 
 /* Animation fade*/
 @-moz-keyframes fade {

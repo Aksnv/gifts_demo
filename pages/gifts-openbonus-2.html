@@ -811,15 +811,29 @@
 </div>
 
 <div class="fade in">
-  <div class="popup openbonus-popup openbonus-popup--1">
+  <div class="popup openbonus-popup openbonus-popup--2">
     <div class="popup__top">
       <button class="popup__close-button--top"></button>
+      <h1>Получение <strong>бонусной карты</strong></h1>
     </div>
     <div class="popup__bottom">
-      <p>Для вас доступна <strong>Персональная бонусная карта</strong></p>
-      <p>Зарегистрируйтесь или войдите на сайт, чтобы узнать о нашей<br> бонусной программе и получить карту</p>
-      <a href="#" class="btn btn_yellow popup__button"><span>Получить карту</span></a>
-      <a href="#" class="popup__close-button--bottom">Нет, спасибо</a>
+      <form name="bonus-card__form" method="POST" action="#" class="bonus-card__form">
+        <label for="phone">Телефон <span>*</span></label>
+        <input type="text" name="phone" id="phone" placeholder="+7 920 558 60 94">
+        <label for="surname">Фамилия</label>
+        <input type="text" name="surname" id="surname" placeholder="Фамилия">
+        <label for="name">Имя</label>
+        <input type="text" name="name" id="name" placeholder="Имя">
+        <label for="patronymic">Отчество</label>
+        <input type="text" name="patronymic" id="patronymic" placeholder="Отчество">
+        <div class="choose-gender">
+          <input type="radio" name="gender" class="gender" id="gender--male" checked="checked">
+          <label for="gender--male" class="gender--male">Я мужчина</label>
+          <input type="radio" name="gender" class="gender" id="gender--female">
+          <label for="gender--female" class="gender--female">Я женщина</label>
+        </div>
+        <input type="submit" name="submit" class="btn btn_yellow submit" value="Получить карту">
+      </form>
     </div>
   </div>
 </div>
