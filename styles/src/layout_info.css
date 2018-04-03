@@ -5333,6 +5333,148 @@ a.catalog-item__del-button.i-buck:before{
 
 /* END - Read fragment popup */
 
+/* Openbonus */
+
+.openbonus-popup {
+  height: auto;
+  padding: 0;
+}
+
+/* Персональная бонусная карта */
+
+.openbonus-popup--1 {
+  position: fixed;
+  top: calc(50% - 274px);
+  left: calc(50% - 310px);
+  width: 620px;
+  min-height: 548px;
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+  z-index: 101;
+}
+
+.openbonus-popup--1 .popup__top {
+  position: relative;
+  height: 187px;
+  background-image: url("../../images/pages/openbonus/bg--red.png");
+  background-color: #cf453c;
+}
+
+.openbonus-popup--1 .popup__top::before {
+  position: absolute;
+  left: calc(50% - 164px);
+  top: -51px;
+  content: "";
+  display: block;
+  width: 298px;
+  height: 215px;
+  background-image: url("../../images/pages/openbonus/bonus-card.png");
+}
+
+.openbonus-popup--1 .popup__top::after {
+  position: absolute;
+  left: calc(50% - 8px);
+  bottom: -7px;
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  background-color: #cf453c;
+  transform: rotate(45deg);
+}
+
+.popup__close-button--top {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  background-image: none;
+  background-color: transparent;
+  color: #a2a2a2;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup__close-button--top::before {
+  position: absolute;
+  top: 13px;
+  left: -14px;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url("../../images/sprites.png");
+  background-position: -954px -56px;
+}
+
+.openbonus-popup--1 .popup__bottom {
+  text-align: center;
+  padding-top: 44px;
+  padding-bottom: 30px;
+}
+
+.openbonus-popup--1 .popup__bottom p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  color: black;
+  opacity: 0.8;
+}
+
+.openbonus-popup--1 .popup__bottom p:first-child {
+  font-family: 'Georgia', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 26px;
+  color: #333;
+}
+
+.openbonus-popup--1 .popup__bottom p:first-child strong {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: 32px;
+  color: #232323;
+}
+
+.openbonus-popup--1 .popup__button {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 50px;
+  font-size: 17px;
+  line-height: 50px;
+  text-decoration: none;
+  margin-top: 52px;
+  margin-bottom: 27px;
+  padding: 0;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.openbonus-popup--1 .popup__button:hover {
+  background-color: #e5a500;
+}
+
+.openbonus-popup--1 .popup__button span {
+  padding-left: 15px;
+}
+
+.popup__close-button--bottom {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-decoration: none;
+  color: #cf453c;
+}
+
 
 /* Animation fade*/
 @-moz-keyframes fade {
