@@ -5739,6 +5739,46 @@ a.catalog-item__del-button.i-buck:before{
   color: #333;
 }
 
+/* Корзина (бонусы) */
+
+.user-menu__bonuses::before {
+  display: block;
+  width: 21px;
+  height: 20px;
+  background-image: url("../../images/sprites.png");
+  background-position: -336px -39px;
+}
+
+.user-menu__bonuses:hover::before {
+  background-position: -360px -39px;
+}
+
+.cart-footer {
+  padding-right: 0;
+}
+
+.cart-footer .cart-footer__bonus {
+  display: block;
+  margin-top: 13px;
+  margin-bottom: 39px;
+}
+
+.cart-footer__bonus {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 18px;
+}
+
+.cart-footer__bonus a {
+  color: #09c;
+  text-decoration: underline;
+}
+
+.cart-footer__bay-button {
+  position: relative;
+  display: inline-block;
+}
+
 
 /* Animation fade*/
 @-moz-keyframes fade {
