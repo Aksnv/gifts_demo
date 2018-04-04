@@ -5574,8 +5574,8 @@ a.catalog-item__del-button.i-buck:before{
   font-size: 14px;
   line-height: 40px;
   margin-bottom: 37px;
-  padding-left: 17px;
-  padding-right: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
   background-color: transparent;
   color: #28282c;
   border: 1px solid #ccc;
@@ -5677,6 +5677,27 @@ a.catalog-item__del-button.i-buck:before{
 
 .openbonus-popup--2 .submit:hover {
   background-color: #e5a500;
+}
+
+/* Начисление/списание бонусов */
+
+.openbonus-popup--3 .popup__bottom {
+  padding-top: 75px;
+  padding-bottom: 42px;
+}
+
+.openbonus-popup--3 p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 32px;
+  color: black;
+  opacity: 0.8;
+}
+
+.openbonus-popup--3 .submit {
+  margin-top: 0;
 }
 
 
