@@ -5739,6 +5739,65 @@ a.catalog-item__del-button.i-buck:before{
   color: #333;
 }
 
+/* Бонусная программа (нет карты) */
+
+.bonus-programm {
+  overflow: hidden;
+}
+
+.bonus-programm__image,
+.bonus-programm__content {
+  float: left;
+  margin-bottom: 40px;
+}
+
+.bonus-programm__image {
+  position: relative;
+  width: 408px;
+}
+
+.bonus-programm__image img {
+  position: relative;
+  left: -8px;
+}
+
+.bonus-programm__content {
+  width: 660px;
+  padding-top: 64px;
+  padding-left: 42px;
+  color: #000;
+}
+
+.bonus-programm__content h3 {
+  font-size: 18px;
+  margin-bottom: 23px;
+  padding-left: 0;
+}
+
+.bonus-programm__content p {
+  font-size: 13px;
+  line-height: 20px;
+  color: #2b2121;
+}
+
+.bonus-programm__button {
+  clear: both;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 50px;
+  text-decoration: none;
+  margin-top: -10px;
+  margin-left: 86px;
+  margin-bottom: 20px;
+  padding-top: 0;
+  border-radius: 3px;
+}
+
 /* Корзина (бонусы) */
 
 .user-menu__bonuses::before {
@@ -5749,7 +5808,8 @@ a.catalog-item__del-button.i-buck:before{
   background-position: -336px -39px;
 }
 
-.user-menu__bonuses:hover::before {
+.user-menu__bonuses:hover::before,
+.user-menu__bonuses.active::before {
   background-position: -360px -39px;
 }
 
@@ -5761,7 +5821,8 @@ a.catalog-item__del-button.i-buck:before{
   background-position: -388px -40px;
 }
 
-.user-menu__bonuses-registered:hover::before {
+.user-menu__bonuses-registered:hover::before,
+.user-menu__bonuses-registered.active::before {
   background-position: -416px -40px;
 }
 
