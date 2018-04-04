@@ -315,6 +315,21 @@ $(".product-about__menu-item").click(function() {
 });
 
 
+/* Gifts - OpenBonus */
+
+$(".bonus-programm__content button").click(function () {
+  $(".bonus-programm__personal").addClass("bonus-programm__personal--visible");
+  $(".bonus-programm").addClass("bonus-programm--personal");
+  $(this).hide();
+});
+
+$(".bonus-programm--login .bonus-card__form .reset").click(function () {
+  $(".bonus-programm__personal").removeClass("bonus-programm__personal--visible");
+  $(".bonus-programm").removeClass("bonus-programm--personal");
+  $(".bonus-programm__content button").show();
+});
+
+
 /* jQuery Form Styler activation */
 
 (function($) {

@@ -5798,6 +5798,297 @@ a.catalog-item__del-button.i-buck:before{
   border-radius: 3px;
 }
 
+/* Бонусная программа (есть карта) */
+
+.bonus-programm--login .bonus-programm__image {
+  width: 429px;
+}
+
+.bonus-programm--login img {
+  top: -10px;
+  left: -17px;
+}
+
+.bonus-programm__image p {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #fff; 
+}
+
+.bonus-programm__card-number {
+  position: absolute;
+  top: 54px;
+  left: 31px;
+}
+
+.bonus-programm__available-bonuses {
+  position: absolute;
+  top: 92px;
+  left: 31px;
+}
+
+.bonus-programm__available-bonuses > span:first-child {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: none;
+  margin-bottom: 7px;
+}
+
+.bonus-programm--login .bonus-programm__content {
+  padding-top: 64px;
+  padding-left: 21px;
+}
+
+.bonus-programm--login .bonus-programm__content h2 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.bonus-programm--login .bonus-programm__content p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 44px;
+  color: #666;
+}
+
+.bonus-programm--login .bonus-programm__content strong {
+  font-size: 15px;
+  font-weight: 900;
+  color: #000;
+}
+
+.bonus-programm--login .bonus-programm__content button {
+  position: relative;
+  display: inline-block;
+  width: 220px;
+  height: 51px;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 47px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-top: 0;
+  padding-left: 32px;
+  background-image: none;
+  background-color: transparent;
+  color: #999;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.bonus-programm--login .bonus-programm__content button::before {
+  position: absolute;
+  top: 16px;
+  left: 51px;
+  content: "";
+  display: block;
+  width: 17px;
+  height: 14px;
+  background-image: url(../../images/sprites.png);
+  background-position: -734px -10px;
+}
+
+.bonus-programm--login .bonus-programm__content button:hover::before {
+  background-position: -1624px -10px;
+}
+
+.bonus-programm--personal .bonus-programm__image, 
+.bonus-programm--personal .bonus-programm__content {
+  margin-bottom: 0;
+}
+
+.bonus-programm__personal {
+  display: none;
+}
+
+.bonus-programm__personal--visible {
+  display: block;
+  clear: both;
+  padding-top: 6px;
+}
+
+.bonus-programm--login .bonus-card__form {
+  overflow: hidden;
+}
+
+.bonus-programm--login .bonus-card__form h2 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 20px;
+  margin-bottom: 25px;
+  padding-left: 17px;
+}
+
+.bonus-programm--login .bonus-card__form--left,
+.bonus-programm--login .bonus-card__form--right {
+  float: left;
+}
+
+.bonus-programm--login .bonus-card__form--left {
+  margin-right: 90px;
+}
+
+.bonus-programm--login .bonus-card__form--right {
+  width: 500px;
+}
+
+.bonus-programm--login .bonus-card__form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.bonus-programm--login .bonus-card__form label > span {
+  color: #ed1c24;
+}
+
+.bonus-programm--login .bonus-card__form input[type="text"] {
+  box-sizing: border-box;
+  width: 480px;
+  max-width: 480px;
+  height: 42px;
+  font-size: 14px;
+  line-height: 40px;
+  margin-bottom: 37px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #ccc;
+}
+
+.bonus-programm--login .bonus-card__form input[type="text"]:focus {
+  border: 1px solid #cf453c;
+  outline: none;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label,
+.bonus-programm--login .bonus-card__form .choose-gender input {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label {
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 46px;
+  color: #000;
+  cursor: pointer;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label.gender--female {
+  padding-left: 76px;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label::before {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label.gender--female::before {
+  left: 37px;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label::after {
+  position: absolute;
+  top: -3px;
+  left: 1px;
+  content: "";
+  display: block;
+  width: 26px;
+  height: 26px;
+  border: 1px solid #e3e3e3;
+  border-radius: 50%;
+}
+
+.bonus-programm--login .bonus-card__form .choose-gender label.gender--female::after {
+  left: 30px;
+}
+
+.bonus-programm--login .bonus-card__form input[type="radio"] {
+  display: none;
+}
+
+.bonus-programm--login .bonus-card__form input[type="radio"]:checked + label {
+  color: #000;
+}
+
+.bonus-programm--login .bonus-card__form input[type="radio"]:checked + label::after {
+  background-color: #ffb800;
+  border: 1px solid #ffb800;
+}
+
+.bonus-programm--login .bonus-card__form .submit,
+.bonus-programm--login .bonus-card__form .reset {
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 48px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-bottom: 18px;
+  padding-top: 0;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.bonus-programm--login .bonus-card__form .submit {
+  background-color: #ffd33a;
+  box-shadow: 0 1px 0 #ba9101;
+}
+
+.bonus-programm--login .bonus-card__form .reset {
+  font-size: 18px;
+  font-weight: 300;
+  text-transform: none;
+  margin-right: 39px;
+  background-color: #ebebed;
+  color: #000;
+  box-shadow: 0 1px 0 #cacaca;
+}
+
+.bonus-programm--login .bonus-card__form .submit:hover {
+  background-color: #ffb33a;
+}
+
+.bonus-programm--login .bonus-card__form .reset:hover {
+  background-color: #dbdbdd;
+  color: #000;
+  border: 1px solid #dbdbdd;
+}
+
 /* Корзина (бонусы) */
 
 .user-menu__bonuses::before {
@@ -5841,7 +6132,7 @@ a.catalog-item__del-button.i-buck:before{
 .cart-footer .cart-footer__bonus {
   display: block;
   margin-top: 13px;
-  margin-bottom: 39px;
+  margin-bottom: 26px;
 }
 
 .cart-footer__bonus {
@@ -5858,6 +6149,7 @@ a.catalog-item__del-button.i-buck:before{
 .cart-footer__bay-button {
   position: relative;
   display: inline-block;
+  margin-top: 13px;
 }
 
 .cart-footer--bonuses .cart-footer__total {
