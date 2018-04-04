@@ -6188,6 +6188,32 @@ a.catalog-item__del-button.i-buck:before{
   margin-right: 7px;
 }
 
+/* Оформление заказа (бонусы) */
+
+.pmt-sum {
+  margin-top: 12px!important;
+}
+
+.pmt-sum span {
+  margin-bottom: 11px!important;
+}
+
+.pmt-sum span:last-child {
+  font-weight: 900!important;
+}
+
+.pmt-sum--bonus-price span {
+  margin-bottom: 3px!important;
+}
+
+.pmt-sum--bonus-price span:last-child {
+  font-size: 30px!important;
+  margin-bottom: 20px!important;
+}
+
+
+/* END - Openbonus */
+
 
 /* Animation fade*/
 @-moz-keyframes fade {
