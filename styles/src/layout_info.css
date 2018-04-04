@@ -5681,6 +5681,15 @@ a.catalog-item__del-button.i-buck:before{
 
 /* Начисление/списание бонусов */
 
+.openbonus-popup--dark.openbonus-popup--2 .popup__top {
+  background-image: url("../../images/pages/openbonus/bg--dark-red.png");
+  background-color: #7e2721;
+}
+
+.openbonus-popup--dark.openbonus-popup--2 .popup__top::after {
+  background-color: #7e2721;
+}
+
 .openbonus-popup--3 .popup__bottom {
   padding-top: 75px;
   padding-bottom: 42px;
