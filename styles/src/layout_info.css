@@ -6530,9 +6530,10 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .gifts-messages__button-back {
+  text-transform: uppercase;
   margin-top: 32px;
-  margin-left: 0;
-  margin-bottom: 42px;
+  margin-left: 12px;
+  margin-bottom: 23px;
 }
 
 .gifts-messages__button-back a {
@@ -6549,18 +6550,14 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-messages__button-back a::before {
   position: absolute;
-  top: 3px;
-  left: 0;
+  top: 0px;
+  left: -14px;
   content: "";
   display: block;
-  width: 5px;
-  height: 8px;
+  width: 8px;
+  height: 13px;
   background-image: url("../../images/sprites.png");
-  background-position: -1609px -61px;
-}
-
-.gifts-messages__button-back a:hover::before {
-  background-position: -1609px -49px;
+  background-position: -535px -39px;
 }
 
 .gifts-message__header {
@@ -6575,16 +6572,15 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-message__header h2,
 .gifts-message__form h2 {
-  font-size: 30px;
-  font-weight: 400;
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: 30px;
   margin-bottom: 40px;
   color: #000;
 }
 
 .gifts-message__header h2 > span {
-  font-size: 17px;
-  vertical-align: middle;
-  color: #999;
+  font-weight: 300;
 }
 
 .gifts-message__header h2 > sup {
@@ -6595,16 +6591,16 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-message__delete-button {
   position: relative;
-  top: 13px;
+  top: 4px;
   display: block;
   width: 15px;
   height: 17px;
   background-image: url("../../images/sprites.png");
-  background-position: -1940px -32px;
+  background-position: -464px -40px;
 }
 
 .gifts-message__delete-button:hover {
-  background-position: -1920px -33px;
+  background-position: -484px -40px;
 }
 
 .gifts-message__delete-button:hover::before {
@@ -6613,7 +6609,7 @@ a.catalog-item__del-button.i-buck:before{
   left: -101px;
   content: "Удалить сообщения";
   display: block;
-  min-width: 130px;
+  min-width: 160px;
   height: 30px;
   font-size: 13px;
   font-weight: 400;
@@ -6640,48 +6636,40 @@ a.catalog-item__del-button.i-buck:before{
 .gifts-message__show-all-button {
   position: relative;
   display: inline-block;
-  font-size: 14px;
-  line-height: 44px;
-  margin-right: 40px;
+  font-size: 13px;
+  line-height: 29px;
+  margin-right: 22px;
   background-image: none;
-  color: #666;
+  color: #0099cc;
 }
 
 .gifts-message__show-all-button::before {
   position: absolute;
-  top: 20px;
-  left: -10px;
+  top: 14px;
+  left: -11px;
   content: "";
   display: block;
   width: 8px;
   height: 5px;
   background-image: url("../../images/sprites.png");
-  background-position: -1608px -72px;
+  background-position: -536px -32px;
 }
 
 .gifts-message__show-all-button--close::before {
   transform: rotate(180deg);
 }
 
-.gifts-message__show-all-button:hover {
-  color: #0099cc;
-}
-
-.gifts-message__show-all-button:hover::before {
-  background-position: -1608px -81px;
-}
-
 .gifts-message__item,
 .gifts-message__form {
   margin-bottom: 1px;
-  padding-top: 25px;
+  padding-top: 16px;
   padding-left: 20px;
   padding-bottom: 18px;
   background-color: #fff;
 }
 
 .gifts-message__item {
-  padding-bottom: 18px;
+  padding-bottom: 8px;
   background-color: #efece7;
   border-top: 1px solid #efece7;
   cursor: pointer;
@@ -6694,7 +6682,7 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .gifts-message__item--user {
-  padding-left: 80px;
+  padding-left: 70px;
   background-color: #f7f5f3;
 }
 
@@ -6716,24 +6704,24 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-message__item--open article {
   width: 800px;
-  margin-right: 232px;
+  margin-right: 189px;
 }
 
 .gifts-message__item--open.gifts-message__item--user article {
-  margin-right: 170px;
+  margin-right: 139px;
 }
 
 .gifts-message__item .item-information__name {
-  margin-bottom: 11px;
+  margin-bottom: 14px;
 }
 
 .item-information__new {
   font-size: 11px;
   line-height: 22px;
   text-transform: uppercase;
-  margin-left: 15px;
-  padding: 5px 10px;
-  background-color: #0099cc;
+  margin-left: 5px;
+  padding: 5px 12px;
+  background-color: #cf453c;
   color: white;
   border-radius: 15px;
 }
@@ -6804,8 +6792,9 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-message__item--open .gifts-message__item-mark {
   display: table-cell;
-  width: 102px;
+  width: 96px;
   vertical-align: middle;
+  font-size: 12px;
 }
 
 .gifts-message__item-mark input[type="checkbox"] {
@@ -6820,7 +6809,7 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-message__item-mark label::before {
   position: absolute;
-  top: 7px;
+  top: 4px;
   left: -25px;
   content: "";
   display: block;
@@ -6840,27 +6829,27 @@ a.catalog-item__del-button.i-buck:before{
   overflow: hidden;
   width: 700px;
   min-height: 268px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  background-color: #f2f0ec;
+  margin-top: 33px;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-bottom: 0;
 }
 
 .gifts-message__form h2 {
   font-size: 18px;
   font-weight: 700;
-  margin-bottom: 17px;
+  margin-top: 0;
+  margin-bottom: 28px;
   color: #28282c;
 }
 
 .gifts-message__form textarea {
   width: 618px;
-  height: 104px;
+  height: 92px;
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
   margin-bottom: 20px;
-  padding: 10px 20px;
+  padding: 16px 20px;
   background-color: white;
   color: #000;
   border: 1px solid #d0d4d8;
@@ -6886,37 +6875,30 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .gifts-message__form textarea:focus {
-  border: 1px solid #0099cc;
+  border: 1px solid #cf453c;
   outline: none;
 }
 
 .gifts-message__form input[type="submit"],
 .gifts-message__form input[type="reset"] {
   display: inline-block;
+  width: 220px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 42px;
+  padding: 0;
   border: none;
 }
 
 .gifts-message__form input[type="submit"] {
-  width: 220px;
-}
-
-.gifts-message__form input[type="reset"] {
-  font-size: 15px;
-  text-decoration: underline;
-  margin-left: 20px;
-  background-color: transparent;
-  color: #666;
-}
-
-.gifts-message__form input[type="reset"]:hover {
-  color: #666;
+  margin-right: 36px;
 }
 
 .gifts-message__form-email {
   position: absolute;
-  top: 28px;
-  right: 20px;
-  font-size: 14px;
+  top: 22px;
+  right: 39px;
+  font-size: 12px;
   margin-top: 0;
   padding-left: 40px;
   color: #28282c;
@@ -6938,20 +6920,20 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .gifts-message__form-email input[type="checkbox"]:checked + label[for="message-email"]::before {
-  background-color: #0099cc;
-  border: 1px solid #0099cc;
+  background-color: #cf453c;
+  border: 1px solid #cf453c;
 }
 
 .gifts-message__form-email input[type="checkbox"]:checked + label[for="message-email"]::after {
   position: absolute;
-  top: 4px;
+  top: 3px;
   left: 18px;
   content: "";
   display: block;
   width: 9px;
   height: 6px;
   background-image: url(../../images/sprites.png);
-  background-position: -1618px -62px;
+  background-position: -536px -55px;
 }
 
 .gifts-popup.messages-popup {
