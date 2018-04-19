@@ -330,6 +330,62 @@ $(".bonus-programm--login .bonus-card__form .reset").click(function () {
 });
 
 
+/* Gifts messages - Select all */
+
+$(".gifts-messages__header-button--select-all").click(function() {
+  if ($(this).hasClass("gifts-messages__header-button--checked")) {
+    $(this).removeClass("gifts-messages__header-button--checked");
+    for (var i = 0; i < $(".gifts-messages__item-flag input").length; i++) {
+      $($(".gifts-messages__item-flag input")[i]).removeAttr("checked");
+    }
+  } else {
+    $(this).addClass("gifts-messages__header-button--checked");
+    for (var i = 0; i < $(".gifts-messages__item-flag input").length; i++) {
+      $($(".gifts-messages__item-flag input")[i]).attr("checked", "checked");
+    }
+  }
+});
+
+
+/* Gifts messages - Mark as read */
+
+$(".gifts-message__item-mark label").click(function() {
+  if ($(this).hasClass("marked")) {
+    $(this).text("Отметить как не прочитанное");
+    $(this).removeClass("marked");
+  } else {
+    $(this).text("Отметить как прочитанное");
+    $(this).addClass("marked");
+  }
+});
+
+
+/* Gifts messages - Show/close messages */
+
+$(".gifts-message__item").click(function() {
+  $(this).toggleClass("gifts-message__item--open");
+  $(".gifts-message__show-all-button").removeClass("gifts-message__show-all-button--close");
+  $(".gifts-message__show-all-button").text("Свернуть все");
+});
+
+$(".gifts-message__show-all-button").click(function() {
+  if ($(this).hasClass("gifts-message__show-all-button--close")) {
+    for (var i = 0; i < $(".gifts-message__item").length; i++) {
+      $($(".gifts-message__item")[i]).addClass("gifts-message__item--open");
+    }
+    $(this).removeClass("gifts-message__show-all-button--close");
+    $(this).text("Свернуть все");
+  } else {
+    for (var i = 0; i < $(".gifts-message__item").length; i++) {
+      $($(".gifts-message__item")[i]).removeClass("gifts-message__item--open");
+    }
+    $(this).addClass("gifts-message__show-all-button--close");
+    $(this).text("Развернуть все");
+  }
+});
+
+
+
 /* jQuery Form Styler activation */
 
 (function($) {
