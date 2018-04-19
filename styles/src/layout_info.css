@@ -6939,20 +6939,20 @@ a.catalog-item__del-button.i-buck:before{
 .gifts-popup.messages-popup {
   position: absolute;
   top: 5%;
-  left: calc(50% - 270px);
-  width: 540px;
-  max-height: 100%;
+  left: calc(50% - 310px);
+  width: 620px;
+  min-height: 830px;
   padding: 0;
   background-color: white;
-  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
   z-index: 101;
 }
 
 .gifts-popup.messages-popup .popup__top {
   position: relative;
   height: 187px;
-  padding-top: 136px;
-  background-image: url(../../images/pages/openbonus/bg--blue.png);
+  padding-top: 100px;
+  background-image: url(../../images/pages/openbonus/bg--red.png);
 }
 
 .gifts-popup.messages-popup .popup__top::after {
@@ -6963,7 +6963,7 @@ a.catalog-item__del-button.i-buck:before{
   display: block;
   width: 15px;
   height: 15px;
-  background-color: #00c4e0;
+  background-color: #cf453c;
   transform: rotate(45deg);
 }
     
@@ -6973,28 +6973,39 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-popup.messages-popup .popup__top h1 {
   position: relative;
+  font-family: 'Georgia', sans-serif;
   font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  line-height: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 26px;
   text-align: center;
-  color: #000;
+  color: white;
+}
+
+.gifts-popup.messages-popup .popup__top h1 > strong {
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 42px;
+  text-transform: uppercase;
+  font-style: normal;
 }
 
 .gifts-popup.messages-popup .popup__top h1::after {
   position: absolute;
-  top: -114px;
-  left: calc(50% - 47px);
+  top: -70px;
+  left: calc(50% - 34px);
   content: "";
   display: block;
-  width: 108px;
-  height: 96px;
+  width: 76px;
+  height: 68px;
   background-image: url("../../images/sprites.png");
-  background-position: -2956px -13px;
+  background-position: -2057px -1px;
 }
 
 .gifts-popup.messages-popup .popup__bottom {
-  padding-top: 38px;
+  padding-top: 58px;
   padding-left: 48px;
   padding-right: 48px;
   padding-bottom: 41px;
@@ -7002,11 +7013,12 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-popup.messages-popup .popup__bottom label {
   display: block;
-  font-size: 15px;
+  font-size: 14px;
   text-align: left;
+  text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 8px;
-  padding-left: 32px;
+  padding-left: 21px;
   color: #000;
 }
 
@@ -7016,11 +7028,11 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-popup.messages-popup .popup__bottom input[type="text"],
 .gifts-popup.messages-popup .popup__bottom textarea {
-  width: 344px;
+  width: 444px;
   height: 38px;
   font-size: 14px;
   line-height: 36px;
-  margin-bottom: 17px;
+  margin-bottom: 38px;
   padding-left: 17px;
   padding-right: 17px;
   background-color: transparent;
@@ -7029,10 +7041,10 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .gifts-popup.messages-popup .popup__bottom textarea {
-  height: 89px;
+  height: 103px;
   font-family: 'PT Sans', sans-serif;
   line-height: 16px;
-  margin-bottom: 28px;
+  margin-bottom: 51px;
   padding-top: 16px;
   padding-bottom: 16px;
   resize: none;
@@ -7040,7 +7052,7 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-popup.messages-popup .popup__bottom input[type="text"]:focus,
 .gifts-popup.messages-popup .popup__bottom textarea:focus {
-  border: 1px solid #0099cc;
+  border: 1px solid #cf453c;
   outline: none;
 }
 
@@ -7050,9 +7062,10 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-popup.messages-popup .popup__bottom label[for="message-email"] {
   position: relative;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   text-align: center;
+  text-transform: none;
   margin-bottom: 45px;
   padding-left: 25px;
   color: #28282c;
@@ -7060,8 +7073,8 @@ a.catalog-item__del-button.i-buck:before{
 
 .gifts-popup.messages-popup .popup__bottom label[for="message-email"]::before {
   position: absolute;
-  top: 0;
-  left: 134px;
+  top: -2px;
+  left: 178px;
   content: "";
   display: block;
   width: 14px;
@@ -7070,36 +7083,44 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .gifts-popup.messages-popup .popup__bottom input[type="checkbox"]:checked + label[for="message-email"]::before {
-  background-color: #0099cc;
-  border: 1px solid #0099cc;
+  background-color: #cf453c;
+  border: 1px solid #cf453c;
 }
 
 .gifts-popup.messages-popup .popup__bottom input[type="checkbox"]:checked + label[for="message-email"]::after {
   position: absolute;
-  top: 4px;
-  left: 124px;
+  top: 2px;
+  left: 181px;
   content: "";
   display: block;
   width: 9px;
   height: 6px;
   background-image: url(../../images/sprites.png);
-  background-position: -1618px -62px;
+  background-position: -536px -55px;
 }
 
 .gifts-popup.messages-popup .submit {
   position: relative;
   display: block;
+  width: 280px;
+  height: 50px;
+  font-size: 18px;
+  line-height: 50px;
   text-decoration: none;
   margin: 0 auto;
   margin-top: 32px;
   margin-bottom: 20px;
-  color: #000;
+  padding: 0;
   border: none;
   cursor: pointer;
 }
 
+.gifts-popup.messages-popup--2 {
+  min-height: 548px;
+}
+
 .gifts-popup.messages-popup--2 .popup__top {
-  padding-top: 256px;
+  padding-top: 220px;
   background-image: none;
   background-color: #fff;
 }
@@ -7108,27 +7129,31 @@ a.catalog-item__del-button.i-buck:before{
   display: none;
 }
 
+.gifts-popup.messages-popup--2 .popup__close-button--top::before {
+  background-position: -550px -32px;
+}
+
 .gifts-popup.messages-popup--2 .popup__top h1::after {
-  top: -81px;
-  background-position: -2832px -13px;
+  top: -30px;
+  background-position: -1972px -2px;
 }
 
 .gifts-popup.messages-popup--2 strong {
     display: block;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 700;
     line-height: 36px;
     text-transform: uppercase;
     text-align: center;
-    color: #000;
+    color: #cf453c;
 }
 
 .gifts-popup.messages-popup--2 p {
-    font-size: 16px;
+    font-size: 13px;
     line-height: 20px;
     font-weight: 400;
     text-align: center;
-    margin-top: 2px;
+    margin-top: 7px;
     margin-bottom: 43px;
     color: #414141;
 }
