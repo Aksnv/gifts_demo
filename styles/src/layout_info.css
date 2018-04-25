@@ -5385,9 +5385,11 @@ a.catalog-item__del-button.i-buck:before{
 
 .popup__close-button--top {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 13px;
+  right: 14px;
   display: block;
+  width: 12px;
+  height: 12px;
   font-size: 14px;
   line-height: 20px;
   background-image: none;
@@ -5399,8 +5401,8 @@ a.catalog-item__del-button.i-buck:before{
 
 .popup__close-button--top::before {
   position: absolute;
-  top: 13px;
-  left: -14px;
+  top: 0;
+  left: 0;
   content: "";
   display: block;
   width: 12px;
