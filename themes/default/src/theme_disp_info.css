@@ -46,6 +46,12 @@
 		margin-right: 10px;
 	}
 
+	.menu-login-cart, 
+	li.user-menu__item>a, 
+	li.user-menu__item>div>a {
+		font-size: 0;
+	}
+
 	/* Catalog search */
 	
 	.catalog-search__btn{

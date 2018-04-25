@@ -839,13 +839,13 @@ img:focus {
 
 /* ------------- Dropdown cart ------------- */
 
-#cartInfoWidgetId{
-	display: block;
-	position: absolute;
-	top: -2px;
-	left: 124px;
-	width: 111px;	
-}
+/* #cartInfoWidgetId{
+  display: block;
+  position: absolute;
+  top: -2px;
+  left: 124px;
+  width: 111px;  
+} */
 
 .cart-menu{
 	position: relative;
@@ -885,6 +885,7 @@ a#cart_dropdown__trigger:before{
 	-webkit-animation:fade ease-in 0.3s; 
     -moz-animation:fade ease-in 0.3s;
     animation:fade ease-in 0.3s;	
+    z-index: 2;
 }
 
 #cart_dropdown__content:before{
@@ -892,7 +893,7 @@ a#cart_dropdown__trigger:before{
 	width:20px;
 	height:11px;
 	content: "";
-	top: -11px;
+	top: -10px;
 	left: 50%;
 	display: block;
 }
@@ -2123,6 +2124,10 @@ div.cs-select.cs-active .cs-options {
     top: 0;
     bottom: 0;
     right: 0;
+    width: auto; 
+    height: auto; 
+    max-height: 220px; 
+    max-width: 220px; 
 }
 
 .catalog-item__img .img-fon{
