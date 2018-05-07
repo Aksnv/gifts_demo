@@ -3294,6 +3294,10 @@
     margin: 0 auto;
 	}
 
+	.gifts-popup.messages-popup--2 {
+		min-height: auto;
+	}
+
 	.gifts-popup.messages-popup > div {
 		width: auto;
 	}
