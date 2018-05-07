@@ -2516,6 +2516,37 @@
 		left: 1px;
 	}
 
+	.gifts-popup.messages-popup {
+		width: 360px;
+		left: calc(50% - 185px);
+	}
+
+	.gifts-popup.messages-popup .popup__bottom {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom label {
+		padding-left: 0;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom input[type="text"], 
+	.gifts-popup.messages-popup .popup__bottom textarea {
+		width: 264px;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom label[for="message-email"] {
+		padding-left: 26px;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom label[for="message-email"]::before {
+		left: 66px;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom input[type="checkbox"]:checked + label[for="message-email"]::after {
+		left: 69px;
+	}
+
 	/* END - Messages */
 	
 }
@@ -3249,6 +3280,40 @@
 
 	.gifts-messages__item-delete button:hover::before {
 		z-index: 2;
+	}
+
+	.gifts-popup.messages-popup {
+		top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    position: relative;
+    height: 100%;
+    min-height: 861px;
+    padding: 0;
+    margin: 0 auto;
+	}
+
+	.gifts-popup.messages-popup > div {
+		width: auto;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom input[type="text"], 
+	.gifts-popup.messages-popup .popup__bottom textarea {
+		width: 90%;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom label[for="message-email"] {
+		display: inline-block;
+		text-align: center;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom label[for="message-email"]::before {
+		left: 0;
+	}
+
+	.gifts-popup.messages-popup .popup__bottom input[type="checkbox"]:checked + label[for="message-email"]::after {
+		left: 3px;
 	}
 
 	/* END - Messages */
