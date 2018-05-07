@@ -385,6 +385,25 @@ $(".gifts-message__show-all-button").click(function() {
 });
 
 
+/* Gifts messages - Content */
+
+$(window).resize(function() {
+  if ($(".no-banner .container_theme").css("width") == "300px") {
+    $(".gifts-messages__header-button--new-message").text("Новое");
+  } else {
+    $(".gifts-messages__header-button--new-message").text("Новое сообщение");
+  }
+});
+
+$(document).ready(function() {
+  if ($(".no-banner .container_theme").css("width") == "300px") {
+    $(".gifts-messages__header-button--new-message").text("Новое");
+  } else {
+    $(".gifts-messages__header-button--new-message").text("Новое сообщение");
+  }
+});
+
+
 
 /* jQuery Form Styler activation */
 

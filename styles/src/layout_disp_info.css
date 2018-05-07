@@ -113,6 +113,22 @@
 		right: 13px;
 	}
 
+	/* Messages */
+
+	li.user-menu__item > a.user-menu__messages {
+		position: relative;
+		width: 65px;
+		padding-left: 0;
+	}
+
+	li.user-menu__item > a.user-menu__messages sup {
+		position: absolute;
+		top: 12px;
+		right: 9px;
+	}
+
+	/* END - Messages */
+
 	.user-menu__bookmarks{
 		overflow: hidden;		
 		width: 9px;
@@ -574,6 +590,27 @@
 	.slider--gifts img {
 		max-height: 303px;
 	}
+
+	/* Messages */
+
+	.gifts-messages__header-button {
+		padding-left: 24px;
+	}
+
+	.gifts-messages__header-button--mark-as-read, 
+	.gifts-messages__header-button--delete-all {
+		padding-left: 38px;
+	}
+
+	.gifts-messages__header-button--mark-as-read::before {
+		left: 16px;
+	}
+
+	.gifts-messages__header-button--delete-all::before {
+		left: 18px;
+	}
+
+	/* END - Messages */
 
 }
 
@@ -2468,6 +2505,18 @@
 	.slider-arrows {
 		display: none;
 	}
+
+	/* Messages */
+
+	.gifts-messages__header-button--delete-all {
+		padding-left: 24px;
+	}
+
+	.gifts-messages__header-button--delete-all::before {
+		left: 1px;
+	}
+
+	/* END - Messages */
 	
 }
 
@@ -2561,6 +2610,12 @@
 	.product-desc .catalog-item:last-child, .product-desc .catalog-item:nth-child(2n+2){
 		margin-right: 93px;
 	}
+
+	/* Messages */
+
+
+
+	/* END - Messages */
 
 /* Footer */	
 	.footer_theme .container_theme > div{
@@ -3154,6 +3209,49 @@
 	.slider-arrows {
 		top: 70%;
 	}
+
+	/* Messages */
+
+	.gifts-messages__header-button--new-message {
+		top: -7px;
+	}
+
+	.gifts-messages__header-button--mark-as-read {
+		padding-left: 24px;
+	}
+
+	.gifts-messages__header-button--mark-as-read::before {
+		left: 1px;
+	}
+
+	.gifts-messages__item-flag {
+		width: 70px;
+	}
+
+	.gifts-messages__item-delete {
+		width: 15px;
+		padding-left: 13px;
+	}
+
+	.gifts-messages__item li {
+		vertical-align: bottom;
+	}
+
+	.gifts-messages__item-information h2 {
+		position: relative;
+	}
+
+	.gifts-messages__item-information h2 > sup {
+		position: absolute;
+		top: -28px;
+    right: -31px;
+	}
+
+	.gifts-messages__item-delete button:hover::before {
+		z-index: 2;
+	}
+
+	/* END - Messages */
 
 }
 
