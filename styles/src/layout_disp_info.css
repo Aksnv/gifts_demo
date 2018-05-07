@@ -127,6 +127,16 @@
 		right: 9px;
 	}
 
+	.gifts-message__item--open article {
+		width: 680px;
+    margin-right: 44px;
+	}
+
+	.gifts-message__item--open.gifts-message__item--user article {
+		width: 630px;
+		margin-right: 44px;
+	}
+
 	/* END - Messages */
 
 	.user-menu__bookmarks{
@@ -608,6 +618,53 @@
 
 	.gifts-messages__header-button--delete-all::before {
 		left: 18px;
+	}
+
+	.gifts-message__header h2, 
+	.gifts-message__form h2 {
+		font-size: 20px;
+	}
+
+	.gifts-messages__button-back a {
+		font-size: 13px;
+	}
+
+	.gifts-message__show-all-button {
+		line-height: 22px;
+	}
+
+	.gifts-message__show-all-button::before {
+		top: 10px;
+	}
+
+	.gifts-message__item .item-information__text,
+	.gifts-message__item--open .item-information__text {
+		display: block;
+		width: 540px;
+	}
+
+	.gifts-message__form {
+		width: 620px;
+	}
+
+	.gifts-message__form textarea {
+		width: 578px;
+	}
+
+	.gifts-message__form-email {
+		right: 0;
+	}
+
+	.gifts-message__item-mark label {
+		font-size: 0;
+	}
+
+	.gifts-message__item--open article {
+		width: 540px;
+	}
+
+	.gifts-message__item--open.gifts-message__item--user article {
+		width: 490px;
 	}
 
 	/* END - Messages */
@@ -2547,6 +2604,45 @@
 		left: 69px;
 	}
 
+	.gifts-message__item .item-information__text, 
+	.gifts-message__item--open .item-information__text {
+		width: 420px;
+	}
+
+	.gifts-message__form {
+		width: 480px;
+	}
+
+	.gifts-message__form textarea {
+		width: 438px;
+	}
+
+	.gifts-message__header {
+		position: relative;
+	}
+
+	.gifts-message__header button {
+		position: absolute;
+		top: auto;
+		right: 0;
+	}
+
+	.gifts-message__show-all-button {
+		bottom: -58px;
+	}
+
+	.gifts-message__delete-button {
+		bottom: -54px;
+	}
+
+	.gifts-message__item--open article {
+		width: 430px;
+	}
+
+	.gifts-message__item--open.gifts-message__item--user article {
+		width: 380px;
+	}
+
 	/* END - Messages */
 	
 }
@@ -2641,12 +2737,6 @@
 	.product-desc .catalog-item:last-child, .product-desc .catalog-item:nth-child(2n+2){
 		margin-right: 93px;
 	}
-
-	/* Messages */
-
-
-
-	/* END - Messages */
 
 /* Footer */	
 	.footer_theme .container_theme > div{
@@ -3318,6 +3408,67 @@
 
 	.gifts-popup.messages-popup .popup__bottom input[type="checkbox"]:checked + label[for="message-email"]::after {
 		left: 3px;
+	}
+
+	.gifts-message__item .item-information__text {
+		display: none;
+	}
+
+	.gifts-message__item--open .item-information__text {
+		display: block;
+		width: 240px;
+	}
+
+	.item-information__new {
+		position: relative;
+    top: -5px;
+	}
+
+	.gifts-message__item--user {
+		padding-left: 40px;
+	}
+
+	.gifts-message__delete-button {
+		bottom: auto;
+		top: 2px!important;
+	}
+
+	.gifts-message__show-all-button {
+		margin-right: 0;
+		padding-right: 0;
+	}
+
+	.gifts-message__item--open article {
+		width: 240px;
+	}
+
+	.gifts-message__item--open.gifts-message__item--user article {
+		width: 220px;
+	}
+
+	.gifts-message__item--open .gifts-message__item-mark {
+		vertical-align: top;
+	}
+
+	.gifts-message__item-mark label::before {
+		top: -9px;
+	}
+
+	.gifts-message__form {
+		width: 300px;
+	}
+
+	.gifts-message__form textarea {
+		width: 258px;
+	}
+
+	.gifts-message__form input[type="submit"], 
+	.gifts-message__form input[type="reset"] {
+		width: 100%;
+	}
+
+	.gifts-message__form input[type="submit"] {
+		margin-bottom: 10px;
 	}
 
 	/* END - Messages */
