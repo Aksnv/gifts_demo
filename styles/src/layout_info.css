@@ -1276,6 +1276,13 @@ p.user-menu__name{
   height: 300px;
 }
 
+.certificate-gifts .certificate__image .product-img-fon img {
+  width: auto; 
+  height: auto; 
+  max-width: 290px; 
+  max-height: 290px;
+}
+
 .certificate-gifts .certificate__image .product-img-mob {
   margin-top: 10px;
 }
@@ -1295,6 +1302,13 @@ p.user-menu__name{
 .certificate-gifts .certificate__image .product-img-mob a.active {
   border: 4px solid #ffb800;
   opacity: 1;
+}
+
+.certificate-gifts .certificate__image .img-fon img {
+  width: auto; 
+  height: auto; 
+  max-width: 59px; 
+  max-height: 59px;
 }
 
 .certificate-gifts .certificate__content {
