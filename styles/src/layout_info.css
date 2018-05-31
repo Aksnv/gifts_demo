@@ -1295,7 +1295,8 @@ p.user-menu__name{
   border: none;
 }
 
-.certificate-gifts .certificate__image .product-img-mob a:first-child {
+.certificate-gifts .certificate__image .product-img-mob a:first-child,
+.certificate-gifts .certificate__image .product-img-mob a:nth-child(4n+1) {
   margin-left: 0;
 }
 
@@ -2677,8 +2678,10 @@ h1.title_page_theme--news {
 }
 
 .product-img-mob{
-	width: 540px;
-	height: 132px;
+	/* width: 540px;
+  height: 132px; */
+  width: 310px; 
+  height: 140px;
 	display: block;
 	margin-top: 20px;
 	overflow-x: auto;
