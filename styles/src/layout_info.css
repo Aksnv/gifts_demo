@@ -4436,6 +4436,10 @@ a.catalog-item__del-button.i-buck:before{
 	margin-bottom: 75px;
 }
 
+.checkout-step h3{
+  margin-bottom: 40px;
+}
+
 .checkout-edit-adress{
     display: block;
     width: 17px;
