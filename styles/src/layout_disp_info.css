@@ -967,7 +967,7 @@
     }
 
 	.logo_theme__info{
-		display: none;
+		display: none!important;
 	}
 
 	.logo_theme {
@@ -2780,6 +2780,10 @@
 		margin: 25px 0;
 	}
 
+	.logo_theme .header__cell img {
+		max-width: 130px;
+	}
+
 /* User */
 	.menu-login {
 		margin-top: 39px;
@@ -2853,7 +2857,7 @@
 	/* Breadcrumbs */
 	
 	.with-banner .breadcrumbs_theme {
-		margin-top: 260px;
+		/* margin-top: 260px; */
 		display: none;
 	}
 
