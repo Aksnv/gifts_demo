@@ -5274,6 +5274,11 @@ a.catalog-item__del-button.i-buck:before{
   padding-bottom: 15px;
 }
 
+.read-fragment__article a.read-fragment__dl-fragment-link {
+  font-size: 16px;
+  font-weight: 700;
+}
+
 .read-fragment__paginator {
   position: relative;
   margin-top: 10px;
