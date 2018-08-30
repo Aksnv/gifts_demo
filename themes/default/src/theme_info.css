@@ -13,6 +13,23 @@
     src: url(../fonts/georgia-bold-italic.woff);
 }
 
+@font-face {
+    font-family: 'fontello';
+    src: url(../fonts/fontello.woff);
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot');
+  src: url('../fonts/fontello.eot') format('embedded-opentype'),
+       url('../fonts/fontello.woff2') format('woff2'),
+       url('../fonts/fontello.woff') format('woff'),
+       url('../fonts/fontello.ttf') format('truetype'),
+       url('../fonts/fontello.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -198,6 +215,43 @@ a.btn_grey:hover, a.btn_grey:focus,
 	font-size: 25px;
 }
 
+/* ---------------  --------------- Icon font ---------------  --------------- */
+
+[class*="--icon-font"]:before,
+.btn-search-click--icon-font + label:before,
+.btn-menu-click--icon-font + label:before  {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: 400;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  height: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: none!important;
+}
+
+[class*="--icon-font"]:hover:before,
+[class*="--icon-font"]:focus:before,
+[class*="--icon-font"].active:before,
+a#cart_dropdown__trigger.icon__cart--icon-font:hover:before,
+a#cart_dropdown__trigger.icon__cart--icon-font:focus:before,
+a#cart_dropdown__trigger.icon__cart--icon-font.active:before,
+.btn-search-click--icon-font + label:hover:before,
+.btn-search-click--icon-font + label:focus:before/* ,
+.btn-menu-click--icon-font + label:hover:before,
+.btn-menu-click--icon-font + label:focus:before */  {
+	background: none!important;
+	color: #cf453c;
+}
+
 /* ---------------  --------------- Scroll bar theme ---------------  --------------- */
 ::-webkit-scrollbar {
     width: 4px;
@@ -234,6 +288,10 @@ a.btn_grey:hover, a.btn_grey:focus,
 
 .header_theme a{
 	color: #fff;
+}
+
+.header_theme--icon-font a{
+	color: orange;
 }
 
 .logo_theme__info-tel{
@@ -290,6 +348,14 @@ a.btn_grey:hover, a.btn_grey:focus,
 	font-size: 18px;
 }
 
+.menu-main__list li:hover{
+	background: #ffb800;
+}
+
+.menu-main__list li:hover > a {
+	color: #cf453c;
+}
+
 .menu-main__list-item--active a {
   color: #000;
 }
@@ -301,9 +367,25 @@ a.btn_grey:hover, a.btn_grey:focus,
 	font-size: 18px;	
 }
 
+.btn-menu-click--icon-font + label {
+	color: orange;
+}
+
+.btn-menu-click--icon-font + label:hover {
+	color: orange;
+}
+
 .btn-menu-click + label:before, .btn-menu-click:indeterminate + label:before{
 	background: transparent url("../../../images/sprites.png") -1490px -10px no-repeat;
 }
+
+.btn-menu-click--icon-font + label:before, .btn-menu-click--icon-font:indeterminate + label:before {
+	font-size: 18px;
+	content: '\e804';
+	color: orange;
+	background: none!important;
+	margin-right: 8px!important;
+} 
 
 .btn-menu-click + label:hover:before, .btn-menu-click:indeterminate + label:hover:before,
 .btn-menu-click + label:focus:before, .btn-menu-click:indeterminate + label:focus:before{
@@ -318,6 +400,13 @@ a.btn_grey:hover, a.btn_grey:focus,
 
 .btn-menu-click:checked + label:before{
 	background: transparent url("../../../images/sprites.png") -1053px -10px no-repeat;
+}
+
+.btn-menu-click--icon-font:checked + label:before {
+	font-size: 18px;
+	content: '\e805';
+	color: black;
+	background: none!important;
 }
 
 .btn-menu-click:checked + label:hover:before,
@@ -364,14 +453,31 @@ a.btn_grey:hover, a.btn_grey:focus,
     text-align: center;
 }
 
+.btn-search-click--icon-font + label {
+	padding: 10px;
+	border: 1px solid orange;
+	color: orange;
+}
+
 .btn-search-click + label:before{
 	background: transparent url("../../../images/sprites.png") -1305px -10px no-repeat;
+}
+
+.btn-search-click--icon-font + label:before {
+	position: relative;
+  top: -2px;
+	font-size: 22px;
+	content: '\e803'!important;
+	color: orange;
+	background: none!important;
+	margin-right: 12px!important;
 }
 
 .btn-search-click + label:hover,
 .btn-search-click + label:focus{
 	background: #ffb800;
     border: 1px solid #ffb800;	
+    color: #cf453c;
 }
 
 .btn-search-click + label:hover:before,
@@ -437,6 +543,7 @@ a.btn_grey:hover, a.btn_grey:focus,
 li.user-menu__item > a,
 li.user-menu__item > div > a{
 	font-size: 11px;
+	line-height: 22px;
 }
 
 li.user-menu__item > a:hover,
@@ -454,6 +561,12 @@ li.user-menu__item > div > a.active{
 
 a#cart_dropdown__trigger:before{
 	background: transparent url("../../../images/sprites.png") -1576px -10px no-repeat;
+}
+
+a#cart_dropdown__trigger.icon__cart--icon-font:before {
+	font-size: 18px;
+	content: '\e807'!important;
+	color: orange;
 }
 
 a#cart_dropdown__trigger:hover:before,
@@ -544,6 +657,12 @@ a.cart-menu__cart-button:focus{
 	background: transparent url("../../../images/sprites.png") -1079px -10px no-repeat;
 }
 
+.menu-login__login--icon-font:before {
+	font-size: 16px;
+	content: '\f2c0'!important;
+	color: orange;
+}
+
 /* --------------- User menu if login --------------- */
 
 .user-menu__item:not(:last-child){
@@ -562,6 +681,12 @@ a.cart-menu__cart-button:focus{
 	background: transparent url("../../../images/sprites.png") -1398px -10px no-repeat;
 }
 
+.user-menu__purchases--icon-font:before {
+	font-size: 18px;
+	content: '\e800'!important;
+	color: orange;
+}
+
 .user-menu__purchases:hover:before,
 .user-menu__purchases:focus:before{
 	background: transparent url("../../../images/sprites.png") -1334px -10px no-repeat;
@@ -571,10 +696,35 @@ a.cart-menu__cart-button:focus{
 	background: transparent url("../../../images/sprites.png") -1217px -10px no-repeat;
 }
 
+.user-menu__bookmarks--icon-font:before {
+	font-size: 18px;
+	content: '\e801'!important;
+	color: orange;
+}
+
 .user-menu__bookmarks:hover:before,
 .user-menu__bookmarks:focus:before,
 .user-menu__bookmarks.active:before{
 	background: transparent url("../../../images/sprites.png") -1157px -10px no-repeat;
+}
+
+.user-menu__messages--icon-font:before {
+	font-size: 16px;
+	content: '\e802'!important;
+	color: orange;
+}
+
+.user-menu__bonuses--icon-font:before {
+	font-size: 16px;
+	content: '\f295'!important;
+	color: orange;
+}
+
+.user-menu__bonuses-registered--icon-font:before {
+	font-size: 16px;
+	content: '\f283'!important;
+	color: orange;
+	margin-right: 12px!important;
 }
 
 /* --------------- Purchases --------------- */
