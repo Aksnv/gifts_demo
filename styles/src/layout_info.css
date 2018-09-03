@@ -803,7 +803,8 @@ img:focus {
 
 .logo_theme{
 	display: block;
-	width: 456px;
+	/* width: 456px; */
+  max-width: 480px;
 	height: 93px;
 	margin: 29px 0;
 	text-align: left;
@@ -817,7 +818,8 @@ img:focus {
 .logo_theme__info{
 	display: inline-block;
 	margin: 43px 0 0 74px;
-	width: 167px;
+	/* width: 167px; */
+  max-width: 190px;
 	vertical-align: top;
 }
 

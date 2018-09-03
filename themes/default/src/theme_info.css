@@ -301,6 +301,8 @@ a#cart_dropdown__trigger.icon__cart--icon-font.active:before,
 }
 
 .logo_theme__info-time{
+  display: block; 
+  line-height: 18px;
 	font-weight: 400;
 }
 
