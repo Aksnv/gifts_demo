@@ -815,6 +815,14 @@ img:focus {
 	display: inline-block;	
 }
 
+.logo_theme img {
+  display: block;
+  width: auto;
+  max-width: 211px;
+  height: auto;
+  max-height: 93px;
+}
+
 .logo_theme__info{
 	display: inline-block;
 	margin: 43px 0 0 74px;
