@@ -2596,10 +2596,10 @@ h1.title_page_theme--news {
 /* --------------- Promoblocks ----------------- */
 
 .promoBlocks{
-	overflow: hidden;
+	/* overflow: hidden; */
 	position: relative;
-	height: 740px;
-	padding: 20px;	
+	/* height: 740px;
+  padding: 20px;   */
 }
 
 .promo-item{
