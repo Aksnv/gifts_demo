@@ -2598,8 +2598,9 @@ h1.title_page_theme--news {
 .promoBlocks{
 	/* overflow: hidden; */
 	position: relative;
-	/* height: 740px;
-  padding: 20px;   */
+	/* height: 740px; */
+  padding: 20px;
+  padding-right: 0; 
 }
 
 .promo-item{
