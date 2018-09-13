@@ -11,6 +11,12 @@
 		width: 1220px;
 	}
 
+	.no-banner .container_theme .promoBlocks {
+		width: 1140px; 
+		padding-left: 0; 
+		padding-right: 0;
+	}
+
 	.section_theme {
 		width: 700px;
 	}
@@ -35,6 +41,12 @@
 		width: 1220px;
 	}
 
+	.no-banner .container_theme .promoBlocks {
+		width: 1140px; 
+		padding-left: 0; 
+		padding-right: 0;
+	}
+
 	.section_theme {
 		width: 700px;
 	}
@@ -57,6 +69,12 @@
 	.section_theme, .container_theme, .catalog-slider__nav, .catalog-slider__cap, .breadcrumbs_theme,
 	.promoBlocks{
 		width: 1220px;
+	}
+
+	.no-banner .container_theme .promoBlocks {
+		width: 1140px; 
+		padding-left: 0; 
+		padding-right: 0;
 	}
 
 	.section_theme {
@@ -309,6 +327,12 @@
 	.section_theme, .container_theme, .catalog-slider__nav, .catalog-slider__cap, .breadcrumbs_theme, .menu-catalog,
 	.promoBlocks{
 		width: 940px;
+	}
+
+	.no-banner .container_theme .promoBlocks {
+		width: 868px; 
+		padding-left: 0; 
+		padding-right: 0;
 	}
 
 	.section_theme {
@@ -696,6 +720,12 @@
 	.section_theme, .container_theme, .catalog-slider__nav, .catalog-slider__cap, .breadcrumbs_theme, .menu-catalog,
 	.promoBlocks{
 		width: 700px;
+	}
+
+	.no-banner .container_theme .promoBlocks {
+		width: 630px; 
+		padding-left: 0; 
+		padding-right: 0;
 	}
 
 	.with-banner .container_theme{
@@ -2674,6 +2704,12 @@
 		width: 480px;
 	}
 
+	.no-banner .container_theme .promoBlocks {
+		width: 472px; 
+		padding-left: 0; 
+		padding-right: 0;
+	}
+
 	.with-banner .container_theme, .footer_theme .container_theme{
 	}	
 
@@ -2782,6 +2818,12 @@
 	.section_theme, .container_theme, .menu-login-cart, .catalog-slider__nav, .catalog-slider__cap, .breadcrumbs_theme,
 	.promoBlocks, .footer_theme .container_theme > div, .filter_theme{
 		width: 300px;
+	}
+
+	.no-banner .container_theme .promoBlocks {
+		width: 300px; 
+		padding-left: 0; 
+		padding-right: 0;
 	}
 
 	.with-banner .container_theme, .footer_theme .container_theme, .product_theme .container_theme, .profile .container_theme{

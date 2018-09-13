@@ -41,6 +41,7 @@ img:focus {
 	min-height: 100%;
 	overflow: hidden;
 	min-width: 300px;
+  background-size: 100% 710px;
 }
 
 .main_theme > section {
@@ -1723,6 +1724,10 @@ p.user-menu__name{
   margin-top: 27px;
 }
 
+.product-about--gifts .product-delivery > div:nth-child(odd) {
+  overflow: hidden;
+}
+
 .product-delivery p {
   font-size: 14px;
   line-height: 20px;
@@ -1886,7 +1891,7 @@ div.cs-select > span:after {
 	display: block;
     position: absolute;
     width: 40px;
-    height: 40px;
+    height: 39px;
     cursor: pointer;
     content: "";
     right: 0;
@@ -1903,7 +1908,7 @@ div.cs-select.cs-active > span:before{
 div.cs-select.cs-active > span:after{
     right: 0;
     top: 0;
-    height: 40px;
+    height: 39px;
 }
 
 .cs-options{
@@ -2046,7 +2051,7 @@ div.cs-select.cs-active .cs-options {
 /* ------------ Catalog store ----------------- */
 
 .catalog_theme{
-	margin-top: 40px;
+	/* margin-top: 40px; */
 	position: relative;
 }
 
@@ -2600,7 +2605,8 @@ h1.title_page_theme--news {
 	position: relative;
 	/* height: 740px; */
   padding: 20px;
-  padding-right: 0; 
+  padding-right: 0;
+  padding-top: 60px;
 }
 
 .promo-item{
