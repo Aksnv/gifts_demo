@@ -112,7 +112,8 @@ img:focus {
 .btn_yellow{
 	width: 220px;
 	height: 50px;	
-	padding-top: 14px;
+	/* padding-top: 14px; */
+  padding-top: 0;
 }
 
 .title-line:before,
@@ -3132,13 +3133,20 @@ h1.title_page_theme--news {
 /* ---------------  Profile  --------------- */
 
 .profile_theme{
+  margin-top: -30px;
 }
 
 /* --------  Profile Head ------- */
 
+.profile-head_name {
+  text-align: right;
+}
+
 .profile-head_name a{
-	display: block;
-	margin-top: -18px;
+	/* display: block;
+  margin-top: -18px; */
+  display: inline-block; 
+  vertical-align: bottom;
 }
 
 .profile-head_name a:after{
@@ -4740,6 +4748,10 @@ a.catalog-item__del-button.i-buck:before{
 }
 
 .content_theme.text_theme img {
+  display: block; 
+  width: auto; 
+  height: auto; 
+  max-width: 100%;
   margin-bottom: 40px;
 }
 
