@@ -2522,7 +2522,7 @@
 	}
 	
 	.footer_contact, .footer_contact-list {
-		width: 160px;
+		/* width: 160px; */
 	}
 	
 	.footer_menu {
@@ -3349,6 +3349,10 @@
 		display: none;
 	}
 
+  .i-pokupo a {
+    line-height: 20px;
+  }
+
 /* Popup */
 
 	.popup {
@@ -4128,6 +4132,10 @@
 
 @media screen and (max-width: 999px) and (min-width: 760px) {
 
+  .store_theme {
+    min-height: 483px;
+  }
+
 	.catalog-title {
 		margin-top: 10px;
 	}
@@ -4176,6 +4184,10 @@
 }
 
 @media screen and (max-width: 759px) {
+
+  .store_theme {
+    min-height: 600px;
+  }
 
 	.advanced-search {
 		margin-top: 20px;
