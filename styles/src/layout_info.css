@@ -212,7 +212,8 @@ img:focus {
 	margin-right: 0;
     height: 72px;
     display: inline-block;
-    padding: 25px 40px;
+    /* padding: 25px 40px; */
+    padding-top: 25px;
 }
 
 .menu-main__list li:last-child{
@@ -223,6 +224,10 @@ img:focus {
   background-color: #fff;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
+}
+
+.menu-main__list-item a {
+  padding: 25px 40px;
 }
 
 .main-menu_theme{
@@ -274,6 +279,11 @@ img:focus {
 
 .btn-menu-click--icon-font:checked + label:after {
   width: 177px;
+}
+
+.btn-menu-click--icon-font:checked + label, 
+.btn-menu-click--icon-font:checked + label:hover {
+    color: #000!important;
 }
 
 .menu-click-dropdown{

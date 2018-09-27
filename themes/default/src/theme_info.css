@@ -430,6 +430,11 @@ a#cart_dropdown__trigger.icon__cart--icon-font.active:before,
 	color: #666;
 }
 
+.menu-click-dropdown a:hover, 
+.menu-click-dropdown li.submenu__item>a:hover {
+  color: #000;
+}
+
 .menu-click-dropdown li.menu__item > a{
 	font-size: 18px;
 }

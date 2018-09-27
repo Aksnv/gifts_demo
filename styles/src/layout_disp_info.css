@@ -122,6 +122,7 @@
 	
 	li.user-menu__item > a:before, li.user-menu__item > div > a:before {
 		margin-bottom: 12px;
+		vertical-align: top;
 	}
 	
 
@@ -733,7 +734,8 @@
 	
 /* Header */
 	.logo_theme {
-		width: 443px;
+		/* width: 443px; */
+		width: auto;
 	}	
 
 	.logo_theme__info {
@@ -1030,6 +1032,11 @@
 		float: none;
 		margin-top: 0;
 		text-align: left;
+	}
+
+	#menu-click-mobile, 
+	label[for="menu-click-mobile"] {
+		display: block!important;
 	}
 	
 	.btn-menu-click-mobile + label{
