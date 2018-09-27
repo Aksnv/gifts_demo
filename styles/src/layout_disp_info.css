@@ -2313,9 +2313,9 @@
 	#checkout_slide2:checked ~ .checkout-content__ctrl label:nth-child(3) { display: block; }
 	#checkout_slide3:checked ~ .checkout-content__ctrl label:nth-child(4) { display: block; }		
 
-	.checkout__buttons{
-		display: none;
-	}
+	/* .checkout__buttons{
+    display: none;
+  } */
 
 	#checkout_slide3:checked ~ .checkout__buttons{
 		display: block;
@@ -2325,9 +2325,9 @@
 		width: 100%;
 	}
 	
-	.checkout__buttons a:first-child{
-		display: none;
-	}	
+	/* .checkout__buttons a:first-child{
+    display: none;
+  }   */
 
 	.checkout-content__inner {
 		-webkit-transform: translateZ(0);
