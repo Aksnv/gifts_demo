@@ -649,7 +649,7 @@
 	
 /* Footer */	
 	.footer_theme .container_theme > div{
-		border-top: 0;
+		border-top: 0!important;
 	}
 	.footer_theme .container_theme{
 		border-top: 2px solid #efece7;
