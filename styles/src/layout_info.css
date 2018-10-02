@@ -83,7 +83,8 @@ img:focus {
 	 height: 40px;
 	 display: inline-block;
 	 vertical-align: middle;
-	 padding-top: 13px;
+	 /* padding-top: 13px; */
+   line-height: 36px;
 }
 
 .btn.black{
@@ -114,7 +115,7 @@ img:focus {
 	height: 50px;
   line-height: 50px;
 	/* padding-top: 14px; */
-  padding-top: 0;
+  padding-top: 0!important;
 }
 
 .title-line:before,
@@ -960,7 +961,7 @@ a#cart_dropdown__trigger:before{
 
 .order-item__cost{
 	width: 165px;
-	height: 15px;
+	/* height: 15px; */
 	margin-top: 15px;
 	overflow: hidden;
 	word-wrap: break-word;

@@ -264,7 +264,8 @@
 	}
 	
 	.btn-menu-click:checked + label:after {
-		width: 146px;
+		/* width: 146px; */
+		width: 141px;
 	}
 	
 	.menu-main__list li {
@@ -768,7 +769,8 @@
 	.btn-search-click + label, .btn-search-click:indeterminate + label {
 		width: 48px;
 		height: 48px;
-		overflow: hidden;		
+		overflow: hidden;	
+		font-size: 0!important;	
 	}
 
 	.btn-search-click + label:before, .btn-search-click:indeterminate + label:before {
@@ -1040,11 +1042,23 @@
 	}
 	
 	.btn-menu-click-mobile + label{
-		display: block;
 		position: absolute;
-		top: 83px;
 		right: 0;
+		display: block; 
+		width: 36px; 
+		/* height: 87px; */ 
+		height: 79px;
+		padding-top: 21px; 
+		padding-left: 8px; 
+		padding-right: 8px; 
+		top: 62px;
 	}	
+
+	.btn-menu-click-mobile + label:hover {
+		background: #ffb800; 
+		color: #cf453c; 
+		cursor: pointer;
+	}
 	
 	.btn-menu-click-mobile + label:before,
 	.btn-menu-click-mobile:indeterminate + label:before{
@@ -1260,7 +1274,8 @@
 
 	.search_click_slide > input.btn-search-click + label {
 		width: 50px;
-		height: 87px;
+		/* height: 87px; */
+		height: 79px;
 		display: block;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -1268,7 +1283,8 @@
 		overflow: hidden;
 		padding: 0;
 		position: absolute;
-		top: 0;
+		/* top: 0; */
+		top: -1px;
 		right: 13px;
 		padding-top: 18px;
 	}
@@ -1293,7 +1309,8 @@
 	}
 
 	.search-click-slide-holder {
-		width: 100%;
+		/* width: 100%; */
+		width: 480px;
 		padding-left: 0px;
 		padding-right: 55px;
 		position: absolute;
@@ -1341,7 +1358,8 @@
 		display: block;
 		margin-right: 36px;
 		width: 50px;
-		height: 88px;
+		/* height: 88px; */
+		height: 79px;
 		padding-top: 18px;
 	}
 
@@ -1402,6 +1420,16 @@
 		 position: relative;
 		 margin: 0;
 	}
+
+	.menu-login-cart .user-menu__item > a.user-menu__messages {
+		display: block; 
+		height: 52px; 
+		width: 100%; 
+		padding: 15px 40px 0; 
+		box-sizing: border-box; 
+		position: relative; 
+		margin: 0;
+	}
 	
 	.user-menu__item > a.menu-login__login:before {
 		display: inline-block;
@@ -1413,7 +1441,8 @@
 	}
 	
 	.user-menu__item > a.menu-login__login{
-		padding: 15px 40px 0 43px;
+		/* padding: 15px 40px 0 43px; */
+		padding: 15px 20px 0 43px;
 	}
 	
 	.user-menu__item > a.menu-login__login span:first-child{
@@ -2855,11 +2884,13 @@
 
 /* User */
 	.menu-login {
-		margin-top: 39px;
+		/*margin-top: 39px;*/
+		margin-top: 40px;
 	}
 
 	.btn-menu-login-click + label {
-		height: 71px;
+		/* height: 71px; */
+		height: 70px;
 		padding-top: 12px;
 	}
 	
@@ -2901,12 +2932,22 @@
 	}	
 
 	.btn-menu-click-mobile + label {
-		top: 55px;
+		width: 46px; 
+		height: 70px; 
+		top: 40px; 
+		right: -10px; 
+		padding-top: 16px; 
+		padding-left: 12px; 
+		padding-right: 12px;
 	}
 
 	/* Search */
 	.search_theme {
 		top: 40px;
+	}
+
+	.search-click-slide-holder {
+		width: 300px;
 	}
 
 	.search_click_slide > input.btn-search-click + label {

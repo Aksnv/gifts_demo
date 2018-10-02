@@ -102,6 +102,54 @@
 
 @media screen and (max-width: 759px) {
 
+	#menu-click-mobile--icon-font + label:before, 
+	#menu-login-click--icon-font + label:before {
+		font-family: "fontello";  
+		font-style: normal;  
+		font-weight: 400; 
+		speak: none;  
+		display: inline-block;  
+		text-decoration: inherit; 
+		width: 1em;  
+		height: 1em; 
+		margin-right: .2em;  
+		text-align: center;  
+		font-variant: normal;  
+		text-transform: none;  
+		line-height: 1em;  
+		-webkit-font-smoothing: antialiased;  
+		-moz-osx-font-smoothing: grayscale;  
+		background: none!important; 
+		color: #22e1e1;
+	}
+
+	#menu-click-mobile--icon-font + label:before {
+		content: '\e804'; 
+		font-size: 19px;
+	}
+
+	#menu-login-click--icon-font + label:before {
+		content: '\f2c0'; 
+		font-size: 22px;
+	}
+
+	#menu-click-mobile--icon-font + label:hover:before, 
+	#menu-login-click--icon-font + label:hover:before, 
+	#menu-login-click--icon-font.active + label:before {
+		background: none!important; 
+		color: #cf453c;
+	}
+
+	#menu-login-click--icon-font:checked + label:before, 
+	#menu-click-mobile--icon-font:checked + label:before {
+		content: ''; 
+		background: url('https://promodev56-2.pokupo.ru/themes/gifts/default/images/sprites.png') -1053px -10px no-repeat!important;
+	}
+
+	#menu-click-mobile--icon-font:checked + label:hover {
+		background: none;
+	}
+
 	.main_theme {
 		background-size: auto 420px;
 	}
@@ -236,6 +284,7 @@
 	}	
 
 	.search_click_slide > input.btn-search-click:checked + label + input + label {
+		border: none; 
 		border-left: 1px solid #d0d4d8;
 		color: #000;
 	}	
@@ -266,6 +315,12 @@
 	.btn-menu-login-click + label{
 		text-align: center;	
 	}	
+
+	.btn-menu-login-click + label:hover {
+		background: #ffb800; 
+		color: #cf453c; 
+		cursor: pointer;
+	}
 
 	.btn-menu-login-click.active + label{
 		background: #ffb800;

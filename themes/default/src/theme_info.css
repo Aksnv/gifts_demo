@@ -472,7 +472,8 @@ a#cart_dropdown__trigger.icon__cart--icon-font.active:before,
 
 .btn-search-click--icon-font + label:before {
 	position: relative;
-  top: -2px;
+  /* top: -2px; */
+  top: 0;
 	font-size: 22px;
 	content: '\e803'!important;
 	color: orange;
@@ -500,8 +501,8 @@ a#cart_dropdown__trigger.icon__cart--icon-font.active:before,
 
 .btn_close-click + label:hover + div > form > .search-click-slide-holder,
 .btn_close-click + label:focus + div > form > .search-click-slide-holder{
-    border: 1px solid #0098cb;
-    border-right: 0px;
+    /* border: 1px solid #0098cb;
+    border-right: 0px; */
 }
 
 .search-click-slide-holder:after{
@@ -531,7 +532,7 @@ a#cart_dropdown__trigger.icon__cart--icon-font.active:before,
 
 .btn_close-click + label:hover,
 .btn_close-click + label:focus{
-    border: 1px solid #0098cb;
+    /* border: 1px solid #0098cb; */
     border-left: 0;
 }
 
