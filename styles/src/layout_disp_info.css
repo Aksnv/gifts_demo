@@ -101,6 +101,12 @@
 
 @media screen and (max-width: 1239px) {
 
+	.bookmarks_theme .catalog-header, 
+	.bookmarks_theme .bookmarks-container p {
+		margin-left: 4px; 
+		margin-right: 4px;
+	}
+
 	.section_theme, .container_theme, .catalog-slider__nav, .catalog-slider__cap, .breadcrumbs_theme,
 	.promoBlocks{
 		max-width: 1220px;
@@ -393,8 +399,8 @@
 /* Catalog */
 
 	.catalog_theme {
-		margin-left: -4px;
-		margin-right: -4px;
+		/* margin-left: -4px;
+		margin-right: -4px; */
 	}
 	.catalog-item:last-child,
 	.catalog-item:nth-child(3n+4) {
@@ -628,8 +634,10 @@
 	}
 
 	.b-filter-catalog {
-		float: none;
-		margin-top: 30px;
+		/* float: none;
+		margin-top: 30px; */
+		float: right; 
+		margin-top: 0;
 	}
 
 	.store-select--gifts {
@@ -861,8 +869,8 @@
 /* Catalog */
 
 	.catalog_theme{
-		margin-left: -5px;
-		margin-right: -5px;
+		/* margin-left: -5px;
+		margin-right: -5px; */
     }
     
     .catalog-item {
@@ -1005,6 +1013,14 @@
 }
 
 @media screen and (max-width: 759px) {
+
+	.breadcrumbs_theme {
+		display: none;
+	}
+
+	.profile_theme {
+		margin-top: -20px;
+	}
 
 	.container_theme{
 		position: relative;
@@ -1505,7 +1521,8 @@
 
 	.promoBlocks {
 		height: auto;
-		padding: 10px;
+		/* padding: 10px; */
+		padding: 0;
 	}
 
 	.promo-item{
@@ -2735,6 +2752,17 @@
 
 
 @media screen and (min-width: 520px) and (max-width: 759px) {
+
+	.bookmarks_theme .catalog-header, 
+	.bookmarks_theme .bookmarks-container p {
+		margin-left: 26px; 
+		margin-right: 26px;
+	}
+
+	.bookmarks_theme .title_page_theme {
+		width: 100%;
+	}
+
 	.section_theme, .container_theme, .catalog-slider__nav, .catalog-slider__cap, .promoBlocks,
 	 .footer_theme .container_theme > div{
 		width: 480px;
@@ -2808,7 +2836,7 @@
 
 	.catalog-item {
 		margin-left: 23px;
-		margin: auto;
+		/* margin: auto; */
 	}
 
 	.catalog-item:last-child,
@@ -2851,9 +2879,19 @@
 
 
 @media screen and (max-width: 519px) {
+
+	.bookmarks_theme .bookmarks-container p {
+		margin-left: auto; 
+		margin-right: auto;
+	}
+
 	.section_theme, .container_theme, .menu-login-cart, .catalog-slider__nav, .catalog-slider__cap, .breadcrumbs_theme,
 	.promoBlocks, .footer_theme .container_theme > div, .filter_theme{
 		width: 300px;
+	}
+
+	.promoBlocks {
+		padding-top: 50px;
 	}
 
 	.no-banner .container_theme .promoBlocks {

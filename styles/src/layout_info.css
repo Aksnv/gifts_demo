@@ -4376,6 +4376,11 @@ div.cart-footer__weight span{
 	margin-right: -23px;
 }
 
+.bookmarks_theme .bookmarks-container p {
+  margin-left: 23px; 
+  margin-right: 23px;
+}
+
 .bookmarks_theme .seller-wrapper {
   margin-bottom: 50px;
 }
