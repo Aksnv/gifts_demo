@@ -101,6 +101,10 @@
 
 @media screen and (max-width: 1239px) {
 
+  .b-filter-catalog {
+    margin-left: 15px;
+  }
+
 	.bookmarks_theme .catalog-header, 
 	.bookmarks_theme .bookmarks-container p {
 		margin-left: 4px; 
@@ -438,7 +442,8 @@
     }
     
 	.catalog-item {
-		margin: 0 79px 35px 0;    
+		/* margin: 0 79px 35px 0; */    
+    margin: 0 75px 35px 0;
 	}
 
 	/* News */
@@ -874,7 +879,8 @@
     }
     
     .catalog-item {
-		margin: 0 158px 35px 0;
+		/* margin: 0 158px 35px 0; */
+    margin: 0 148px 35px 0;
     }
     
 	.catalog-item:last-child,
@@ -1063,7 +1069,8 @@
 		display: block; 
 		width: 36px; 
 		/* height: 87px; */ 
-		height: 79px;
+		/* height: 79px; */
+    height: 89px;
 		padding-top: 21px; 
 		padding-left: 8px; 
 		padding-right: 8px; 
@@ -1291,7 +1298,8 @@
 	.search_click_slide > input.btn-search-click + label {
 		width: 50px;
 		/* height: 87px; */
-		height: 79px;
+		/* height: 79px; */
+    height: 89px;
 		display: block;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
@@ -1303,6 +1311,7 @@
 		top: -1px;
 		right: 13px;
 		padding-top: 18px;
+    font-size: 0;
 	}
 
 	.btn-search-click + label:before, .btn-search-click:indeterminate + label:before {
@@ -1375,7 +1384,8 @@
 		margin-right: 36px;
 		width: 50px;
 		/* height: 88px; */
-		height: 79px;
+		/* height: 79px; */
+    height: 89px;
 		padding-top: 18px;
 	}
 
@@ -1652,6 +1662,7 @@
 
 	.catalog-title {
 		width: 100%;
+    margin-bottom: 30px;
 	}
 
 	.b-filter-catalog {
@@ -1720,8 +1731,10 @@
 	} */
 
 	.pagination_theme__show-more {
-		width: 230px;
-		margin-left: 30px;
+		/* width: 230px;
+    margin-left: 30px; */
+    width: 480px;
+    margin-left: 0;
 	}
 
 	/* News */
@@ -2835,9 +2848,14 @@
 	}
 
 	.catalog-item {
-		margin-left: 23px;
+		/* margin-left: 23px; */
+    margin-left: 4px;
 		/* margin: auto; */
 	}
+
+  .seller-wrapper .catalog-item {
+    margin-left: 23px;
+  }
 
 	.catalog-item:last-child,
 	.catalog-item:nth-child(2n+2) {
@@ -2879,6 +2897,10 @@
 
 
 @media screen and (max-width: 519px) {
+
+  .pagination_theme__show-more {
+    width: 300px;
+  }
 
 	.bookmarks_theme .bookmarks-container p {
 		margin-left: auto; 

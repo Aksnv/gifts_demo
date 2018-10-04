@@ -2070,6 +2070,7 @@ div.cs-select.cs-active .cs-options {
 
 .with-sidebar.catalog_theme{
 	margin-top: 50px;
+  margin-bottom: 30px;
 	position: relative;
 	display:inline-block;
 	vertical-align: top;
@@ -3434,7 +3435,7 @@ h1.title_page_theme--news {
 .profile-info__buttons a{
 	display: inline-block;
 	margin-bottom: 18px;
-	padding-top: 12px;
+	/* padding-top: 12px; */
 	margin-right: 20px;
  -webkit-box-sizing: border-box;
  -moz-box-sizing: border-box;
@@ -4412,7 +4413,7 @@ div.cart-footer__weight span{
     width: 98px;
     display: block;
     float: right;
-    padding-top: 11px;
+    /* padding-top: 11px; */
 }
 
 a.catalog-item__del-button.i-buck:before{
