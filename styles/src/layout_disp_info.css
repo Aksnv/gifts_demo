@@ -639,10 +639,10 @@
 	}
 
 	.b-filter-catalog {
-		/* float: none;
-		margin-top: 30px; */
-		float: right; 
-		margin-top: 0;
+		float: none;
+		margin-top: 30px; 
+		/* float: right; 
+		margin-top: 0; */
 	}
 
 	.store-select--gifts {
@@ -3108,6 +3108,11 @@
 
 	.b-filter-catalog div.cs-select {
 		width: 300px;
+	}
+
+	.catalog-title,
+	.catalog-menu {
+		text-align: center;
 	}
 
 	.catalog_theme.with-sidebar, .catalog_theme {

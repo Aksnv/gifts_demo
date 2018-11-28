@@ -2081,6 +2081,64 @@ div.cs-select.cs-active .cs-options {
 	margin-bottom: 30px;
 }
 
+.catalog-menu {
+  position: relative;
+  margin-bottom: 34px;
+}
+
+.catalog-menu li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  margin-right: 7px;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.catalog-menu__item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 42px;
+  line-height: 42px;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 19px;
+  padding-right: 19px;
+  background-color: white;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.catalog-menu__item:hover {
+  border: 1px solid #cf453c;
+}
+
+.catalog-menu__item--active {
+  background-color: #cf453c;
+  color: #fff;
+  border: 1px solid #cf453c;
+}
+
+.catalog-menu__item--arrow-to-top::before {
+  position: absolute;
+  top: -2px;
+  left: 5px;
+  content: "\2191";
+  font-size: 20px;
+  color: #333;
+}
+
+.catalog-menu__item--arrow-to-bottom::before {
+  position: absolute;
+  top: -2px;
+  left: 5px;
+  content: "\2193";
+  font-size: 20px;
+  color: #333;
+}
+
 .catalog-main__title{
 	width: 100%;
 	position: relative;
