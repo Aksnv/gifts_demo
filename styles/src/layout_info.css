@@ -1214,7 +1214,7 @@ p.user-menu__name{
   min-height: 718px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url("../../images/pages/certificate/certificate_orange_bg.jpg");
+  background-image: url("../../images/certificate/certificate_orange_bg.jpg");
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -1232,11 +1232,22 @@ p.user-menu__name{
 
 .certificate-gifts .certificate-inner {
   overflow: hidden;
+  position: relative;
   width: 1080px;
   min-height: 656px;
   margin: 0 auto;
   background-color: #fff;
   color: #000;
+}
+
+.certificate-gifts .certificate-inner::after {
+  position: absolute;
+  right: 13px;
+  bottom: 14px;
+  content: "Сертификат*";
+  font-size: 13px;
+  line-height: 20px;
+  color: #666;
 }
 
 .certificate-gifts .certificate__top {
